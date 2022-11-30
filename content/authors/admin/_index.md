@@ -1,6 +1,7 @@
 ---
 title: Xiaoran Wu
 role: ""
+avatar_filename: 证件照1.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
