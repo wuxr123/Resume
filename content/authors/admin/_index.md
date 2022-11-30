@@ -47,11 +47,9 @@ education:
 superuser: true
 user_groups:
   - Northeast Normal University
-status:
-  icon: ☕️
 last_name: Wu
 highlight_name: true
-first_name: Alice
+first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
 
