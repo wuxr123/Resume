@@ -44,7 +44,7 @@ education:
     - course: BSc in Artificial Intelligence
       institution: Massachusetts Institute of Technology
       year: 2008
-superuser: false
+superuser: true
 user_groups:
   - Northeast Normal University
 status:
