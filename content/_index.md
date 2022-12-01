@@ -12,6 +12,8 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       # text:
+    design:
+      columns: '3'
   - block: experience
     content:
       title: Experience
