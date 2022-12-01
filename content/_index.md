@@ -139,10 +139,6 @@ sections:
     id: contact
     content:
       title: Contact
-      subtitle:
-      text: |-
-        Recommend using email to contact me, unless you have urgent matters.
-      # Contact (add or remove contact options as necessary)
       email: wu_xiaoran@outlook.com
       phone: +86 15258545595
       address:
@@ -154,13 +150,6 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '2'
 ---
