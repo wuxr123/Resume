@@ -1,8 +1,9 @@
 ---
-widget: 'about.avatar'
+widget: about
 headless: true  # This file represents a page section.
 
 # Put Your Section Options Here (title, background etc.)
+title: Biography
 weight: 10 # Position of section on page
 
 # Choose the user profile to display
@@ -10,5 +11,4 @@ weight: 10 # Position of section on page
 author: 'admin'
 ---
 
-👋 Hi, there! I'm **Alice**, a machine learning researcher at Netflix.
-{style="font-size: 1.2rem; color: #FFB76B;}
+The subheadings, such as Interests and Education, will automatically translate depending on the language chosen in `config.yaml`. To customize the subheading text, see the Language page in the docs.
