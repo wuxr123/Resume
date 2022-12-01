@@ -141,14 +141,14 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Recommend using email to contact me, unless you have urgent matters.
       # Contact (add or remove contact options as necessary)
       email: wu_xiaoran@outlook.com
       phone: +86 15258545595
       address:
         street: 11A, Datun Road, Chaoyang District
         city: Beijing
-        postcode: '100101'
+        postcode: 100101
         country: China
         country_code: CN
       # Automatically link email and phone or display as text?
