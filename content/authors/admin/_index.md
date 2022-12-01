@@ -10,7 +10,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: "#contact"
+    link: "mailto: wu_xiaoran@outlook.com"
     label: Send me an e-mail
   - icon: twitter
     icon_pack: fab
