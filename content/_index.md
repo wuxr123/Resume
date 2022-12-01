@@ -149,5 +149,5 @@ sections:
       autolink: true
       # Email form provider
     design:
-      columns: '1'
+      columns: '2'
 ---
