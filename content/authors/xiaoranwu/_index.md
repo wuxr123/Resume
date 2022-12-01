@@ -15,9 +15,6 @@ superuser: true
 # Role/position/tagline
 role: Master Candidate
 
-# Interests to show in About widget
-interests: Information Retrieval
-
 # Education to show in About widget
 education:
   - course: PhD in Artificial Intelligence
@@ -30,14 +27,13 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2008
 
-
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 weight: 10 # Position of section on page
 
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.
-author: 'xiaoranwu'
+# author: 'xiaoranwu'
 ---
 
 The subheadings, such as Interests and Education, will automatically translate depending on the language chosen in `config.yaml`. To customize the subheading text, see the Language page in the docs.
