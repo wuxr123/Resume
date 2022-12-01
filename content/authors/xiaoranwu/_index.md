@@ -16,10 +16,7 @@ superuser: true
 role: Master Candidate
 
 # Interests to show in About widget
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+interests: Information Retrieval
 
 # Education to show in About widget
 education:
