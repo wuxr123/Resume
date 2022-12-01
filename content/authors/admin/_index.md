@@ -84,6 +84,10 @@ Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her r
 {style="text-align: justify;"}
 
 ---
+# Display name
+title: Xiaoran Wu 吴潇然
+role: Master Candidate
+
 interests:
   - Artificial Intelligence
   - Computational Linguistics
