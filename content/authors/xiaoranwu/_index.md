@@ -3,7 +3,7 @@ widget: about
 headless: true  # This file represents a page section.
 
 # Display name
-title: New Xiaoran Wu 吴潇然
+title: Biography
 
 # Full name (for SEO)
 first_name: Xiaoran
