@@ -127,7 +127,7 @@ sections:
       view: compact
       columns: '2'
   - block: markdown
-  - id: gallery
+    id: gallery
     content:
       title: Gallery
       subtitle: ''
