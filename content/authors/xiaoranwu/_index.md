@@ -3,15 +3,11 @@ widget: about
 headless: true  # This file represents a page section.
 
 # Display name
-title: Xiaoran Wu 吴潇然
+title: New Xiaoran Wu 吴潇然
 
 # Full name (for SEO)
 first_name: Xiaoran
 last_name: Wu
-
-# Status emoji
-# status:
-#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -25,7 +21,8 @@ organizations:
     url: http://www.igsnrr.cas.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
+  - My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
