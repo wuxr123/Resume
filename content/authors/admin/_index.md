@@ -1,4 +1,9 @@
 ---
+widget: about
+headless: true  # This file represents a page section.
+weight: 10
+
+
 # Display name
 title: Xiaoran Wu 吴潇然
 
