@@ -128,7 +128,7 @@ sections:
     id: gallery
     content:
       title: Gallery
-      subtitle: ''
+      subtitle: 'Some of my favorite photos taken during my trip'
       text: |-
         {{< gallery album="photos" >}}
     design:
