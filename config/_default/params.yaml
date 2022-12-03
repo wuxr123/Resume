@@ -72,8 +72,8 @@ features:
     content_dir: content
     branch: main
   avatar:
-    gravatar: true
-    shape: circle
+    gravatar: false
+    shape: oval
   comment:
     provider: ''
     disqus:
