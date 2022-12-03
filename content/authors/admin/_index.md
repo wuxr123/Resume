@@ -10,11 +10,11 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto: wu_xiaoran@outlook.com
+    link: "mailto: wu_xiaoran@outlook.com"
     label: Send me an e-mail
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/XRGIS1999
+    link: https://twitter.com/XRGIS1999/
     label: Follow me on Twitter
   - icon: github
     icon_pack: fab
