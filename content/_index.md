@@ -130,7 +130,7 @@ sections:
       title: Gallery
       subtitle: 'Some of my favorite photos taken during my trip'
       text: |-
-        {{< gallery album="photos" >}}
+        {{< gallery album="photos2" >}}
     design:
       columns: '1'
   - block: contact
