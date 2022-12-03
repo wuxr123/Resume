@@ -20,6 +20,10 @@ social:
     icon_pack: fab
     link: https://www.facebook.com/XRGIS1999/
     label: Follow me on Facebook
+  - icon: weibo
+    icon_pack: fab
+    link: https://weibo.com/u/7754463677/
+    label: Follow me on Weibo
   - icon: github
     icon_pack: fab
     link: https://github.com/XRGIS1999/
