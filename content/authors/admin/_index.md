@@ -32,9 +32,9 @@ organizations:
   - name: Institute of Geographical Sciences and Natural Resources Research, Chinese
       Academy of Sciences
     url: http://www.igsnrr.cas.cn/
-  - url: https://cre.ucas.ac.cn/
-    name: College of Resources and Environmental, University of Chinese Academy of
+  - name: College of Resources and Environmental, University of Chinese Academy of
       Sciences
+    url: https://cre.ucas.ac.cn/
 education:
   courses:
     - course: PhD in Artificial Intelligence
