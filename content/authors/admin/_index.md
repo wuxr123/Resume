@@ -29,11 +29,10 @@ social:
     link: https://github.com/XRGIS1999/
     label: Follow me on GitHub
 organizations:
-  - name: Institute of Geographical Sciences and Natural Resources Research, Chinese
+  - name: IGSNRR, Chinese
       Academy of Sciences
     url: http://www.igsnrr.cas.cn/
-  - name: College of Resources and Environmental, University of Chinese Academy of
-      Sciences
+  - name: CRE, University of Chinese Academy of Sciences
     url: https://cre.ucas.ac.cn/
 education:
   courses:
