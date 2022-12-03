@@ -73,7 +73,7 @@ features:
     branch: main
   avatar:
     gravatar: false
-    shape: rectangle
+    shape: circle
   comment:
     provider: ''
     disqus:
@@ -92,7 +92,7 @@ features:
       app_id: ''
       api_key: ''
       index_name: ''
-      show_logo: false
+      show_logo: true
   map:
     provider: ''
     api_key: ''
