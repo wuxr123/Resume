@@ -16,10 +16,6 @@ social:
     icon_pack: fab
     link: https://twitter.com/XRGIS1999
     label: Follow me on Twitter
-  - icon: facebook
-    icon_pack: fab
-    link: https://www.facebook.com/XRGIS1999/
-    label: Follow me on Facebook
   - icon: github
     icon_pack: fab
     link: https://github.com/XRGIS1999/
