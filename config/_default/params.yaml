@@ -92,7 +92,7 @@ features:
       app_id: ''
       api_key: ''
       index_name: ''
-      show_logo: true
+      show_logo: false
   map:
     provider: ''
     api_key: ''
