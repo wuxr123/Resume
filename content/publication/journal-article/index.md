@@ -23,7 +23,7 @@ publication_types:
   - "2"
 authors:
   - admin
-  - Na Zhao
+  - Na Zhao*
   - Yanlei Ye
 author_notes: []
 publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
@@ -36,7 +36,7 @@ url_video: ""
 title: Methodology of 0.625°×0.4712°Raster Dataset Development of Temperature at
   the Top of Permafrost and Active Layer Thickness in the Northern  Hemisphere
   (2015-2100)
-doi: " https://doi.org/10.3974/geodp. 2022.03.19"
+doi: 10.3974/geodp. 2022.03.19
 featured: false
 tags: []
 projects: []
