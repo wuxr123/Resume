@@ -48,7 +48,7 @@ title: The "Hierarchy-network" structure of cities in Northeast China based on
 publication: ""
 featured: false
 tags: []
-date: 2019-04-07T00:00:00Z
+date: 2023-01-18T00:00:00.000Z
 url_slides: ""
 links:
   - name: Custom Link
