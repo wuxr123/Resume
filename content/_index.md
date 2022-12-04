@@ -29,7 +29,7 @@ sections:
           location: Beijing, China
           date_start: '2022-09-01'
           date_end: ''
-          description: 
+          description: |2-
               Main awards:
 
               * Undergraduate Scholarship of University of Chinese Academy of Sciences
