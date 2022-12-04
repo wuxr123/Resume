@@ -12,7 +12,7 @@ sections:
       username: admin
   - block: experience
     content:
-      title: Education and experience
+      title: Education
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -22,7 +22,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: "Master candidate (Major: GIS)"
+        - title: "Master candidate"
           company: IGSNRR, Chinese Academy of Sciences
           company_url: 'http://www.igsnrr.ac.cn/'
           company_logo: cas
@@ -33,7 +33,7 @@ sections:
               Main awards:
 
               * Undergraduate Scholarship of University of Chinese Academy of Sciences
-        - title: "Undergraduate student (Major: GIS)"
+        - title: "Undergraduate student"
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
           company_logo: NENU
