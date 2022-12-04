@@ -22,10 +22,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Master candidate
+          company: IGSNRR, Chinese Academy of Sciences
+          company_url: 'http://www.igsnrr.ac.cn/'
+          company_logo: org-x
+          location: Beijing, China
+          date_start: '2022-09-01'
+          date_end: ''
+          description: 
         - title: Undergraduate student
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
-          company_logo: NENU.png
+          company_logo: org-x
           location: Changchun, China
           date_start: '2018-09-01'
           date_end: '2022-07-01'
@@ -35,14 +43,6 @@ sections:
               * China National Scholarship
               * President Scholarship of Northeast Normal University
               * Outstanding Undergraduate of Northeast Normal University
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   - block: portfolio
