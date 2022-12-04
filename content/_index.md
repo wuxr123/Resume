@@ -78,7 +78,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Representative Publications
       filters:
         folders:
           - publication
