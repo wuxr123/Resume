@@ -6,7 +6,6 @@ authors:
   - admin
   - Haoming Guan*
   - Shijun Wang
-publication_short: ""
 abstract: "Exploring the pattern of population flow will help reveal the law of
   urban systems and connections between cities. Based on Baidu migration data
   from March 9 to April 28, 2021, the “hierarchical-network” structure of cities
@@ -35,31 +34,9 @@ abstract: "Exploring the pattern of population flow will help reveal the law of
   high-migration core city and high-migration semi-marginal city, which can
   better reveal the inner characteristics of cities than a single scale
   hierarchy division."
-draft: false
-slides: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-summary: ""
-url_dataset: "#"
-url_project: ""
-url_source: "#"
-url_video: "#"
 title: The "Hierarchy-network" structure of cities in Northeast China based on
   Baidu migration data
 publication: Scientia Geographica Sinica (in press)
-featured: false
-tags: []
 date: 2023-01-18T00:00:00.000Z
-url_slides: ""
-links:
-  - name: Custom Link
-    url: http://example.org
-projects: []
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
 publishDate: 2017-01-01T00:00:00Z
-url_poster: "#"
-url_code: https://github.com/wowchemy/wowchemy-hugo-themes
-doi: ""
 ---
