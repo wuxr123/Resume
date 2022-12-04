@@ -25,7 +25,7 @@ sections:
         - title: Undergraduate student
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
-          company_logo: org-gc
+          company_logo: NENU
           location: Changchun, China
           date_start: '2018-09-01'
           date_end: '2022-07-01'
@@ -33,8 +33,8 @@ sections:
               Main awards include:
 
               * China National Scholarship
-              * Northeast Normal University President Scholarship
-              * Outstanding Undergraduate in Northeast Normal University
+              * President Scholarship of Northeast Normal University
+              * Outstanding Undergraduate of Northeast Normal University
         - title: Professor of Semiconductor Physics
           company: University X
           company_url: ''
