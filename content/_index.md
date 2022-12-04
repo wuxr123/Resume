@@ -25,7 +25,7 @@ sections:
         - title: "Master candidate (Major: GIS)"
           company: IGSNRR, Chinese Academy of Sciences
           company_url: 'http://www.igsnrr.ac.cn/'
-          company_logo: cas
+          company_logo: cas.jpg
           location: Beijing, China
           date_start: '2022-09-01'
           date_end: ''
