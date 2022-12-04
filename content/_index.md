@@ -23,8 +23,8 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: "Master candidate (Major: GIS)"
-          company: College of Resources and Environment, University of Chinese Academy of Sciences
-          company_url: 'https://cre.ucas.ac.cn/'
+          company: IGSNRR, Chinese Academy of Sciences
+          company_url: 'http://www.igsnrr.ac.cn/'
           company_logo: org-x
           location: Beijing, China
           date_start: '2022-09-01'
