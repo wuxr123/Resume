@@ -1,68 +1,56 @@
 ---
-title: "An example journal article"
-authors:
-- admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["2"]
-
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
-tags:
-- Source Themes
-featured: false
-
-# links:
-# - name: ""
-#   url: ""
+abstract: "Understanding the spatial distribution and dynamics of current and
+  future permafrost is critical for global carbon flow simulation, climate
+  change prediction, and engineering risk assess\x02ment. The 0.625°x0.4712°
+  raster dataset of temperature at the top of permafrost and active layer
+  thickness in the northern hemisphere (20152100) was developed using the
+  widely validated and applied Kudryavtsev method, which integrates the effects
+  of temperature, snow, vegetation, and soil on permafrost, based on the model
+  outputs from the sixth phase of the International Coupled Model
+  Intercomparison Project (CMIP6) and the SoilGrids 2.0 dataset. The data were
+  calculated under four different scenarios, SSP126, SSP245, SSP370, and SSP585,
+  from 2015 to 2100. The permafrost area was obtained based on the temperature
+  at the top of the permafrost. This dataset fills the gap in permafrost
+  distribution data for the future under different scenarios for CMIP6. It
+  includes the data covering 20152100: (1) mean annual temperature at the top
+  of the permafrost; (2) annual active layer thickness; and (3) annual
+  permafrost area. The resolution of the spatial data is 0.625°x0.4712°. The
+  dataset is archived in .tif and .xls data formats, and consists of 690 data
+  files with data size of 35.6 MB (Compressed to one single file with 27.9 MB)."
+slides: example
 url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+publication_types:
+  - "2"
+authors:
+  - admin
+  - NaZhao
+author_notes: []
+publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490."
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
+  tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
+  condimentum.
+url_dataset: ""
+url_project: ""
+publication_short: ""
+url_source: ""
+url_video: ""
+title: Methodology of 0.625°×0.4712°Raster Dataset Development of Temperature at
+  the Top of Permafrost and Active Layer Thickness in the Northern  Hemisphere
+  (2015-2100)
+doi: " https://doi.org/10.3974/geodp. 2022.03.19"
+featured: false
+tags:
+  - Source Themes
+projects: []
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
   focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+date: 2022-09-25T00:00:00.000Z
+url_slides: ""
+publishDate: 2017-01-01T00:00:00Z
+url_poster: ""
+url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 ---
 
 {{% callout note %}}
