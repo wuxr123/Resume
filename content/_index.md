@@ -30,6 +30,7 @@ sections:
           date_start: '2022-09-01'
           date_end: ''
           description: 
+              Major: Geographic Information Science
         - title: Undergraduate student
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
@@ -38,6 +39,7 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-07-01'
           description: |2-
+              Major: Geographic Information Science
               Main awards include:
 
               * China National Scholarship
