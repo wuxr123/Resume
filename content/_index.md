@@ -23,7 +23,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: "Master candidate"
-          company: IGSNRR, Chinese Academy of Sciences
+          company: University of Chinese Academy of Sciences
           company_url: 'http://www.igsnrr.ac.cn/'
           company_logo: cas
           location: Beijing, China
@@ -34,7 +34,7 @@ sections:
 
               * Undergraduate Scholarship of University of Chinese Academy of Sciences
         - title: "Undergraduate student"
-          company: School of Geographical Sciences, Northeast Normal University
+          company: Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
           company_logo: NENU
           location: Changchun, China
