@@ -5,7 +5,7 @@ publication_types:
   - "1"
 authors:
   - admin
-  - Na Zhao
+  - Na Zhao*
 publication: Digital Journal of Global Change Data Repository, 2022
 abstract: "The 0.625°x0.4712° raster dataset of temperature at the top of
   permafrost and active layer thickness in the Northern Hemisphere (2015-2100)
