@@ -55,5 +55,5 @@ first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
 
-Mr. Xiaoran Wu (吴潇然) is a graduate student in the State Key Laboratory of Resources and Environmental Information System (LREIS), Institute of Geographic Sciences & Natural Resources Research (IGSNRR), Chinese Academy of Sciences (CAS). His major is Geographic Information Science (GIS) and research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
+Mr. Xiaoran Wu (吴潇然) is a graduate student in the College of Resources and Environment, University of Chinese Academy of Sciences. He's presently studying for his master's degree in the State Key Laboratory of Resources and Environmental Information System (LREIS), Institute of Geographic Sciences & Natural Resources Research (IGSNRR), Chinese Academy of Sciences (CAS). His major is Geographic Information Science (GIS) and research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
 {style="text-align: justify;"}
