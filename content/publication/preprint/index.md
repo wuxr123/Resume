@@ -2,10 +2,10 @@
 publication_types:
   - "2"
 authors:
-  - Hao Feilong
+  - Feilong Hao
   - admin
-  - Guan Haoming*
-  - Wang Shijun
+  - Haoming Guan*
+  - Shijun Wang
 publication_short: ""
 abstract: "Exploring the pattern of population flow will help reveal the law of
   urban systems and connections between cities. Based on Baidu migration data
