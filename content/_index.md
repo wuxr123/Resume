@@ -22,7 +22,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Master candidate
+        - title: Master candidate (Major: GIS)
           company: IGSNRR, Chinese Academy of Sciences
           company_url: 'http://www.igsnrr.ac.cn/'
           company_logo: org-x
