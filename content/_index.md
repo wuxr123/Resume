@@ -25,7 +25,7 @@ sections:
         - title: Undergraduate student
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
-          company_logo: NENU
+          company_logo: org-x
           location: Changchun, China
           date_start: '2018-09-01'
           date_end: '2022-07-01'
