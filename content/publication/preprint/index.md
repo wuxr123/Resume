@@ -46,7 +46,7 @@ url_video: "#"
 title: The "Hierarchy-network" structure of cities in Northeast China based on
   Baidu migration data
 publication: Scientia Geographica Sinica (in press)
-featured: true
+featured: false
 tags: []
 date: 2023-01-18T00:00:00.000Z
 url_slides: ""
@@ -57,7 +57,7 @@ projects: []
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 publishDate: 2017-01-01T00:00:00Z
 url_poster: "#"
 url_code: https://github.com/wowchemy/wowchemy-hugo-themes
