@@ -76,8 +76,9 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: collection
+  - id: publication
     content:
-      title: Recent Publications
+      title: Publications
       filters:
         folders:
           - publication
@@ -88,7 +89,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Posts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
