@@ -2,7 +2,7 @@
 title: 0.625°x0.4712° Raster Dataset of Temperature at the Top of Permafrost and
   Active Layer Thickness in the Northern Hemisphere (2015-2100)
 publication_types:
-  - "Dataset"
+  - "1"
 authors:
   - admin
   - Na Zhao
