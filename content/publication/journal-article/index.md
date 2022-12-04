@@ -18,7 +18,6 @@ abstract: "Understanding the spatial distribution and dynamics of current and
   dataset is archived in .tif and .xls data formats, and consists of 690 data
   files with data size of 35.6 MB (Compressed to one single file with 27.9 MB)."
 slides: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
 publication_types:
   - "2"
 authors:
@@ -49,5 +48,4 @@ date: 2022-09-25T00:00:00.000Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00Z
 url_poster: ""
-url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 ---
