@@ -35,7 +35,7 @@ abstract: "Exploring the pattern of population flow will help reveal the law of
   high-migration core city and high-migration semi-marginal city, which can
   better reveal the inner characteristics of cities than a single scale
   hierarchy division."
-draft: true
+draft: false
 slides: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1
 summary: ""
