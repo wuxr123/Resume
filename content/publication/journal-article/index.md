@@ -23,7 +23,8 @@ publication_types:
   - "2"
 authors:
   - admin
-  - NaZhao
+  - Na Zhao
+  - Yanlei Ye
 author_notes: []
 publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
 summary: ""
