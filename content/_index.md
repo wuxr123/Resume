@@ -131,7 +131,7 @@ sections:
     id: gallery
     content:
       title: Gallery
-      subtitle: 'I'm an amateur photography enthusiast, and here are some photos I took on my trip. I hope you like them too!️️️️ ❤️❤️❤️'
+      subtitle: "I'm an amateur photography enthusiast, and here are some photos I took on my trip. I hope you like them too!️️️️ ❤️❤️❤️"
       text: |-
         {{< gallery album="photos" >}}
     design:
