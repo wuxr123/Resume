@@ -1,8 +1,7 @@
 ---
 title: Xiaoran Wu
-role: Master Candidate
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+role: "Master Candidate (Major: GIS)"
+bio: My research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
 interests:
   - Artificial Intelligence
   - Computational Linguistics
