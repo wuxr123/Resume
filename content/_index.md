@@ -29,8 +29,7 @@ sections:
           location: Beijing, China
           date_start: '2022-09-01'
           date_end: ''
-          description: 
-              Major: Geographic Information Science
+          description: "Major: Geographic Information Science"
         - title: Undergraduate student
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
