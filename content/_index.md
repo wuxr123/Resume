@@ -131,7 +131,7 @@ sections:
     id: gallery
     content:
       title: Gallery
-      subtitle: 'These are some of the photos I took during my trip, hope you like them too!️️️️❤️❤️❤️'
+      subtitle: 'Here are some photos I took on my trip. I hope you like them too!️️️️ ❤️❤️❤️'
       text: |-
         {{< gallery album="photos" >}}
     design:
