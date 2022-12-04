@@ -2,9 +2,7 @@
 title: Welcome to my site! 👋
 subtitle: ""
 date: 2020-12-13T00:00:00.000Z
-summary: Welcome 👋 We know that first impressions are important, so we've
-  populated your new site with some initial content to help you get familiar
-  with everything in no time.
+summary: ""
 draft: false
 featured: false
 authors: []
