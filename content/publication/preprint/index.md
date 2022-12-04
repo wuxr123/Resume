@@ -57,7 +57,7 @@ projects: []
 image:
   caption: ""
   focal_point: ""
-  preview_only: true
+  preview_only: false
 publishDate: 2017-01-01T00:00:00Z
 url_poster: "#"
 url_code: https://github.com/wowchemy/wowchemy-hugo-themes
