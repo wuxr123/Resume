@@ -24,6 +24,10 @@ social:
     icon_pack: fab
     link: https://weibo.com/u/7754463677/
     label: Follow me on Weibo
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0001-5438-0510/
+    label: Browse my publications
   - icon: github
     icon_pack: fab
     link: https://github.com/XRGIS1999/
