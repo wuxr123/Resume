@@ -77,7 +77,7 @@ sections:
       flip_alt_rows: false
   - block: collection
   - id: publications
-    content:
+  - content:
       title: Publications
       filters:
         folders:
