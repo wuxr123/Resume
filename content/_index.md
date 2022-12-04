@@ -23,13 +23,16 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: "Master candidate (Major: GIS)"
-          company: IGSNRR, Chinese Academy of Sciences
-          company_url: 'http://www.igsnrr.ac.cn/'
+          company: College of Resources and Environment, University of Chinese Academy of Sciences
+          company_url: 'https://cre.ucas.ac.cn/'
           company_logo: org-x
           location: Beijing, China
           date_start: '2022-09-01'
           date_end: ''
           description: 
+              Main awards:
+
+              * Undergraduate Scholarship of University of Chinese Academy of Sciences
         - title: "Undergraduate student (Major: GIS)"
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
@@ -38,7 +41,7 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-07-01'
           description: |2-
-              Main awards include:
+              Main awards:
 
               * China National Scholarship
               * President Scholarship of Northeast Normal University
