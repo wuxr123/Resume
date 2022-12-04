@@ -17,7 +17,7 @@ abstract: "Understanding the spatial distribution and dynamics of current and
   permafrost area. The resolution of the spatial data is 0.625°x0.4712°. The
   dataset is archived in .tif and .xls data formats, and consists of 690 data
   files with data size of 35.6 MB (Compressed to one single file with 27.9 MB)."
-slides: example
+slides: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1
 publication_types:
   - "2"
@@ -25,10 +25,8 @@ authors:
   - admin
   - NaZhao
 author_notes: []
-publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490."
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-  tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
-  condimentum.
+publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
+summary: ""
 url_dataset: ""
 url_project: ""
 publication_short: ""
@@ -39,26 +37,16 @@ title: Methodology of 0.625°×0.4712°Raster Dataset Development of Temperature
   (2015-2100)
 doi: " https://doi.org/10.3974/geodp. 2022.03.19"
 featured: false
-tags:
-  - Source Themes
+tags: []
 projects: []
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
   focal_point: ""
   preview_only: false
+  filename: figure-1.jpg
 date: 2022-09-25T00:00:00.000Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00Z
 url_poster: ""
 url_code: https://github.com/wowchemy/wowchemy-hugo-themes
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
