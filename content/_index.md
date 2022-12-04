@@ -36,7 +36,7 @@ sections:
         - title: "Undergraduate student (Major: GIS)"
           company: School of Geographical Sciences, Northeast Normal University
           company_url: 'https://geo.nenu.edu.cn/'
-          company_logo: org-x
+          company_logo: NENU
           location: Changchun, China
           date_start: '2018-09-01'
           date_end: '2022-07-01'
