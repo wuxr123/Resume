@@ -11,6 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: experience
+    id: education
     content:
       title: Education
       # Date format for experience
