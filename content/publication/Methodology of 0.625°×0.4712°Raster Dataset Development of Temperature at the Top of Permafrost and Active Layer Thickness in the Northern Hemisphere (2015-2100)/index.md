@@ -6,8 +6,12 @@ publication_types:
   - "2"
 authors:
   - admin
-  - Na Zhaoo
+  - Na Zhao
   - Yanlei Ye
+author_notes:
+  - ""
+  - '"Corresponding author"'
+  - ""
 publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
 abstract: "Understanding the spatial distribution and dynamics of current and
   future permafrost is critical for global carbon flow simulation, climate
