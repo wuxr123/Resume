@@ -1,11 +1,19 @@
 ---
+title: The "Hierarchy-network" structure of cities in Northeast China based on
+  Baidu migration data
 publication_types:
   - "2"
 authors:
   - Feilong Hao
   - admin
-  - Haoming Guan*
+  - Haoming Guan
   - Shijun Wang
+author_notes:
+  - ""
+  - ""
+  - '"CA"'
+  - ""
+publication: Scientia Geographica Sinica (in press)
 abstract: "Exploring the pattern of population flow will help reveal the law of
   urban systems and connections between cities. Based on Baidu migration data
   from March 9 to April 28, 2021, the “hierarchical-network” structure of cities
@@ -34,9 +42,6 @@ abstract: "Exploring the pattern of population flow will help reveal the law of
   high-migration core city and high-migration semi-marginal city, which can
   better reveal the inner characteristics of cities than a single scale
   hierarchy division."
-title: The "Hierarchy-network" structure of cities in Northeast China based on
-  Baidu migration data
-publication: Scientia Geographica Sinica (in press)
 date: 2023-01-18T00:00:00.000Z
-publishDate: 2017-01-01T00:00:00Z
+publishDate: 2017-01-01T00:00:00.000Z
 ---
