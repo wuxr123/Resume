@@ -25,7 +25,7 @@ sections:
       items:
         - title: "Master candidate"
           company: University of Chinese Academy of Sciences
-          company_url: 'http://www.igsnrr.ac.cn/'
+          company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
           location: Beijing, China
           date_start: '2022-09-01'
@@ -36,7 +36,7 @@ sections:
               * Undergraduate Scholarship of University of Chinese Academy of Sciences
         - title: "Undergraduate student"
           company: Northeast Normal University
-          company_url: 'https://geo.nenu.edu.cn/'
+          company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
           location: Changchun, China
           date_start: '2018-09-01'
