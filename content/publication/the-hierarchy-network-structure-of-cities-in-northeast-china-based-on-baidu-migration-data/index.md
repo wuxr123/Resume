@@ -13,7 +13,8 @@ author_notes:
   - ""
   - CA
   - ""
-publication_short: Scientia Geographica Sinica (in press)
+publication: Scientia Geographica Sinica (in press)
+publication_short: ""
 abstract: "Exploring the pattern of population flow will help reveal the law of
   urban systems and connections between cities. Based on Baidu migration data
   from March 9 to April 28, 2021, the “hierarchical-network” structure of cities
