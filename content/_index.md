@@ -100,7 +100,7 @@ sections:
     content:
       title: Contact
       text: |-
-        You can send me a quick message here.
+        You can easily send me a quick message here.
       email: wu_xiaoran@outlook.com
       phone: +86 15258545595
       address:
