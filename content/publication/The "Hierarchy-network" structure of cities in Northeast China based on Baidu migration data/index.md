@@ -11,7 +11,7 @@ authors:
 author_notes:
   - ""
   - ""
-  - '"CA"'
+  - CA
   - ""
 publication: Scientia Geographica Sinica (in press)
 abstract: "Exploring the pattern of population flow will help reveal the law of
