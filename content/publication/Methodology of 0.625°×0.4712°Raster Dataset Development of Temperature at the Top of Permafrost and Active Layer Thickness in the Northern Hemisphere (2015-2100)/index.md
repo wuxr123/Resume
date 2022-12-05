@@ -10,7 +10,7 @@ authors:
   - Yanlei Ye
 author_notes:
   - ""
-  - '"CA"'
+  - CA
   - ""
 publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
 abstract: "Understanding the spatial distribution and dynamics of current and
