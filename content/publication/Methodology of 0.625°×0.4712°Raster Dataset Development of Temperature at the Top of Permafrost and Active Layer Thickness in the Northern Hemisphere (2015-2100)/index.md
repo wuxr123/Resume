@@ -6,7 +6,7 @@ publication_types:
   - "2"
 authors:
   - admin
-  - Na Zhao*
+  - Na Zhao**
   - Yanlei Ye
 publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
 abstract: "Understanding the spatial distribution and dynamics of current and
