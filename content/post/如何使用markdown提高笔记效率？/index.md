@@ -107,9 +107,7 @@ markdown的列表包括无序列表与有序列表。
 > print(a)
 >
 > \`\``
-> 
 > ***
->﻿ 
 > ```python
 > a = 3
 > print(a)
