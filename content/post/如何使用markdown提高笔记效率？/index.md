@@ -1,7 +1,7 @@
 ---
 title: 如何使用Markdown提高笔记效率？
 date: 2022-12-06T08:45:42.835Z
-summary: Markdown是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
+summary: Markdown是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。
 draft: false
 featured: false
 categories:
