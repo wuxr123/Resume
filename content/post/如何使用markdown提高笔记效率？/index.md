@@ -129,7 +129,7 @@ markdown的列表包括无序列表与有序列表。
 
 为文本添加链接可使用`[显示名称](链接地址)`
 
-> [百度](https://www.baidu.com)
+>﻿ [点击进入百度](https://www.baidu.com)
 
 ## 3. Markdown编辑器推荐
 
