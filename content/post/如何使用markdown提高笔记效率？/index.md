@@ -133,4 +133,4 @@ markdown的列表包括无序列表与有序列表。
 
 ## 3. Markdown编辑器推荐
 
-我认为比较好用的Markdown编辑器是Mark Text，是一款MIT许可开源项目，是免费与多平台的，可从[这里](https://github.com/marktext/marktext)下载。
+Mark Text是我认为非常好用的编辑器之一，有非常简介的节目和即时渲染功能。这是一款MIT许可开源项目，是免费与多平台的，可从[这里](https://github.com/marktext/marktext)下载。
