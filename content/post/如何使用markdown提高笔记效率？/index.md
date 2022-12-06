@@ -3,6 +3,8 @@ title: 如何使用Markdown提高笔记效率？
 date: 2022-12-06T08:45:42.835Z
 draft: false
 featured: false
+categories:
+  - Tutorial
 image:
   filename: ""
   focal_point: Smart
