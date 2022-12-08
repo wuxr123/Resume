@@ -101,7 +101,7 @@ sections:
     content:
       title: Contact
       text: |-
-        You can send me a plain text message here. Please make sure your name and email are correct so I can reply successfully.
+        You can send me a plain text message here.
       email: wu_xiaoran@outlook.com
       phone: +86 15258545595
       address:
