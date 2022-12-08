@@ -106,10 +106,10 @@ sections:
       phone: +86 15258545595
       address:
         street: 11A, Datun Road, Chaoyang District
-      #  country: China
         city: Beijing
-        postcode: 100101 China
-      #  country_code: CN
+        postcode: CN 100101
+        country: China
+        country_code: CN
       # Automatically link email and phone or display as text?
       autolink: true
       form:
