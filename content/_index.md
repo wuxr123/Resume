@@ -34,7 +34,7 @@ sections:
               Main awards:
 
               * Undergraduate Scholarship of University of Chinese Academy of Sciences
-        - title: "Undergraduate student"
+        - title: "Bachelor's degree"
           company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
