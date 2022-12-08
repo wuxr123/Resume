@@ -108,7 +108,7 @@ sections:
         street: 11A, Datun Road, Chaoyang District
       #  country: China
         city: Beijing
-        postcode: China
+        postcode: 100101 People′s Republic of China
       #  country_code: CN
       # Automatically link email and phone or display as text?
       autolink: true
