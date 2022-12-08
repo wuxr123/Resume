@@ -1,7 +1,8 @@
 ---
 title: Xiaoran Wu
 role: "Master Candidate (Major: GIS)"
-bio: My research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
+bio: My research interests include the climate change studies, spatial
+  statistics, and ecological and environmental information studies.
 interests:
   - Artificial Intelligence
   - Computational Linguistics
@@ -32,8 +33,7 @@ social:
     link: https://github.com/XRGIS1999/
     label: Follow me on GitHub
 organizations:
-  - name: IGSNRR, Chinese
-      Academy of Sciences
+  - name: IGSNRR, Chinese Academy of Sciences
     url: http://www.igsnrr.cas.cn/
   - name: CRE, University of Chinese Academy of Sciences
     url: https://cre.ucas.ac.cn/
@@ -55,5 +55,5 @@ first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
 
-Mr. Xiaoran Wu (吴潇然) is a graduate student in the College of Resources and Environment, University of Chinese Academy of Sciences. He's presently studying for his master's degree in the State Key Laboratory of Resources and Environmental Information System (LREIS), Institute of Geographic Sciences and Natural Resources Research (IGSNRR), Chinese Academy of Sciences (CAS). His major is Geographic Information Science (GIS) and research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
+Mr. Xiaoran Wu (吴潇然) is a graduate student in the College of Resources and Environment, University of Chinese Academy of Sciences. He's presently studying for his master's degree in Geographic Information Science (GIS) in the State Key Laboratory of Resources and Environmental Information System (LREIS), Institute of Geographic Sciences and Natural Resources Research (IGSNRR), Chinese Academy of Sciences (CAS). His research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
 {style="text-align: justify;"}
