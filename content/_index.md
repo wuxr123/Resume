@@ -105,8 +105,8 @@ sections:
       email: wu_xiaoran@outlook.com
       phone: +86 15258545595
       address:
-        street: 11A, Datun Road, Chaoyang District, Beijing, China.
-      #  city: Beijing
+        street: 11A, Datun Road, Chaoyang District
+        city: Beijing
       #  postcode: 100101
       #  country: China
       #  country_code: CN
