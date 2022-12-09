@@ -38,7 +38,7 @@ abstract: Satellite-based and reanalysis precipitation products have received
 draft: true
 featured: false
 image:
-  filename: featured
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 date: 2022-12-09T01:40:30.433Z
