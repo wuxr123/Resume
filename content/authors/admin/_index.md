@@ -55,5 +55,5 @@ first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
 
-Mr. Xiaoran Wu (吴潇然) is presently studying for his master's degree in Geographic Information Science ([GIS](https://en.wikipedia.org/wiki/Geographic_information_science)) in the State Key Laboratory of Resources and Environmental Information System ([LREIS](http://www.lreis.ac.cn/)), Institute of Geographic Sciences and Natural Resources Research ([GSNRR](http://www.igsnrr.ac.cn/)), Chinese Academy of Sciences ([CAS](https://www.cas.cn/)). His research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
+Mr. Xiaoran Wu (吴潇然) is presently studying for his master's degree in Geographic Information Science ([GIS](https://en.wikipedia.org/wiki/Geographic_information_science)) in the State Key Laboratory of Resources and Environmental Information System ([LREIS](http://www.lreis.ac.cn/)), Institute of Geographic Sciences and Natural Resources Research ([IGSNRR](http://www.igsnrr.ac.cn/)), Chinese Academy of Sciences ([CAS](https://www.cas.cn/)). His research interests include the climate change studies, spatial statistics, and ecological and environmental information studies.
 {style="text-align: justify;"}
