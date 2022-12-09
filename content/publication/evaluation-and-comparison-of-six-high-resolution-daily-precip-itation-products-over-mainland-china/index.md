@@ -35,7 +35,7 @@ abstract: Satellite-based and reanalysis precipitation products have received
   findings of this study will contribute to understanding the uncertainties of
   precipitation products, improving product quality and guiding product
   selection.
-draft: true
+draft: false
 featured: false
 image:
   filename: featured.jpg
