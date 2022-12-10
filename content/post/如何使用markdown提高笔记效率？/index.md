@@ -59,7 +59,7 @@ Mark Text是我目前正在使用的编辑器，是一款MIT许可的开源项�
 - 多标签页设计
   
 - 界面追求极致的清爽简洁
-![MarkText](https://github.com/XRGIS1999/Resume/tree/main/content/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8markdown%E6%8F%90%E9%AB%98%E7%AC%94%E8%AE%B0%E6%95%88%E7%8E%87%EF%BC%9F/MarkText.png)
+![MarkText](https://github.com/XRGIS1999/Resume/blob/main/content/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8markdown%E6%8F%90%E9%AB%98%E7%AC%94%E8%AE%B0%E6%95%88%E7%8E%87%EF%BC%9F/MarkText.png?raw=true)
 
 ### 2.2 MarkdownPad
 
@@ -70,7 +70,7 @@ MarkdownPad被称赞为Windows下最好用的Markdown编辑器之一（仅支持
 - 支持自定义配色方案、字体、大小和布局
   
 - 多标签页设计
-![MarkdownPad](https://github.com/XRGIS1999/Resume/tree/main/content/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8markdown%E6%8F%90%E9%AB%98%E7%AC%94%E8%AE%B0%E6%95%88%E7%8E%87%EF%BC%9F/MarkdownPad.png)
+![MarkdownPad](https://github.com/XRGIS1999/Resume/blob/main/content/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8markdown%E6%8F%90%E9%AB%98%E7%AC%94%E8%AE%B0%E6%95%88%E7%8E%87%EF%BC%9F/MarkdownPad.png?raw=true)
 
 
 
