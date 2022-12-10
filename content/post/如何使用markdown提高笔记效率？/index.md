@@ -37,7 +37,7 @@ Markdown也有它的缺点，就是不能完成过于复杂的格式化任务，
 
 更多关于Markdown的介绍请移步无所不知的[Markdown - Wikipedia](https://zh.wikipedia.org/wiki/Markdown)，同时这个开源项目[Markdown Guide](https://www.markdownguide.org/)也一定对你有帮助。
 
-
+&nbsp;
 
 ## 2. 安装Markdown编辑器
 
@@ -71,7 +71,7 @@ MarkdownPad被称赞为Windows下最好用的Markdown编辑器之一（仅支持
 - 多标签页设计
 ![MarkdownPad](https://github.com/XRGIS1999/Resume/blob/main/content/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8markdown%E6%8F%90%E9%AB%98%E7%AC%94%E8%AE%B0%E6%95%88%E7%8E%87%EF%BC%9F/MarkdownPad.png?raw=true)
 
-
+&nbsp;
 
 ## 3. Markdown基本语法
 
@@ -105,9 +105,9 @@ Markdown中相邻的两行文本，如果中间没有空行，会显示在一行
 
 换行有两种方式：
 
-  1）在文段末使用两个空格加回车（测试发现有的编辑器不支持，不推荐）；
+1）在文段末使用两个空格加回车（测试发现有的编辑器不支持，不推荐）；
 
-  2）使用一个空行间隔两个段。
+2）使用一个空行间隔两个段。
 
 > **示例代码：**
 > 
@@ -122,6 +122,8 @@ Markdown中相邻的两行文本，如果中间没有空行，会显示在一行
 > 这是第一段
 > 
 > 这是第二段
+
+在Markdown中想插入空行使用回车是无效的，需要使用`&nbsp;`。
 
 ### 3.3 强调
 
