@@ -56,7 +56,7 @@ Mark Text是我目前正在使用的编辑器，是一款MIT许可的开源项�
 * 多标签页设计
 * 界面追求极致的清爽简洁
 
-  ![](MarkText.png)
+![](MarkText.png)
 
 ### 2.2 MarkdownPad
 
@@ -66,7 +66,7 @@ MarkdownPad被称赞为Windows下最好用的Markdown编辑器之一（仅支持
 * 支持自定义配色方案、字体、大小和布局
 * 多标签页设计
 
-  ![](MarkdownPad.png)
+![](MarkdownPad.png)
 
 &nbsp;
 
