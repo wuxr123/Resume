@@ -36,6 +36,8 @@ Markdown也有它的缺点，就是不能完成过于复杂的格式化任务，
 
 更多关于Markdown的介绍请移步无所不知的[Markdown - Wikipedia](https://zh.wikipedia.org/wiki/Markdown)，同时这个开源项目[Markdown Guide](https://www.markdownguide.org/)也一定对你有帮助。
 
+
+
 ## 2. 安装Markdown编辑器
 
 Markdown编辑器数量繁多，也各具特色。在这里我挑选了两款风格差异较大且比较主流的独立编辑器。
@@ -55,7 +57,7 @@ Mark Text是我目前正在使用的编辑器，是一款MIT许可的开源项�
 - 多标签页设计
   
 - 界面追求极致的清爽简洁
-  
+![MarkText](https://github.com/XRGIS1999/Resume/tree/main/content/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8markdown%E6%8F%90%E9%AB%98%E7%AC%94%E8%AE%B0%E6%95%88%E7%8E%87%EF%BC%9F/MarkText.png)
 
 ### 2.2 MarkdownPad
 
@@ -66,7 +68,9 @@ MarkdownPad被称赞为Windows下最好用的Markdown编辑器之一（仅支持
 - 支持自定义配色方案、字体、大小和布局
   
 - 多标签页设计
-  
+![MarkdownPad](https://github.com/XRGIS1999/Resume/tree/main/content/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8markdown%E6%8F%90%E9%AB%98%E7%AC%94%E8%AE%B0%E6%95%88%E7%8E%87%EF%BC%9F/MarkdownPad.png)
+
+
 
 ## 3. Markdown基本语法
 
