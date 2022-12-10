@@ -1,8 +1,7 @@
 ---
 title: 如何使用Markdown提高笔记效率？
 date: 2022-12-10T06:54:03.355Z
-summary: Markdown是一种轻量级的标记语言，由[John
-  Gruber](https://daringfireball.net/projects/markdown/)于2004年创建，现在是世界上最受欢迎的标记语言之一，被广泛应用于撰写笔记、编写文档、发布博客、发送邮件等等。
+summary: Markdown是一种轻量级的标记语言，由John Gruber于2004年创建，现在是世界上最受欢迎的标记语言之一，被广泛应用于撰写笔记、编写文档、发布博客、发送邮件等等。
 draft: false
 featured: false
 image:
@@ -14,7 +13,7 @@ image:
 
 ### 1.1 简介
 
-Markdown是一种轻量级的标记语言，由[John Gruber](https://daringfireball.net/projects/markdown/)于2004年创建，现在是世界上最受欢迎的标记语言之一，被广泛应用于撰写笔记、编写文档、发布博客、发送邮件等等。
+Markdown是一种轻量级的标记语言，由John Gruber于2004年创建，现在是世界上最受欢迎的标记语言之一，被广泛应用于撰写笔记、编写文档、发布博客、发送邮件等等。
 
 当你准备撰写一段需要一定格式化效果来提高阅读享受和效率，同时又不要求过分复杂的文段时，Markdown可以帮助你快速且简单地完成，而你只需更专注于你的文本内容。
 
