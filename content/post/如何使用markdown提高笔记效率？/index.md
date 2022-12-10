@@ -343,7 +343,7 @@ Markdown中相邻的两行文本，如果中间没有空行，会显示在一行
 > **示例代码：**
 > 
 > ```
-> ![RUNOOB](https://static.runoob.com/images/runoob-logo.png)
+> [![图片名称](https://static.runoob.com/images/runoob-logo.png)](https://www.runobb.com)
 > ```
 > 
 > **显示效果：**
