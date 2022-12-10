@@ -44,7 +44,7 @@ Markdown也有它的缺点，就是不能完成过于复杂的格式化任务，
 
 Markdown编辑器数量繁多，也各具特色。在这里我挑选了两款风格差异较大且比较主流的独立编辑器。
 
-你也可以使用[VScode](https://code.visualstudio.com/)、[Atom](https://atom.io/)、[Sublime Text](https://www.sublimetext.com/)等代码编辑器配合一些插件使用（有的已经默认支持Markdown）；你还可以使用在线平台编辑Markdown，如[Editor.md](https://pandao.github.io/editor.md/)，[StackEdit](https://stackedit.io/)等等
+你也可以使用[VScode](https://code.visualstudio.com/)、[Atom](https://atom.io/)、[Sublime Text](https://www.sublimetext.com/)等代码编辑器配合一些插件使用（有的已经默认支持Markdown）；你还可以使用在线平台编辑Markdown，如[Editor.md](https://pandao.github.io/editor.md/)、[StackEdit](https://stackedit.io/)等等
 
 ### 2.1 MarkText
 
@@ -76,7 +76,7 @@ MarkdownPad被称赞为Windows下最好用的Markdown编辑器之一（仅支持
 
 ## 3. Markdown基本语法
 
-选择和安装完Markdown编辑器，就可以开始学习了。本文会介绍Markdown最常使用的一些基本命令，包括标题、字体效果、列表、区块等。
+选择和安装完Markdown编辑器，就可以开始学习了。本文会介绍Markdown最常使用的一些基本命令，包括标题、字体效果、列表等。
 
 ### 3.1 标题
 
@@ -121,8 +121,7 @@ Markdown中相邻的两行文本，如果中间没有空行，会显示在一行
 > 
 > **显示效果：**
 > 
-> 这是第一段 （左边有两个空格）
-> 
+> 这是第一段  （左边有两个空格）
 > 这是第二段
 > 
 > 这是第二段
