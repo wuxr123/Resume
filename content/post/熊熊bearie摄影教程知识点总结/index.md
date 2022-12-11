@@ -55,7 +55,8 @@ image:
    2. 提高曝光，保留暗部细节，后期降低曝光；
    3. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
 
-      | ![](denoise_ai_before.jpg) | ![](denoise_ai_after.jpg) |
+| ![](denoise_ai_before.jpg) | ![](denoise_ai_after.jpg) |
+|﻿ --- | --- |
 
 8. 要获得夜景中灯光呈星芒的效果，要用小光圈。
 9. 连拍堆栈可以获得与长曝光类似的流云、拉丝水流、车轨等效果。
