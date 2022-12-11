@@ -86,6 +86,7 @@ image:
     | 欠曝拉回的细节 | 过曝拉回的细节 |
     | :------------------------: | :-----------------------: |
     | ![](qianbao.jpg) | ![](guobao.jpg) |
+    
     | ![](qianbaoxijie.jpg) | ![](guobaoxijie.jpg) |
     
    5. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
@@ -100,9 +101,17 @@ image:
     
 10. 连拍堆栈可以获得与长曝光类似的流云、拉丝水流、车轨等效果。
 
-    |        流云        |           拉丝水流           |        车轨        |
-    | :--------------------: | :-------------------------: | :--------------------: |
-    | ![](liuyun.jpg) | ![](shuiliu.jpg) | ![](cheliu.jpg) |
+     ![](liuyun.jpg)
+     
+     <center>流云</center>
+     
+     ![](shuiliu.jpg)
+     
+     <center>拉丝水流</center>
+     
+     ![](cheliu.jpg)
+     
+     <center>车轨</center>
  
 12. 对焦合成可以获得多点对焦的照片。
 
