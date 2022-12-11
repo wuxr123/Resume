@@ -40,14 +40,13 @@ image:
 4. 进光量充足时，感光度越小画质越好；进光量不足导致暗部超出宽容度下限时，提高感光度，后期降低曝光，画质更好。
 5. 拍摄时的最佳曝光：根据直方图判断，适当增加曝光，使画面的高光部分尽可能抵到相机宽容度上限但不过曝，从而获得更多暗部细节。
 
-d﻿dd | ddd | ddd |
--﻿-- | --- | --- |
-x﻿xx | xxx | xxx |
+| d﻿dd | ddd | ddd |
+| -﻿-- | --- | --- |
+| x﻿xx | xxx | xxx |
 
-
- !﻿[](zuobaoguang_h.jpg) | ![](zhengquebaoguang_h.jpg)| ![](youbaoguang_h.jpg)
--﻿-- | --- | ---
-!﻿[](zuobaoguang.jpg)| ![](zhengquebaoguang.jpg)| ![](youbaoguang.jpg)
+| ![](zuobaoguang_h.jpg) | ![](zhengquebaoguang_h.jpg) | ![](youbaoguang_h.jpg) |
+| -﻿-- | --- | --- |
+| ![](zuobaoguang.jpg) | ![](zhengquebaoguang.jpg) | ![](youbaoguang.jpg) |
 
 6. 大光比拍摄要点：
 
