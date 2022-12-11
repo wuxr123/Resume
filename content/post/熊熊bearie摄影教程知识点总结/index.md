@@ -64,7 +64,12 @@ image:
     | :------------------------: | :-----------------------: |
     | ![](duizhanqian.jpg) | ![](duizhanhou.jpg) |
    3. 提高曝光，保留暗部细节，后期降低曝光；
-   4. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
+
+    | 欠曝拉回的细节 | 过曝拉回的细节 |
+    | :------------------------: | :-----------------------: |
+    | ![](qianbao.jpg) | ![](guobao.jpg) |
+    | ![](qianbaoxijie.jpg) | ![](guobaoxijie.jpg) |
+   5. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
 
     | 降噪前 | 降噪后 |
     | :------------------------: | :-----------------------: |
