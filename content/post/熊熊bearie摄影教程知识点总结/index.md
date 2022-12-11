@@ -1,7 +1,7 @@
 ---
 title: 熊熊Bearie摄影教程知识点总结
 date: 2022-12-11T09:44:56.320Z
-summary: 这份笔记是我学习视觉中国签约摄影师 熊熊Bearie 的B站百万播放摄影教程——《从零开始手把手教你学摄影》（视频总长8小时）总结的关键知识要点，非教程向。
+summary: 这份笔记是根据视觉中国签约摄影师熊熊Bearie的B站百万播放摄影教程——《从零开始手把手教你学摄影》（视频总长8小时）总结的知识点，非教程向。
 draft: false
 featured: false
 image:
@@ -9,7 +9,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-**笔记说明**：这份笔记是我学习视觉中国签约摄影师 **[熊熊Bearie](https://space.bilibili.com/96625571)** 的B站百万播放摄影教程——**[《从零开始手把手教你学摄影》](https://www.bilibili.com/video/BV1pv411H78e?p=1)**（视频总长8小时）总结的关键知识要点，**非教程向**。
+**笔记说明**：这份笔记是根据视觉中国签约摄影师 **[熊熊Bearie](https://space.bilibili.com/96625571)** 的B站百万播放摄影教程——**[《从零开始手把手教你学摄影》](https://www.bilibili.com/video/BV1pv411H78e?p=1)**（视频总长8小时）总结的知识点，**非教程向**。
 
 **课程评价** ：
 
