@@ -69,7 +69,7 @@ image:
 
    1. 同一取景分别拍摄保留明暗细节的照片，后期HDR合成。
 
-       ![](HDR.jpg)
+        ![](HDR.jpg)
     
    3. 向左曝光，宁欠勿过（本质仍然是向右曝光）。
 
@@ -90,9 +90,7 @@ image:
     
    3. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
 
-        | 降噪前 | 降噪后 |
-        | :------------------------: | :-----------------------: |
-        | ![](denoise_ai_before.jpg) | ![](denoise_ai_after.jpg) |
+        ![](jiangzao.jpg)
 
 8. 要获得夜景中灯光呈星芒的效果，要用小光圈。
 
