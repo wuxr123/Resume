@@ -5,7 +5,7 @@ summary: 这份笔记是我学习视觉中国签约摄影师 熊熊Bearie 的B�
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: feature.png
   focal_point: Smart
   preview_only: false
 ---
