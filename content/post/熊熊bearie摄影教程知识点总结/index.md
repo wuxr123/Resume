@@ -9,7 +9,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-**笔记说明**：这份笔记是根据视觉中国签约摄影师 **[熊熊Bearie](https://space.bilibili.com/96625571)** 的B站百万播放摄影教程——**[《从零开始手把手教你学摄影》](https://www.bilibili.com/video/BV1pv411H78e?p=1)**（视频总长8小时）总结的知识点，**非教程向**。
+**笔记说明**：这份笔记是根据视觉中国签约摄影师 **[熊熊Bearie](https://space.bilibili.com/96625571)** 的B站百万播放摄影教程——**[《从零开始手把手教你学摄影》](https://www.bilibili.com/video/BV1pv411H78e?p=1)**（视频总长8小时）总结的知识点，非教程向。
 
 **课程评价** ：
 
