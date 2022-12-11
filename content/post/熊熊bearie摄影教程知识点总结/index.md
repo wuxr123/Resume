@@ -45,8 +45,9 @@ image:
 6. 进光量充足时，感光度越小画质越好；进光量不足导致暗部超出宽容度下限时，提高感光度，后期降低曝光，画质更好。
 7. 拍摄时的最佳曝光：根据直方图判断，适当增加曝光，使画面的高光部分尽可能抵到相机宽容度上限但不过曝，从而获得更多暗部细节。
 
-| ![](zuobaoguang_h.jpg) | ![](zhengquebaoguang_h.jpg) | ![](youbaoguang_h.jpg) |
+|        向左曝光        |        正确曝光        |        向右曝光        |
 | ---------------------- | --------------------------- | ---------------------- |
+| ![](zuobaoguang_h.jpg) | ![](zhengquebaoguang_h.jpg) | ![](youbaoguang_h.jpg) |
 | ![](zuobaoguang.jpg)   | ![](zhengquebaoguang.jpg)   | ![](youbaoguang.jpg)   |
 
 6. 大光比拍摄要点：
@@ -60,7 +61,7 @@ image:
    3. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
 
 | ![](denoise_ai_before.jpg) | ![](denoise_ai_after.jpg) |
-|﻿ --- | --- |
+| -------------------------- | ------------------------- |
 
 8. 要获得夜景中灯光呈星芒的效果，要用小光圈。
 9. 连拍堆栈可以获得与长曝光类似的流云、拉丝水流、车轨等效果。
