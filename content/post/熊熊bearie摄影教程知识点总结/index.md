@@ -86,7 +86,6 @@ image:
     | 欠曝拉回的细节 | 过曝拉回的细节 |
     | :------------------------: | :-----------------------: |
     | ![](qianbao.jpg) | ![](guobao.jpg) |
-    
     | ![](qianbaoxijie.jpg) | ![](guobaoxijie.jpg) |
     
    5. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
