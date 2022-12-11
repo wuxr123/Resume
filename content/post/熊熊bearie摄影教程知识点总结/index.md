@@ -77,22 +77,22 @@ image:
 
    1. 连拍多张，后期进行平均堆栈；
  
-    | 堆栈前 | 堆栈后 |
-    | :------------------------: | :-----------------------: |
-    | ![](duizhanqian.jpg) | ![](duizhanhou.jpg) |
+        | 堆栈前 | 堆栈后 |
+        | :------------------------: | :-----------------------: |
+        | ![](duizhanqian.jpg) | ![](duizhanhou.jpg) |
     
-   3. 提高曝光，保留暗部细节，后期降低曝光；
+   2. 提高曝光，保留暗部细节，后期降低曝光；
 
-    | 欠曝拉回的细节 | 过曝拉回的细节 |
-    | :------------------------: | :-----------------------: |
-    | ![](qianbao.jpg) | ![](guobao.jpg) |
-    | ![](qianbaoxijie.jpg) | ![](guobaoxijie.jpg) |
+        | 欠曝拉回的细节 | 过曝拉回的细节 |
+        | :------------------------: | :-----------------------: |
+        | ![](qianbao.jpg) | ![](guobao.jpg) |
+        | ![](qianbaoxijie.jpg) | ![](guobaoxijie.jpg) |
     
-   5. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
+   3. 利用降噪插件进行降噪，如[DeNoise AI](https://www.topazlabs.com/denoise-ai)插件。
 
-    | 降噪前 | 降噪后 |
-    | :------------------------: | :-----------------------: |
-    | ![](denoise_ai_before.jpg) | ![](denoise_ai_after.jpg) |
+        | 降噪前 | 降噪后 |
+        | :------------------------: | :-----------------------: |
+        | ![](denoise_ai_before.jpg) | ![](denoise_ai_after.jpg) |
 
 8. 要获得夜景中灯光呈星芒的效果，要用小光圈。
 
@@ -100,17 +100,17 @@ image:
     
 10. 连拍堆栈可以获得与长曝光类似的流云、拉丝水流、车轨等效果。
 
-     ![](liuyun.jpg)
+    ![](liuyun.jpg)
      
-     <center>流云</center>
+    <center>流云</center>
      
-     ![](shuiliu.jpg)
+    ![](shuiliu.jpg)
      
-     <center>拉丝水流</center>
+    <center>拉丝水流</center>
      
-     ![](cheliu.jpg)
+    ![](cheliu.jpg)
      
-     <center>车轨</center>
+    <center>车轨</center>
  
 12. 对焦合成可以获得多点对焦的照片。
 
