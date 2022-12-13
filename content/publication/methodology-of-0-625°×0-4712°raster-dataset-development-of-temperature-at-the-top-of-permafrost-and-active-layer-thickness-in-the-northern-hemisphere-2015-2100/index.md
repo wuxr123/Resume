@@ -1,7 +1,7 @@
 ---
-title: Methodology of 0.625°×0.4712°Raster Dataset Development of Temperature at
-  the Top of Permafrost and Active Layer Thickness in the Northern Hemisphere
-  (2015-2100)
+title: 北半球冻土顶板温度与活动层厚度0.625°-0.4712°栅格数据集（2015-2100）研发方法 (Methodology of
+  0.625°×0.4712°Raster Dataset Development of Temperature at the Top of
+  Permafrost and Active Layer Thickness in the Northern Hemisphere (2015-2100))
 publication_types:
   - "2"
 authors:
@@ -12,7 +12,7 @@ author_notes:
   - ""
   - CA
   - ""
-publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
+publication: "全球变化数据学报 (Journal of Global Change Data & Discovery) , 2022, 6(3): 483–490"
 abstract: "Understanding the spatial distribution and dynamics of current and
   future permafrost is critical for global carbon flow simulation, climate
   change prediction, and engineering risk assessment. The 0.625°x0.4712° raster
