@@ -1,6 +1,6 @@
 ---
 title: The "Hierarchy-network" structure of cities in Northeast China based on
-  Baidu migration data (基于百度迁徙数据的东北地区城市“层级–网络”结构)
+  Baidu migration data
 publication_types:
   - "2"
 authors:
@@ -13,7 +13,7 @@ author_notes:
   - ""
   - CA
   - ""
-publication: Scientia Geographica Sinica (地理科学) (in press)
+publication: Scientia Geographica Sinica (in press)
 publication_short: ""
 abstract: "Exploring the pattern of population flow will help reveal the law of
   urban systems and connections between cities. Based on Baidu migration data
