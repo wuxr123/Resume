@@ -1,13 +1,12 @@
 ---
-title: 北半球冻土顶板温度与活动层厚度0.625°x0.4712°栅格数据集（2015-2100）(0.625°x0.4712° Raster
-  Dataset of Temperature at the Top of Permafrost and Active Layer Thickness in
-  the Northern Hemisphere (2015-2100))
+title: 0.625°x0.4712° Raster Dataset of Temperature at the Top of Permafrost and
+  Active Layer Thickness in the Northern Hemisphere (2015-2100)
 publication_types:
   - "0"
 authors:
   - admin
   - Na Zhao
-publication: 全球变化数据仓储电子杂志 (Digital Journal of Global Change Data Repository), 2022
+publication: Digital Journal of Global Change Data Repository, 2022
 abstract: "The 0.625°x0.4712° raster dataset of temperature at the top of
   permafrost and active layer thickness in the Northern Hemisphere (2015-2100)
   was developed using the widely validated and applied Kudryavtsev method, which
