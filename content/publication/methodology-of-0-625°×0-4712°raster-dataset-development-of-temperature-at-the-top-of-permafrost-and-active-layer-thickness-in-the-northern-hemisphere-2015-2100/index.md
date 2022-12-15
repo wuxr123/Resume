@@ -12,7 +12,7 @@ author_notes:
   - ""
   - CA
   - ""
-publication: "Journal of Global Change Data & Discovery, 2022, 6(3): 483–490"
+publication: Journal of Global Change Data & Discovery
 abstract: "Understanding the spatial distribution and dynamics of current and
   future permafrost is critical for global carbon flow simulation, climate
   change prediction, and engineering risk assessment. The 0.625°x0.4712° raster
