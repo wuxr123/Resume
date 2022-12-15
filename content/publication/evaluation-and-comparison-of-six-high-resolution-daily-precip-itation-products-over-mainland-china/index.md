@@ -9,7 +9,7 @@ authors:
 author_notes:
   - ""
   - CA
-publication: Remote sensing (in press)
+publication: Remote sensing (minor revisions)
 abstract: Satellite-based and reanalysis precipitation products have received
   increasing popularity in agri-cultural, hydrological and meteorological
   applications, but their accuracy is still uncertain in dif-ferent areas. In
@@ -35,7 +35,7 @@ abstract: Satellite-based and reanalysis precipitation products have received
   findings of this study will contribute to understanding the uncertainties of
   precipitation products, improving product quality and guiding product
   selection.
-draft: true
+draft: false
 featured: false
 image:
   filename: featured.jpg
