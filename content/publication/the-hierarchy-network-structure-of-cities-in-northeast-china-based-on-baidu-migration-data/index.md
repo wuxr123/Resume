@@ -13,7 +13,7 @@ author_notes:
   - ""
   - CA
   - ""
-publication: Scientia Geographica Sinica (in press)
+publication: Scientia Geographica Sinica (地理科学, CSSCI)
 publication_short: ""
 abstract: "Exploring the pattern of population flow will help reveal the law of
   urban systems and connections between cities. Based on Baidu migration data
