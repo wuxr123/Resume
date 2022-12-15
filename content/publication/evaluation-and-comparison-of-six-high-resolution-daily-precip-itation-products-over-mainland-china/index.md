@@ -1,5 +1,5 @@
 ---
-title: Evaluation and comparison of six high-resolution daily precip-itation
+title: Evaluation and comparison of six high-resolution daily precipitation
   products over mainland China
 publication_types:
   - "2"
