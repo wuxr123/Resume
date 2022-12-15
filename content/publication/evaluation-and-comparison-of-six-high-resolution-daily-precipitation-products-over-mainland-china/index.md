@@ -10,7 +10,7 @@ author_notes:
   - ""
   - CA
 doi: ""
-publication: "Remote Sensing (Q1, IF: 5.349)"
+publication: "*Remote Sensing (Q1, IF: 5.349)*"
 abstract: Satellite-based and reanalysis precipitation products have received
   increasing popularity in agri-cultural, hydrological and meteorological
   applications, but their accuracy is still uncertain in dif-ferent areas. In
