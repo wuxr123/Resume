@@ -11,27 +11,27 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "mailto: wu_xiaoran@outlook.com"
-    label: Send me an e-mail
+    label: E-mail
   - display:
       header: false
     icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Xiaoran-Wu-10
-    label: Follow me on ResearchGate
+    label: ResearchGate
   - display:
       header: false
     icon: google-scholar
     icon_pack: ai
     link: "#"
-    label: Follow me on Google Scholar
+    label: not available now
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-5438-0510/
-    label: Browse my publications
+    label: OCRID ID
   - icon: github
     icon_pack: fab
     link: https://github.com/XRGIS1999/
-    label: Follow me on GitHub
+    label: GitHub
 organizations:
   - name: IGSNRR, Chinese Academy of Sciences
     url: http://www.igsnrr.cas.cn/
