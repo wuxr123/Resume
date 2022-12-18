@@ -23,7 +23,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: "Master's degree (Master's student now)"
+        - title: "Master's degree (master's student now)"
           company: University of Chinese Academy of Sciences
           company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
