@@ -45,8 +45,8 @@ sections:
               Main awards:
 
               * China National Scholarship
-              * President Scholarship of Northeast Normal University
-              * Outstanding Undergraduate of Northeast Normal University
+              * President Scholarship
+              * Outstanding Undergraduate
     design:
       columns: '2'
   - block: collection
