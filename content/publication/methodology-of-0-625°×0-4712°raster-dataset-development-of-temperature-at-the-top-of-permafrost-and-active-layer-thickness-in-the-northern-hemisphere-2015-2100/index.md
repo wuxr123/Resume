@@ -1,6 +1,6 @@
 ---
-title: Methodology of 0.625°×0.4712°Raster Dataset Development of Temperature at
-  the Top of Permafrost and Active Layer Thickness in the Northern Hemisphere
+title: Methodology of 0.625°×0.4712° raster dataset development of temperature
+  at the top of permafrost and active layer thickness in the Northern Hemisphere
   (2015-2100)
 publication_types:
   - "2"
