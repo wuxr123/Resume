@@ -3,11 +3,13 @@ title: 北半球冻土顶板温度与活动层厚度0.625°×0.4712°栅格数�
 publication_types:
   - "2"
 authors:
-  - admin
-  - Na Zhao
+  - "**吴潇然**"
+  - 赵娜
+  - 叶延磊
 author_notes:
   - ""
   - CA
+  - ""
 doi: https://doi.org/10.3974/geodp.2022.03.19
 publication: 全球变化数据学报（CSCD）
 abstract: 评估当前和未来多年冻土空间分布和动态变化对全球碳循环模拟、气候变化预测以及工程风险评估至关重要。本文使用经广泛验证和应用的半经验模型Kudryavtsev方法，综合考虑温度、积雪、植被、土壤等因素对冻土的影响，以国际耦合模式比较计划第六阶段（CMIP6）模式模拟结果和SoilGrids
