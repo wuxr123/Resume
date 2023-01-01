@@ -23,9 +23,7 @@ abstract: >-
 
   structure of cities in Northeast China was studied from the perspective of population migration by using fractal
 
-  theory, urban scaling law, social network analysis and Self-organizing maps method. The results are as follows:
-
-  1) The primacy ratio of urban system based on migration scale is low, and the distribution of high-order cities
+  theory, urban scaling law, social network analysis and Self-organizing maps method. The results are as follows: 1) The primacy ratio of urban system based on migration scale is low, and the distribution of high-order cities
 
   is concentrated. The scale fractal characteristics of migration routes are concentrated in the high-order and
 
@@ -41,9 +39,7 @@ abstract: >-
 
   Changchun is larger, while the net migration volume of Harbin is higher. 4) There is a spatial agglomeration
 
-  phenomenon of migration behaviors, and the core regions are in the east, central and southern regions. The migration behaviors within the region are mainly intra-provincial migration, which can be divided into four subgroups according to migration preferences. 5) The internal connection of the Harbin-Changchun metropolitan
-
-  area is weak, and the Central-and-Southern Liaoning Area has shown a trend of agglomeration development. 6)
+  phenomenon of migration behaviors, and the core regions are in the east, central and southern regions. The migration behaviors within the region are mainly intra-provincial migration, which can be divided into four subgroups according to migration preferences. 5) The internal connection of the Harbin-Changchun metropolitan area is weak, and the Central-and-Southern Liaoning Area has shown a trend of agglomeration development. 6)
 
   Cities in northeast China can be divided into six types according to their migration scale and network location,
 
