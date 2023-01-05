@@ -22,8 +22,8 @@ social:
       header: false
     icon: google-scholar
     icon_pack: ai
-    link: "#"
-    label: not available now
+    link: https://scholar.google.com/citations?user=rcmTdYEAAAAJ&hl
+    label: Google Scholar
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-5438-0510/
