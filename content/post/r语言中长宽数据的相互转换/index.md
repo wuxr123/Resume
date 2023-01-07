@@ -68,6 +68,8 @@ dcast(data,                   # 输入的数据集
       value.var = "value",    # “值”列的名称
       fun.aggregate = NULL)   # 若拆散后
 ```
+&nbsp;
+
 
 # 四、实践应用
 
