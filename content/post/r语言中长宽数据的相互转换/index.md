@@ -107,7 +107,7 @@ data_long <- melt(data = data,
 
 使用`head(data_long)`查看data_long结果如下：
 
-|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Species&nbsp;&nbsp; &nbsp;&nbsp; |Index&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; | variable&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | value&nbsp;&nbsp;&nbsp;&nbsp; |
+|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Species&nbsp;&nbsp; &nbsp;&nbsp; |Index&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; | variable&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | value&nbsp;&nbsp;&nbsp;&nbsp; |
 | --- | ------- | ----- | ------------ | ----- |
 | 1   | setosa  | 1     | Sepal.Length | 5.1   |
 | 2   | setosa  | 2     | Sepal.Length | 4.9   |
