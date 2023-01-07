@@ -16,7 +16,7 @@ image:
 **长格式：**
 
 | 姓名  | 属性  | 值   |
-| !---! | !---! | !---! |
+| :---: | :---: | :---: |
 | 王一  | 身高  | 175 |
 | 王一  | 体重  | 70  |
 | 王一  | 血型  | A   |
@@ -32,7 +32,7 @@ image:
 **宽格式：**
 
 | 姓名  | 身高  | 体重  | 血型  |
-| --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: |
 | 王一  | 175 | 70  | A   |
 | 张三  | 185 | 80  | AB  |
 | 李四&nbsp;  | 161&nbsp; | 51&nbsp;  | A&nbsp;   |
@@ -73,7 +73,7 @@ dcast(data,                   # 输入的数据集
 
 以R自带的iris数据集为例，使用`head(iris)`查看一下数据：
 
-|     | Sepal.Length | Sepal.Width | Petal.Length | Petal.Width | Species |
+|   &nbsp;  | Sepal.Length&nbsp; | Sepal.Width&nbsp; | Petal.Length&nbsp; | Petal.Width&nbsp; | Species&nbsp; |
 | --- | ------------ | ----------- | ------------ | ----------- | ------- |
 | 1   | 5.1          | 3.5         | 1.4          | 0.2         | setosa  |
 | 2   | 4.9          | 3           | 1.4          | 0.2         | setosa  |
@@ -94,7 +94,7 @@ data_long <- melt(data = data,
 
 使用`head(data_long)`查看data_long结果如下：
 
-|     | Species | Index | variable     | value |
+|   &nbsp;  | Species&nbsp; | Index&nbsp; | variable&nbsp;     | value&nbsp; |
 | --- | ------- | ----- | ------------ | ----- |
 | 1   | setosa  | 1     | Sepal.Length | 5.1   |
 | 2   | setosa  | 2     | Sepal.Length | 4.9   |
@@ -128,7 +128,7 @@ data_wide <- dcast(data = data_long,
 
 使用`head(data_wide)`查看一下数据：
 
-|     | Index | Species | Sepal.Length | Sepal.Width | Petal.Length | Petal.Width |
+|  &nbsp;   | Index &nbsp; | Species&nbsp;  | Sepal.Length&nbsp; | Sepal.Width&nbsp; | Petal.Length&nbsp; | Petal.Width&nbsp; |
 | --- | ----- | ------- | ------------ | ----------- | ------------ | ----------- |
 | 1   | 1     | setosa  | 5.1          | 3.5         | 1.4          | 0.2         |
 | 2   | 2     | setosa  | 4.9          | 3           | 1.4          | 0.2         |
