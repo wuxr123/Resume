@@ -5,7 +5,7 @@ summary: 使用表格存储的多变量数据时一般有长格式与两种。�
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: feature.jpg
   focal_point: Smart
   preview_only: false
 ---
