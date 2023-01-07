@@ -69,7 +69,7 @@ dcast(data,                   # 输入的数据集
       fun.aggregate = NULL)   # 若拆散后
 ```
 
-### 3. 实践应用
+# 四、实践应用
 
 以R自带的iris数据集为例，使用`head(iris)`查看一下数据：
 
