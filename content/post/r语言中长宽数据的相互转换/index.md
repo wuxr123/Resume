@@ -133,10 +133,11 @@ ggplot(data = data_long,
 若data_long就是获得的原始数据，而此时希望绘制萼片长度（Sepal.Length）与萼片宽度（Sepal.Width）的散点图，同时还要表现出其他三个属性的维度，则需要将数据的维度增加，即转为宽数据。使用以下代码进行转换：
 
 ```r
-data_wide <- dcast(data = data_long,
-                   formula = Index + Species ~ variable,
-                   value.var = "value",
-                   fun.aggregate = NULL)
+dcast(data,                   # 输入的数据集
+      formula,                # 需要拆散的方式，格式为“非变量列 ~ 变量列”
+      ...,
+      value.var = "Value",    # “值”列的名称
+      fun.aggregate = NULL)   # 若拆散后需要使用函数聚合可使用此参数
 ```
 
 使用`head(data_wide)`查看一下数据：
