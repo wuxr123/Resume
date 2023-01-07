@@ -75,7 +75,7 @@ dcast(data,                   # 输入的数据集
 
 以R自带的iris数据集为例，使用`head(iris)`查看一下数据：
 
-|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;Sepal.Length&nbsp;&nbsp; | &nbsp;&nbsp;Sepal.Width&nbsp;&nbsp; | &nbsp;&nbsp;Petal.Length&nbsp;&nbsp; | &nbsp;&nbsp;Petal.Width&nbsp;&nbsp; | &nbsp;&nbsp;Species&nbsp;&nbsp; |
+|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Sepal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Sepal.Width&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Width&nbsp;&nbsp;&nbsp;&nbsp; | Species&nbsp;&nbsp;&nbsp;&nbsp; |
 | --- | ------------ | ----------- | ------------ | ----------- | ------- |
 | 1   | 5.1          | 3.5         | 1.4          | 0.2         | setosa  |
 | 2   | 4.9          | 3           | 1.4          | 0.2         | setosa  |
@@ -96,7 +96,7 @@ data_long <- melt(data = data,
 
 使用`head(data_long)`查看data_long结果如下：
 
-|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;Species&nbsp;&nbsp; | &nbsp;&nbsp;Index&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;variable&nbsp;&nbsp;&nbsp;     | &nbsp;&nbsp;value&nbsp;&nbsp; |
+|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Species&nbsp;&nbsp; &nbsp;&nbsp; |Index&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; | variable&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | value&nbsp;&nbsp;&nbsp;&nbsp; |
 | --- | ------- | ----- | ------------ | ----- |
 | 1   | setosa  | 1     | Sepal.Length | 5.1   |
 | 2   | setosa  | 2     | Sepal.Length | 4.9   |
@@ -130,7 +130,7 @@ data_wide <- dcast(data = data_long,
 
 使用`head(data_wide)`查看一下数据：
 
-|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | &nbsp;&nbsp;Index &nbsp;&nbsp; | &nbsp;&nbsp;Species&nbsp;&nbsp;  | &nbsp;&nbsp;Sepal.Length&nbsp;&nbsp; | &nbsp;&nbsp;Sepal.Width&nbsp;&nbsp; | &nbsp;&nbsp;Petal.Length&nbsp;&nbsp; | &nbsp;&nbsp;Petal.Width&nbsp;&nbsp; |
+|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Index &nbsp;&nbsp;&nbsp;&nbsp; | Species&nbsp;&nbsp;  | &nbsp;&nbsp;Sepal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Sepal.Width&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Width&nbsp;&nbsp;&nbsp;&nbsp; |
 | --- | ----- | ------- | ------------ | ----------- | ------------ | ----------- |
 | 1   | 1     | setosa  | 5.1          | 3.5         | 1.4          | 0.2         |
 | 2   | 2     | setosa  | 4.9          | 3           | 1.4          | 0.2         |
