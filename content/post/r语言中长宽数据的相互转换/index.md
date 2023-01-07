@@ -154,7 +154,6 @@ dcast(data,                   # 输入的数据集
 此时可使用ggplot2中的`geom_point()`搭配`facet_wrap()`函数进行绘制：
 
 ```r
-data$Petal.Length <- data$Petal.Length/max(data$Petal.Length)
 ggplot(data = data_wide,
        mapping = aes(x = Sepal.Length,
                      y = Sepal.Width,
@@ -162,10 +161,9 @@ ggplot(data = data_wide,
                      color = Petal.Width))+
           geom_point(alpha = 0.8)+
           facet_wrap(Species~., nrow = 3)+
+          scale_size_continuous(range = c(2,5))+
           scale_color_gradient2(low = "blue",
                                 mid = "yellow",
                                 high = "red",
                                 midpoint = mean(data_wide$Petal.Width))
 ```
-
-![](ex_data_wide.jpg)
