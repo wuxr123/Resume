@@ -73,6 +73,17 @@ dcast(data,                   # 输入的数据集
 
 # 四、实践应用
 
+
+
+首先引入本节所需的三个包：
+
+```r
+library(reshape2)
+library(ggplot2)
+library(RColorBrewer)
+```
+
+
 以R自带的iris数据集为例，使用`head(iris)`查看一下数据：
 
 |   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Sepal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Sepal.Width&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Width&nbsp;&nbsp;&nbsp;&nbsp; | Species&nbsp;&nbsp;&nbsp;&nbsp; |
