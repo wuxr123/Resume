@@ -142,7 +142,7 @@ dcast(data,                   # 输入的数据集
 
 使用`head(data_wide)`查看一下数据：
 
-|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Index &nbsp;&nbsp;&nbsp;&nbsp; | Species&nbsp;&nbsp;  | &nbsp;&nbsp;Sepal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Sepal.Width&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Width&nbsp;&nbsp;&nbsp;&nbsp; |
+|  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | Index &nbsp;&nbsp;&nbsp;&nbsp; | Species&nbsp;&nbsp;  | Sepal.Length&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Sepal.Width&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Length&nbsp;&nbsp;&nbsp;&nbsp; | Petal.Width&nbsp;&nbsp;&nbsp;&nbsp; |
 | --- | ----- | ------- | ------------ | ----------- | ------------ | ----------- |
 | 1   | 1     | setosa  | 5.1          | 3.5         | 1.4          | 0.2         |
 | 2   | 2     | setosa  | 4.9          | 3           | 1.4          | 0.2         |
