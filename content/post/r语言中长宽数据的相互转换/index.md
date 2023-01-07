@@ -167,3 +167,4 @@ ggplot(data = data_wide,
                                 high = "red",
                                 midpoint = mean(data_wide$Petal.Width))
 ```
+![](ex_data_wide.jpg)
