@@ -1,7 +1,7 @@
 ---
 title: R语言中长宽数据的相互转换
 date: 2023-01-07T14:01:06.475Z
-summary: 使用表格存储多变量数据时一般有长格式与宽格式两种，
+summary: 使用表格存储多变量数据时一般有长格式与宽格式两种，使用R中的reshape2包可以对这两种格式进行快捷地转换。
 draft: false
 featured: false
 image:
