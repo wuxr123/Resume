@@ -45,7 +45,7 @@ image:
 
 &nbsp;
 
-# 三、使用reshape2包进行长宽格式的转换
+# 三、使用reshape2包进行转换
 
 `reshape2::melt()`函数可以将宽格式转为长格式。
 
