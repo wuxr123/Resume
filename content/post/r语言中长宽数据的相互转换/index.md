@@ -65,8 +65,8 @@ melt(data,                    # 输入的数据集
 dcast(data,                   # 输入的数据集
       formula,                # 需要拆散的方式，格式为“非变量列 ~ 变量列”
       ...,
-      value.var = "value",    # “值”列的名称
-      fun.aggregate = NULL)   # 若拆散后
+      value.var = "Value",    # “值”列的名称
+      fun.aggregate = NULL)   # 若拆散后需要使用函数聚合可使用此参数
 ```
 &nbsp;
 
