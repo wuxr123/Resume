@@ -124,8 +124,8 @@ ggplot(data = data_long,
           geom_boxplot()+
           theme_bw()+
           theme(panel.grid.major = element_blank(),
-             panel.grid.minor = element_blank(),
-             legend.position = c(0.88,0.82))
+                panel.grid.minor = element_blank(),
+                legend.position = c(0.88,0.82))
 ```
 
 ![](ex_data_long.jpg)
