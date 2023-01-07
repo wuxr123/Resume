@@ -9,18 +9,14 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-# R语言中长宽数据的相互转换
-
----
-
-## 一、长格式与宽格式
+# 一、长格式与宽格式
 
 使用表格存储的多变量数据时一般有**长格式**（long-format）与**宽格式**（wide-format）两种。长格式是将多个变量的名称聚成一列作为一个“变量”维度，将多个变量的值聚成一列作为一个“值”维度；宽格式中的每个变量都是一列，作为一个维度。以下为两种格式的示例。
 
 **长格式：**
 
 | 姓名  | 属性  | 值   |
-| --- | --- | --- |
+| !---! | !---! | !---! |
 | 王一  | 身高  | 175 |
 | 王一  | 体重  | 70  |
 | 王一  | 血型  | A   |
@@ -29,7 +25,9 @@ image:
 | 张三  | 血型  | AB  |
 | 李四  | 身高  | 161 |
 | 李四  | 体重  | 51  |
-| 李四  | 血型  | A   |
+| 李四&nbsp;  | 血型&nbsp;  | A&nbsp;   |
+
+
 
 **宽格式：**
 
@@ -37,17 +35,17 @@ image:
 | --- | --- | --- | --- |
 | 王一  | 175 | 70  | A   |
 | 张三  | 185 | 80  | AB  |
-| 李四  | 161 | 51  | A   |
+| 李四&nbsp;  | 161&nbsp; | 51&nbsp;  | A&nbsp;   |
 
 &nbsp;
 
-## 二、为什么需要对数据进行转换
+# 二、为什么需要对数据进行转换
 
 多变量数据的长宽格式有各自的特点和优势，因此不同的需求就需要有不同的方式来展现和表达。此外，不同函数也常常对应着不同的格式数据。
 
 &nbsp;
 
-## 三、使用reshape2包进行长宽格式的转换
+# 三、使用reshape2包进行长宽格式的转换
 
 `reshape2::melt()`函数可以将宽格式转为长格式。
 
@@ -150,7 +148,10 @@ ggplot(data = data_wide,
                      color = Petal.Width))+
           geom_point(alpha = 0.8)+
           facet_wrap(Species~., nrow = 3)+
-          scale_color_gradient2(low = "blue", mid = "yellow", high = "red", midpoint = mean(data_wide$Petal.Width))
+          scale_color_gradient2(low = "blue",
+                                mid = "yellow",
+                                high = "red",
+                                midpoint = mean(data_wide$Petal.Width))
 ```
 
 ![](ex_data_wide.jpg)
