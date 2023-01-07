@@ -75,12 +75,12 @@ dcast(data,                   # 输入的数据集
 
 
 
-首先引入本节所需的三个包：
+首先引入本节所需的两个包：
+
 
 ```r
 library(reshape2)
 library(ggplot2)
-library(RColorBrewer)
 ```
 
 
