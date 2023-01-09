@@ -24,6 +24,8 @@ aggregate(x,                # x是需要被分组计算的值列
           drop = TRUE)      # drop设置是否去除未被使用的列
 ```
 
+&nbsp;
+
 # 二、简单分组计算
 
 InsectSprays是R语言的自带数据集，记录了不同杀虫剂使用后的虫子数量，使用`head(InsectSprays)`可以快速浏览数据格式：
@@ -36,12 +38,16 @@ InsectSprays是R语言的自带数据集，记录了不同杀虫剂使用后的�
 result <- aggregate(x = InsectSprays$count,
                     by = list(spray = InsectSprays$spray),
                     FUN = mean)
-head(result)
+result
 ```
 
 代码运行结果如下：
 
-![](p2.png)
+![p2.png](C:\Users\wu_xi\Desktop\p2.png)
+
+
+
+&nbsp;
 
 # 三、交叉分组计算
 
@@ -56,12 +62,14 @@ result <- aggregate(warpbreaks$breaks,
                     by = list(wool = warpbreaks$wool,
                               tension = warpbreaks$tension),
                     FUN = median)
-head(result)
+result
 ```
 
 代码运行结果如下：
 
-![](p4.png)
+![p4.png](C:\Users\wu_xi\Desktop\p4.png)
+
+&nbsp;
 
 # 四、自定义函数分组计算
 
@@ -80,7 +88,7 @@ result <- aggregate(warpbreaks$breaks,
                     by = list(wool = warpbreaks$wool,
                               tension = warpbreaks$tension),
                     FUN = cv)
-head(result)
+result
 ```
 
 代码运行结果如下：
