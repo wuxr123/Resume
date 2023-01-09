@@ -5,7 +5,7 @@ summary: 分组计算是科研中处理表格时最常见的问题之一，使�
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: feature.jpg
   focal_point: Smart
   preview_only: false
 ---
