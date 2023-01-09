@@ -43,7 +43,7 @@ result
 
 代码运行结果如下：
 
-![p2.png](C:\Users\wu_xi\Desktop\p2.png)
+![p2.png](p2.png)
 
 
 
@@ -67,7 +67,7 @@ result
 
 代码运行结果如下：
 
-![p4.png](C:\Users\wu_xi\Desktop\p4.png)
+![p4.png](p4.png)
 
 &nbsp;
 
