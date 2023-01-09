@@ -30,7 +30,7 @@ InsectSprays是R语言的自带数据集，记录了不同杀虫剂使用后的�
 
 ![](p1.png)
 
-此时，如果我们希望评估不同杀虫剂的有效性，就需要计算每种杀虫剂样本的统计值。代码中，`InsectSprays$count`是虫子数量列，是要被分组的值列；by需要一个list对象，list内的要素格式为“结果的分组条件列名 = 表中的分组条件列名”，前后列名可以不一致；FUN选择了最普通的均值函数，可以根据需要替换为max, min, median等甚至是自定义的函数，但注意不要添加"()"。
+如果我们希望评估不同杀虫剂的有效性，就需要计算每种杀虫剂样本的统计值。以下代码实现了计算各种杀虫剂的平均效力。代码中，`InsectSprays$count`是虫子数量列，是要被分组的值列；by需要一个list对象，list内的要素格式为“结果的分组条件列名 = 表中的分组条件列名”，前后列名可以不一致；FUN选择了最普通的均值函数，可以根据需要替换为max, min, median等甚至是自定义的函数，但注意不要添加"()"。
 
 ```r
 result <- aggregate(x = InsectSprays$count,
@@ -38,6 +38,8 @@ result <- aggregate(x = InsectSprays$count,
                     FUN = mean)
 head(result)
 ```
+
+代码运行结果如下：
 
 ![](p2.png)
 
@@ -56,6 +58,8 @@ result <- aggregate(warpbreaks$breaks,
                     FUN = median)
 head(result)
 ```
+
+代码运行结果如下：
 
 ![](p4.png)
 
@@ -78,5 +82,7 @@ result <- aggregate(warpbreaks$breaks,
                     FUN = cv)
 head(result)
 ```
+
+代码运行结果如下：
 
 ![](p5.png)
