@@ -1,7 +1,7 @@
 ---
 title: R语言中的数据排序
 date: 2023-01-13T12:51:08.489Z
-summary: 在整理表格结果时常常需要对数据按某种方式进行排序，R中的sort()、order()、rank()和arrange()函数就能完成绝大多数排序任务。
+summary: 在整理表格结果时常常需要对数据按某种方式进行排序，R中的sort()、order()、rank()和arrange()函数能够完成绝大多数排序任务。
 draft: false
 featured: false
 image:
