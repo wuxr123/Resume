@@ -82,7 +82,6 @@ image:
 > library(dplyr)
 > df <- data.frame(x=c(3,2,5,7,1,3),
 +                 y=c(7,6,4,9,3,2))
-
 > arrange(mtcars, cyl, desc(disp))
                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
 Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
