@@ -9,6 +9,8 @@ image:
   focal_point: Smart
   preview_only: false
 ---
+[点击下载本文全部代码](R语言中的分组计算_代码.R)
+
 # 一、aggregate()函数
 
 分组计算问题在R语言中有多种处理办法，包括`tapply()`、`group_by()`和`aggregate()`等，其中`aggregate()`是最为出色、灵活和常用的函数。
