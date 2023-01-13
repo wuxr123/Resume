@@ -35,15 +35,20 @@ InsectSprays是R语言的自带数据集，记录了不同杀虫剂使用后的�
 如果我们希望评估不同杀虫剂的有效性，就需要计算每种杀虫剂样本的统计值。以下代码实现了计算各种杀虫剂的平均效力。代码中，`InsectSprays$count`是虫子数量列，是要被分组的值列；by需要一个list对象，list内的要素格式为“结果的分组条件列名 = 表中的分组条件列名”，前后列名可以不一致；FUN选择了最普通的均值函数，可以根据需要替换为max, min, median等甚至是自定义的函数，但注意不要添加"()"。
 
 ```r
-result <- aggregate(x = InsectSprays$count,
-                    by = list(spray = InsectSprays$spray),
-                    FUN = mean)
-result
+> result <- aggregate(x = InsectSprays$count,
++                     by = list(spray = InsectSprays$spray),
++                     FUN = mean)
+> result
+  spray         x
+1     A 14.500000
+2     B 15.333333
+3     C  2.083333
+4     D  4.916667
+5     E  3.500000
+6     F 16.666667
 ```
 
-代码运行结果如下：
 
-![p2.png](p2.png)
 
 
 
@@ -58,16 +63,21 @@ warpbreaks是R语言的自带数据集，记录了织布机的异常数据，使
 当分组条件为多个时，只需要在by属性的list对象内添加多个分组信息。
 
 ```r
-result <- aggregate(warpbreaks$breaks,
-                    by = list(wool = warpbreaks$wool,
-                              tension = warpbreaks$tension),
-                    FUN = median)
-result
+> result <- aggregate(warpbreaks$breaks,
++                     by = list(wool = warpbreaks$wool,
++                               tension = warpbreaks$tension),
++                     FUN = median)
+> result
+  wool tension  x
+1    A       L 51
+2    B       L 29
+3    A       M 21
+4    B       M 28
+5    A       H 24
+6    B       H 17
 ```
 
-代码运行结果如下：
 
-![p4.png](p4.png)
 
 &nbsp;
 
@@ -84,13 +94,20 @@ cv <- function(vector){
 只需要在FUN中调用cv即可计算每个分组的变异系数，继续使用前一个例子的数据。
 
 ```r
-result <- aggregate(warpbreaks$breaks,
-                    by = list(wool = warpbreaks$wool,
-                              tension = warpbreaks$tension),
-                    FUN = cv)
-result
+> result <- aggregate(warpbreaks$breaks,
++                     by = list(wool = warpbreaks$wool,
++                               tension = warpbreaks$tension),
++                     FUN = cv)
+> result
+  wool tension         x
+1    A       L 0.4061834
+2    B       L 0.3493249
+3    A       M 0.3608439
+4    B       M 0.3277194
+5    A       H 0.4183441
+6    B       H 0.2605903
 ```
 
-代码运行结果如下：
 
-![](p5.png)
+
+
