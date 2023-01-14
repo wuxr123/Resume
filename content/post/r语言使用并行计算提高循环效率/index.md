@@ -39,7 +39,7 @@ test_n = 20
 
 # 二、for循环
 
-第一种方法，直接使用for函数循环20次`test_fun()`，并输出耗费时间。
+第一种方法，直接使用for函数循环test_n次`test_fun()`，并输出耗费时间。
 
 ```r
 > start <- Sys.time()
@@ -54,8 +54,6 @@ Time difference of 22.32324 secs
 &nbsp;
 
 # 三、parallel包
-
-并行计算的使用有一个固定的模式。
 
 ## 1. 加载并行包
 
@@ -78,18 +76,18 @@ cl <- makeCluster(cl_num) # 设置需要启动的线程数量
 
 ## 3. 传入变量和包
 
-本例子没有额外的变量和包，因此不需要传入。
+clusterExport()和clusterEvalQ()分别用于传入变量和包。本例没有额外的变量和包，因此不需要传入。
 
 ```r
 clusterExport(cl, c("变量1", "变量2", "函数1"))
-clusterEvalQ(cl, library(dplyr))
+clusterEvalQ(cl, library(包名))
 ```
 
 ## 4. 并行计算
 
 主要的函数有`parApply(X, MARGIN, FUN, …)`，`parLapply(cl, X, FUN, …)`和`parSapply(cl, X, FUN, ...)`，作用与apply族的`apply()`，`lapply()`和`sapply()`相对应。
 
-本例子不需要任何输出，就选择了`parSapply()`。cl为创建好的线程组，X为循环的变量，FUN为函数名。
+本例子不需要任何输出，选择了`parSapply()`。cl为创建好的线程组，X为循环的变量，FUN为函数名。
 
 parallel包循环的弊端是只能进行单变量循环。
 
@@ -101,11 +99,13 @@ result <- parSapply(cl = cl,
 
 ## 5. 释放线程
 
-结束后务必记得释放线程，否则占用状态会造成资源浪费和其他错误。
+结束后必须释放线程，否则占用状态会造成资源浪费和其他错误。
 
 ```r
 stopCluster(cl)
 ```
+
+&nbsp;
 
 最后完整运行一次程序观察效率的提高效果。
 
@@ -163,4 +163,4 @@ Time difference of 9.902606 secs
 
 # 五、总结
 
-从多次测试的结果来看，计算效率parallel包 > doparallel+foreach包 > for循环。
+从多次测试的结果来看，计算效率parallel包 > doparallel+foreach包 > for循环。但效率并不会因线程数量增加而成倍地提高。
