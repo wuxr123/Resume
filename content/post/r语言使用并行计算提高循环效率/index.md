@@ -91,6 +91,8 @@ clusterEvalQ(cl, library(dplyr))
 
 本例子不需要任何输出，就选择了`parSapply()`。cl为创建好的线程组，X为循环的变量，FUN为函数名。
 
+parallel包循环的弊端是只能进行单变量循环。
+
 ```r
 result <- parSapply(cl = cl,
                     X = rep(100,test_n),
@@ -104,8 +106,6 @@ result <- parSapply(cl = cl,
 ```r
 stopCluster(cl)
 ```
-
-
 
 最后完整运行一次程序观察效率的提高效果。
 
@@ -126,8 +126,6 @@ stopCluster(cl)
 > print(end - start)
 Time difference of 8.583297 secs
 ```
-
-
 
 # 四、doparallel+foreach包
 
@@ -158,8 +156,6 @@ result <- foreach(x = rep(100,test_n),
 > print(end - start)
 Time difference of 9.902606 secs
 ```
-
-
 
 # 五、总结
 
