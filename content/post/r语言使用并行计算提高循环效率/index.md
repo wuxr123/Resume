@@ -127,6 +127,8 @@ stopCluster(cl)
 Time difference of 8.583297 secs
 ```
 
+&nbsp;
+
 # 四、doparallel+foreach包
 
 这种方法的运作模式除启动函数外，与parallel包是相同的。
@@ -156,6 +158,8 @@ result <- foreach(x = rep(100,test_n),
 > print(end - start)
 Time difference of 9.902606 secs
 ```
+
+&nbsp;
 
 # 五、总结
 
