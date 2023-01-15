@@ -126,7 +126,7 @@ p2 + scale_fill_gradient(low = "red",
 p2 + scale_fill_gradient2(low = "green",
                           mid = "yellow",
                           high = "red",
-                          midpoint = 5000)")
+                          midpoint = 5000))
 ```
 
 `scale_fill_gradientn()`函数将一组离散的颜色转为渐变色，colours属性输入一组离散的颜色。
