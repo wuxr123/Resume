@@ -104,7 +104,7 @@ ggplot(data = data,
   scale_fill_identity()
 ```
 
-`scale_fill_ordinal()`使用viridis色带绘制离散型变量，type属性可以设置其他配色方案。
+`scale_fill_ordinal()`默认使用viridis色带绘制离散型变量，type属性可以设置其他配色方案。
 
 ```r
 colors = as.character(palette.colors(8))
