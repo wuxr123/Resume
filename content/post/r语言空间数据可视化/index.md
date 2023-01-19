@@ -237,7 +237,8 @@ ggplot()+
 
 ```r
 Elevation_Heihe_mask <- mask(Elevation_Heihe,Boundary_Heihe)
-Elevation_Heihe_mask_df <- as.data.frame(as(Elevation_Heihe_mask,"Raster"),xy=T)
+Elevation_Heihe_mask_df <- as.data.frame(as(Elevation_Heihe_mask,"Raster"),
+                                         xy = T)
 
 ggplot() +
   geom_raster(data = Elevation_Heihe_mask_df,
