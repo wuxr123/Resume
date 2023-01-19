@@ -146,8 +146,7 @@ annotation_scale(location = "bl",
                  style = "ticks",
                  unit_category = "metric",
                  text_family = "serif",
-                 line_width = 1,
-                 )
+                 line_width = 1)
 ```
 
 ![](fig4.jpg)
