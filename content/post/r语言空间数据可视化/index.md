@@ -359,7 +359,9 @@ temperature_Heihe <- raster(temperature_Heihe,
                             ymn = 36,
                             ymx = 44)
 temperature_Heihe_mask <- mask(temperature_Heihe,Boundary_Heihe)
-temperature_Heihe_mask_df <- as.data.frame(as(temperature_Heihe_mask,"Raster"),xy=T)
+temperature_Heihe_mask_df <- as.data.frame(as(temperature_Heihe_mask,
+                                              "Raster"),
+                                           xy=T)
 
 ggplot() +
   geom_raster(data = temperature_Heihe_mask_df,
