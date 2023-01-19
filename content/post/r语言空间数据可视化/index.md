@@ -15,7 +15,7 @@ image:
 
 在地理研究中，空间数据可视化是不可缺少的环节，也是论文中最常见的图形。本文使用ggplot2包分别展示了矢量和栅格数据的可视化方法。使用的原始数据包括最常见的shp矢量文件与tif栅格文件，也包括使用csv表格存储的点数据与栅格数据。
 
-本文注重空间数据可视化，关于ggplot2包的基本函数，如theme()、labs()等请参考[ggplot作图入门教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/ggplot2.html)；关于scale_color_stepsn()等颜色设置函数请参考之前的post——[R语言ggplot2包的颜色设置 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80ggplot2%E5%8C%85%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/)；关于综合制图所需要的比例尺、指北针等制图要素请关注下一篇post。
+本文注重空间数据可视化，关于ggplot2包的基本函数，如`theme()`、`labs()`等请参考[ggplot作图入门教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/ggplot2.html)；关于`scale_color_stepsn()`等颜色设置函数请参考之前的post——[R语言ggplot2包的颜色设置 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80ggplot2%E5%8C%85%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/)；关于综合制图所需要的比例尺、指北针等制图要素请参考另一篇post——[R语言空间数据综合制图 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E7%BB%BC%E5%90%88%E5%88%B6%E5%9B%BE/)。
 
 &nbsp;
 
@@ -84,11 +84,11 @@ temperature_Heihe <- read.csv("temperature_Heihe.csv",
 
 ## 1. 边界数据
 
-- 使用geom_sf()函数绘制中国与黑河流域的边界：linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色；
+- 使用`geom_sf()`函数绘制中国与黑河流域的边界：linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色；
 
-- 使用geom_text()函数绘制黑河流域的名称；
+- 使用`geom_text()`函数绘制黑河流域的名称；
 
-- 使用coord_sf()函数设置投影：crs属性设置投影，st_crs()构建一个投影对象，这里设置的4236是WGS84的[EPSG代码](https://epsg.io/)。
+- 使用`coord_sf()`函数设置投影：crs属性设置投影，st_crs()构建一个投影对象，这里设置的4236是WGS84的[EPSG代码](https://epsg.io/)。
 
 ```r
 ggplot()+
@@ -102,7 +102,7 @@ ggplot()+
   geom_text(aes(x = 100, y = 36),
             label = "Heihe river basin",
             family = "serif") +
-  coord_sf(crs = st_crs(4236)) +
+  coord_sf(crs = 4236) +
   labs(x = "Longitude (°)",
        y = "Latitude (°)") +
   theme_bw() +
@@ -117,11 +117,11 @@ ggplot()+
 
 ## 2. 点数据
 
-- 使用geom_sf()函数绘制中国的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色；
+- 使用`geom_sf()`函数绘制中国的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色；
 
-- 使用geom_sf()函数绘制中国县级行政单位的位置点：使用color属性设置点的颜色，size属性设置点的大小；
+- 使用`geom_sf()`函数绘制中国县级行政单位的位置点：使用color属性设置点的颜色，size属性设置点的大小；
 
-- 使用coord_sf()函数设置投影。
+- 使用`coord_sf()`函数设置投影。
 
 ```r
 ggplot()+
@@ -152,11 +152,11 @@ ggplot()+
 
 先将Road_China与Train_China分别添加一个name字段，值分别为“Road”和“Train”，用以在绘制图例的时候显示名称。
 
-- 使用geom_sf()函数绘制中国的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色；
+- 使用`geom_sf()`函数绘制中国的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色；
 
-- 使用geom_sf()函数分别绘制中国国道路线和铁路路线：使用color属性设置线的颜色；
+- 使用`geom_sf()`函数分别绘制中国国道路线和铁路路线：使用color属性设置线的颜色；
 
-- 使用coord_sf()函数设置投影。
+- 使用`coord_sf()`函数设置投影。
 
 ```r
 Road_China$name <- "Road"
@@ -190,11 +190,11 @@ ggplot()+
 
 ## 4. 面数据
 
-- 使用geom_sf()函数绘制中国省级行政单位面数据：使用fill属性设置面的颜色；
+- 使用`geom_sf()`函数绘制中国省级行政单位面数据：使用fill属性设置面的颜色；
 
-- 使用geom_sf()函数绘制中国的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色；
+- 使用`geom_sf()`函数绘制中国的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色；
 
-- 使用coord_sf()函数设置投影。
+- 使用`coord_sf()`函数设置投影。
 
 ```r
 ggplot()+
@@ -229,11 +229,11 @@ ggplot()+
 
 # 三、栅格数据可视化
 
-首先使用mask()函数用Boundary_Heihe要素对Elevation_Heihe进行掩模提取；在栅格对象使用ggplot2可视化前，需要将其转为data.frame()类型。
+首先使用`mask()`函数用Boundary_Heihe要素对Elevation_Heihe进行掩模提取；在栅格对象使用ggplot2可视化前，需要将其转为data.frame类型。
 
-- 使用geom_raster()函数绘制中国黑河流域的高程数据：使用fill属性设置像元的颜色；
+- 使用`geom_raster()`函数绘制中国黑河流域的高程数据：使用fill属性设置像元的颜色；
 
-- 使用geom_sf()函数绘制中国黑河流域的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色。
+- 使用`geom_sf()`函数绘制中国黑河流域的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色。
 
 ```r
 temperature_Heihe <- temperature_Heihe - 273.15
@@ -289,11 +289,11 @@ ggplot() +
 
 ## 1. 点数据
 
-- 使用geom_sf()函数绘制中国黑河流域的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色；
+- 使用`geom_sf()`函数绘制中国黑河流域的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色；
 
-- 使用geom_point()函数绘制中国黑河流域的气象站点：使用color属性设置点的颜色，size属性设置点的大小；
+- 使用`geom_point()`函数绘制中国黑河流域的气象站点：使用color属性设置点的颜色，size属性设置点的大小；
 
-- 使用geom_text_repel()函数绘制防压盖的标签。
+- 使用`geom_text_repel()`函数绘制防压盖的标签。
 
 ```r
 ggplot() +
@@ -338,17 +338,17 @@ ggplot() +
 
 - 将表格类型类型的temperature_Heihe转为矩阵（方可作为raster()函数的输入）；
 
-- 使用raster()函数将temperature_Heihe矩阵转为栅格类型，同时定义其边界经纬度；
+- 使用`raster()`函数将temperature_Heihe矩阵转为栅格类型，同时定义其边界经纬度；
 
-- 使用mask()函数用Boundary_Heihe要素对Elevation_Heihe进行掩模提取；
+- 使用`mask()`函数用Boundary_Heihe要素对Elevation_Heihe进行掩模提取；
 
-- 将其转为data.frame()类型。
+- 将其转为data.frame类型。
 
 进行预处理后进行绘制：
 
-- 使用geom_raster()函数绘制中国黑河流域的高程数据：使用fill属性设置像元的颜色，alpha属性设置不透明度；
+- 使用`geom_raster()`函数绘制中国黑河流域的高程数据：使用fill属性设置像元的颜色，alpha属性设置不透明度；
 
-- 使用geom_sf()函数绘制中国黑河流域的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色。
+- 使用`geom_sf()`函数绘制中国黑河流域的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色。
 
 ```r
 temperature_Heihe <- temperature_Heihe - 273.15
