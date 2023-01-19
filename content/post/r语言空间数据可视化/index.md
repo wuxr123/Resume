@@ -236,34 +236,45 @@ ggplot()+
 - 使用geom_sf()函数绘制中国黑河流域的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色。
 
 ```r
-Elevation_Heihe_mask <- mask(Elevation_Heihe,Boundary_Heihe)
-Elevation_Heihe_mask_df <- as.data.frame(as(Elevation_Heihe_mask,"Raster"),
-                                         xy = T)
+temperature_Heihe <- temperature_Heihe - 273.15
+temperature_Heihe <- as.matrix(temperature_Heihe)
+temperature_Heihe <- raster(temperature_Heihe, 
+                            xmn = 96,
+                            xmx = 103,
+                            ymn = 36,
+                            ymx = 44)
+temperature_Heihe_mask <- mask(temperature_Heihe,Boundary_Heihe)
+temperature_Heihe_mask_df <- as.data.frame(as(temperature_Heihe_mask,"Raster"),
+                                           xy=T)
 
 ggplot() +
-  geom_raster(data = Elevation_Heihe_mask_df,
+  geom_raster(data = temperature_Heihe_mask_df,
               mapping = aes(x=x,
                             y=y,
-                            fill = Elevation_Heihe)) + 
+                            fill = layer),
+              alpha = 0.8) + 
   geom_sf(data = Boundary_Heihe,
           color = "black",
           fill = "transparent",
           linewidth = 0.4)+
-  scale_fill_gradientn(colors = terrain.colors(6),
-                       na.value = "transparent",
-                       n.breaks = 5) +
+  scale_fill_steps2(low = "blue",
+                    mid = "yellow",
+                    high = "red",
+                    na.value = "transparent",
+                    n.breaks = 6) +
   scale_x_continuous(limits = c(96.9,102.1),
                      expand = c(0,0)) +
   scale_y_continuous(limits = c(37.6,42.8)
                      ,expand = c(0,0)) +
   labs(x = "Longitude (°)",
        y = "Latitude (°)",
-       fill = "Elevation (m)") +
+       fill = "Temperature (℃)") +
   theme_bw() +
-  theme(text = element_text(family = "serif"),
+  theme(text = element_text(size = 12, family = "serif"),
         panel.grid = element_blank(),
         axis.text = element_text(color = "black"),
-        legend.key.height = unit(40, "pt"))
+        legend.key.height = unit(25, "pt"),
+        legend.key = element_rect(fill = "transparent"))
 ```
 
 代码绘制的图形如下：
