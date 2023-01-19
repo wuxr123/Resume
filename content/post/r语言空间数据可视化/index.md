@@ -13,15 +13,17 @@ image:
 
 [点击下载本文全部数据](R语言空间数据可视化_数据.zip)
 
-在地理研究中，空间数据的可视化是不可缺少的环节，也是论文中最常见的图形。本文使用ggplot2包分别展示了对矢量和栅格数据进行可视化的方法。使用的原始数据包括最常见的shp矢量文件与tif栅格文件，也包括使用csv表格存储的点数据与栅格数据。
+在地理研究中，空间数据可视化是不可缺少的环节，也是论文中最常见的图形。本文使用ggplot2包分别展示了矢量和栅格数据的可视化方法。使用的原始数据包括最常见的shp矢量文件与tif栅格文件，也包括使用csv表格存储的点数据与栅格数据。
 
-本文注重空间数据可视化，关于ggplot2包的基本函数，如theme()、labs()等请参考[ggplot作图入门教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/ggplot2.html)；关于scale_color_stepsn()等颜色设置函数请参考之前的推文——[R语言ggplot2包的颜色设置 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80ggplot2%E5%8C%85%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/)；关于综合制图所需要的比例尺、指北针等制图要素请关注下一篇。
+本文注重空间数据可视化，关于ggplot2包的基本函数，如theme()、labs()等请参考[ggplot作图入门教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/ggplot2.html)；关于scale_color_stepsn()等颜色设置函数请参考之前的post——[R语言ggplot2包的颜色设置 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80ggplot2%E5%8C%85%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/)；关于综合制图所需要的比例尺、指北针等制图要素请关注下一篇post。
+
+&nbsp;
 
 # 一、加载包与数据
 
 ## 1. Package
 
-代码共使用了4个包：
+本文共使用4个包：
 
 - 矢量数据处理（sf）
 
@@ -29,7 +31,7 @@ image:
 
 - 绘图（ggplot2）
 
-- 绘制防压盖标签（ggrepel，是ggplot2的一个增强补充包）
+- 绘制防压盖标签（ggrepel，ggplot2的一个增强补充包）
 
 ```r
 library(sf)
@@ -76,6 +78,8 @@ temperature_Heihe <- read.csv("temperature_Heihe.csv",
                               header = F)
 ```
 
+&nbsp;
+
 # 二、矢量数据可视化
 
 ## 1. 边界数据
@@ -117,7 +121,7 @@ ggplot()+
 
 - 使用geom_sf()函数绘制中国县级行政单位的位置点：使用color属性设置点的颜色，size属性设置点的大小；
 
-- 使用coord_sf()函数设置投影：crs属性设置投影，st_crs()构建一个投影对象，这里设置的4236是WGS84的[EPSG代码](https://epsg.io/)。
+- 使用coord_sf()函数设置投影。
 
 ```r
 ggplot()+
@@ -152,7 +156,7 @@ ggplot()+
 
 - 使用geom_sf()函数分别绘制中国国道路线和铁路路线：使用color属性设置线的颜色；
 
-- 使用coord_sf()函数设置投影：crs属性设置投影，st_crs()构建一个投影对象，这里设置的4236是WGS84的[EPSG代码](https://epsg.io/)。
+- 使用coord_sf()函数设置投影。
 
 ```r
 Road_China$name <- "Road"
@@ -178,8 +182,6 @@ ggplot()+
         axis.text = element_text(color = "black"),
         legend.background = element_blank(),
         legend.position = c(0.1, 0.12))
-
-ggsave("fig1.3.jpg", width = 5, height = 4, dpi = 800)
 ```
 
 代码绘制的图形如下：
@@ -192,7 +194,7 @@ ggsave("fig1.3.jpg", width = 5, height = 4, dpi = 800)
 
 - 使用geom_sf()函数绘制中国的范围：使用linewidth属性设置边框宽度，color属性设置边框颜色，fill属性设置面的颜色；
 
-- 使用coord_sf()函数设置投影：crs属性设置投影，st_crs()构建一个投影对象，这里设置的4236是WGS84的[EPSG代码](https://epsg.io/)。
+- 使用coord_sf()函数设置投影。
 
 ```r
 ggplot()+
@@ -223,7 +225,7 @@ ggplot()+
 
 ![](fig1.4.jpg)
 
-
+&nbsp;
 
 # 三、栅格数据可视化
 
@@ -266,6 +268,8 @@ ggplot() +
 代码绘制的图形如下：
 
 ![](fig2.jpg)
+
+&nbsp;
 
 # 四、表格数据可视化
 
@@ -378,5 +382,3 @@ ggplot() +
 代码绘制的图形如下：
 
 ![](fig3.2.jpg)
-
-
