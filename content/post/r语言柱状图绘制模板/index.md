@@ -56,13 +56,65 @@ ggsave("fig1.jpg",
 
 ![](fig1.jpg)
 
-# 二、多柱状图——基于分面
+# 二、单一柱状图（带误差棒）
 
 ```r
 library(ggplot2)
 
 ## read data
-re <- read.csv("fig2.csv")
+re <- NULL
+for (i in 1:4) {
+  value <- c(mean(iris[,i]),sd(iris[,i]))
+  lins <- data.frame(attr = colnames(iris)[i],
+                     mean = value[1],
+                     sd = value[2])
+  re <- rbind(re, lins)
+}
+
+## plot
+ggplot(data = re,
+       mapping = aes(x = attr,
+                     y = mean,
+                     fill = attr))+
+  geom_col(position = 'dodge')+
+  geom_errorbar(aes(ymin = mean - sd,
+                    ymax = mean + sd),
+                width = 0.3,
+                linewidth = 0.3)+
+  labs(y = "Length/weight (cm)",
+       x = "Attribute name")+
+  scale_x_discrete(expand = c(0.18,0.18))+
+  scale_y_continuous(expand = c(0.002,0,0.12,0))+
+  theme_bw() +
+  theme(text = element_text(family="serif",
+                            size = 7),
+        panel.grid = element_blank(),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.box.spacing = unit(0, "cm"),
+        legend.key.size = unit(7, "pt"),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_line(linewidth = 0.3),
+        axis.text = element_text(color = "black"))
+
+
+## save
+ggsave("fig2.jpg",
+       width = 9,
+       height = 7,
+       units = "cm",
+       dpi = 600)
+```
+
+![](fig2.jpg)
+
+# 三、多柱状图——基于分面
+
+```r
+library(ggplot2)
+
+## read data
+re <- read.csv("fig3.csv")
 
 ## plot
 ggplot(data = re,
@@ -95,23 +147,23 @@ ggplot(data = re,
         axis.text = element_text(color = "black"))
 
 ## save
-ggsave("fig2.jpg",
+ggsave("fig3.jpg",
        width = 14,
        height = 6,
        units = "cm",
        dpi = 600)
 ```
 
-![](fig2.jpg)
+![](fig3.jpg)
 
-# 三、多柱状图——基于子图
+# 四、多柱状图——基于子图
 
 ```r
 library(ggplot2)
 library(ggpubr)
 
 ## read data
-re <- read.csv("fig3.csv")
+re <- read.csv("fig4.csv")
 re$Station <- as.character(re$Station)
 
 ## plotfun
@@ -166,11 +218,11 @@ ggarrange(a,b,c,d,e,f,
           legend = "bottom")
 
 ## save
-ggsave("fig3.jpg",
+ggsave("fig4.jpg",
        width = 14,
        height = 12,
        units = "cm",
        dpi = 600)
 ```
 
-![](fig3.jpg)
+![](fig4.jpg)
