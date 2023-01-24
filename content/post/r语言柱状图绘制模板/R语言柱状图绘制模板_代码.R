@@ -1,5 +1,5 @@
 # fig1
-# library
+## library
 library(ggplot2)
 
 ## read data
@@ -36,7 +36,7 @@ ggsave("fig1.jpg",
 
 
 # fig2
-# library
+## library
 library(ggplot2)
 
 ## read data
@@ -85,7 +85,7 @@ ggsave("fig2.jpg",
 
 
 # fig3
-# library
+## library
 library(ggplot2)
 library(ggpubr)
 
