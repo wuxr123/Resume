@@ -51,7 +51,7 @@ ggplot(data = re,
   labs(y = "Length/weight (cm)",
        x = "Attribute name")+
   scale_x_discrete(expand = c(0.18,0.18))+
-  scale_y_continuous(expand = c(0.002,0,0.12,0))+
+  scale_y_continuous(expand = c(0.0015,0,0.12,0))+
   theme_bw() +
   theme(text = element_text(family="serif",
                             size = 7),
