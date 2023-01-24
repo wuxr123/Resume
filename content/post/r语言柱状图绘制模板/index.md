@@ -20,6 +20,7 @@ image:
 # 一、单一柱状图
 
 ```r
+## library
 library(ggplot2)
 
 ## read data
@@ -40,6 +41,7 @@ ggplot(data = re,
                             size = 7),
         panel.grid = element_blank(),
         legend.position = "bottom",
+        legend.title = element_blank(),
         legend.box.spacing = unit(0, "cm"),
         legend.key.size = unit(7, "pt"),
         axis.ticks.x = element_blank(),
@@ -56,9 +58,10 @@ ggsave("fig1.jpg",
 
 ![](fig1.jpg)
 
-# 二、单一柱状图（带误差棒）
+# 二、单一柱状图（含误差棒）
 
 ```r
+## library
 library(ggplot2)
 
 ## read data
@@ -96,74 +99,19 @@ ggplot(data = re,
         axis.ticks.x = element_blank(),
         axis.ticks.y = element_line(linewidth = 0.3),
         axis.text = element_text(color = "black"))
-
-
-## save
-ggsave("fig2.jpg",
-       width = 9,
-       height = 7,
-       units = "cm",
-       dpi = 600)
 ```
 
 ![](fig2.jpg)
 
-# 三、多柱状图——基于分面
+# 三、多柱状图
 
 ```r
-library(ggplot2)
-
-## read data
-re <- read.csv("fig3.csv")
-
-## plot
-ggplot(data = re,
-       mapping = aes(x = Metric,
-                     y = Values,
-                     fill = Method)) +
-  geom_col(position = 'dodge') +
-  labs(y = "Frequency",
-       x = "Precipitation event") +
-  scale_x_discrete(expand = c(0.18,0.18)) +
-  scale_y_continuous(expand = c(0.0025,0,0.12,0)) +
-  facet_wrap(Year~., ncol = 3) +
-  geom_text(aes(label = label),
-            x = 0.55,
-            y = max(re$Values, na.rm = T)*1.05,
-            family="serif",
-            hjust = 0,
-            size = 2.5) +
-  theme_bw() +
-  theme(text = element_text(family="serif",
-                            size = 7),
-        strip.text = element_blank(),
-        panel.grid = element_blank(),
-        legend.position = "bottom",
-        legend.title = element_blank(),
-        legend.box.spacing = unit(0, "cm"),
-        legend.key.size = unit(7, "pt"),
-        axis.ticks.x=element_blank(),
-        axis.ticks.y=element_line(linewidth=0.3),
-        axis.text = element_text(color = "black"))
-
-## save
-ggsave("fig3.jpg",
-       width = 14,
-       height = 6,
-       units = "cm",
-       dpi = 600)
-```
-
-![](fig3.jpg)
-
-# 四、多柱状图——基于子图
-
-```r
+## library
 library(ggplot2)
 library(ggpubr)
 
 ## read data
-re <- read.csv("fig4.csv")
+re <- read.csv("fig3.csv")
 re$Station <- as.character(re$Station)
 
 ## plotfun
@@ -218,11 +166,11 @@ ggarrange(a,b,c,d,e,f,
           legend = "bottom")
 
 ## save
-ggsave("fig4.jpg",
+ggsave("fig3.jpg",
        width = 14,
        height = 12,
        units = "cm",
        dpi = 600)
 ```
 
-![](fig4.jpg)
+![](fig3.jpg)
