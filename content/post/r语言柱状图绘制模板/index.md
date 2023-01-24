@@ -24,26 +24,43 @@ image:
 library(ggplot2)
 
 ## read data
-re <- read.csv("fig1.csv")
+re <- NULL
+for (var in 1:4) {
+  for (s in unique(iris$Species)){
+    value <- c(mean(iris[iris$Species == s,var]),
+               sd(iris[iris$Species == s,var]))
+    lins <- data.frame(attr = colnames(iris)[var],
+                       species = s,
+                       mean = value[1],
+                       sd = value[2])
+    re <- rbind(re, lins)
+  }
+}
 
 ## plot
 ggplot(data = re,
-       mapping = aes(x = Metric,
-                     y = Values,
-                     fill = Method))+
+       mapping = aes(x = attr,
+                     y = mean,
+                     fill = species))+
   geom_col(position = 'dodge')+
-  labs(y = "Frequency",
-       x = "Precipitation event")+
+  geom_errorbar(aes(ymin = mean - sd,
+                    ymax = mean + sd),
+                width = 0.3,
+                linewidth = 0.3,
+                position = position_dodge(0.9))+
+  labs(y = "Length/weight (cm)",
+       x = "Attribute name")+
   scale_x_discrete(expand = c(0.18,0.18))+
   scale_y_continuous(expand = c(0.002,0,0.12,0))+
   theme_bw() +
   theme(text = element_text(family="serif",
                             size = 7),
         panel.grid = element_blank(),
-        legend.position = "bottom",
+        legend.position = c(0.11, 0.9),
         legend.title = element_blank(),
         legend.box.spacing = unit(0, "cm"),
         legend.key.size = unit(7, "pt"),
+        legend.background = element_blank(),
         axis.ticks.x = element_blank(),
         axis.ticks.y = element_line(linewidth = 0.3),
         axis.text = element_text(color = "black"))
@@ -58,52 +75,7 @@ ggsave("fig1.jpg",
 
 ![](fig1.jpg)
 
-# 二、单一柱状图（含误差棒）
-
-```r
-## library
-library(ggplot2)
-
-## read data
-re <- NULL
-for (i in 1:4) {
-  value <- c(mean(iris[,i]),sd(iris[,i]))
-  lins <- data.frame(attr = colnames(iris)[i],
-                     mean = value[1],
-                     sd = value[2])
-  re <- rbind(re, lins)
-}
-
-## plot
-ggplot(data = re,
-       mapping = aes(x = attr,
-                     y = mean,
-                     fill = attr))+
-  geom_col(position = 'dodge')+
-  geom_errorbar(aes(ymin = mean - sd,
-                    ymax = mean + sd),
-                width = 0.3,
-                linewidth = 0.3)+
-  labs(y = "Length/weight (cm)",
-       x = "Attribute name")+
-  scale_x_discrete(expand = c(0.18,0.18))+
-  scale_y_continuous(expand = c(0.002,0,0.12,0))+
-  theme_bw() +
-  theme(text = element_text(family="serif",
-                            size = 7),
-        panel.grid = element_blank(),
-        legend.position = "bottom",
-        legend.title = element_blank(),
-        legend.box.spacing = unit(0, "cm"),
-        legend.key.size = unit(7, "pt"),
-        axis.ticks.x = element_blank(),
-        axis.ticks.y = element_line(linewidth = 0.3),
-        axis.text = element_text(color = "black"))
-```
-
-![](fig2.jpg)
-
-# 三、多柱状图
+# 二、多柱状图
 
 ```r
 ## library
@@ -111,7 +83,7 @@ library(ggplot2)
 library(ggpubr)
 
 ## read data
-re <- read.csv("fig3.csv")
+re <- read.csv("fig2.csv")
 re$Station <- as.character(re$Station)
 
 ## plotfun
@@ -166,11 +138,11 @@ ggarrange(a,b,c,d,e,f,
           legend = "bottom")
 
 ## save
-ggsave("fig3.jpg",
+ggsave("fig2.jpg",
        width = 14,
        height = 12,
        units = "cm",
        dpi = 600)
 ```
 
-![](fig3.jpg)
+![loading-ag-147](fig2.jpg)
