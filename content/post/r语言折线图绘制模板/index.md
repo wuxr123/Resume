@@ -9,7 +9,17 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-# fig1
+[点击下载本文全部代码](R语言折线图绘制模板_代码.R)
+
+[点击下载本文全部数据](R语言折线图绘制模板_数据.zip)
+
+在熟悉绘图函数及其参数设置后，形成一套通用模板有助于提高制图效率。本文展示了几种基于R语言ggplot2包的折线图绘制代码。
+
+--- 
+
+# 一、单一折线图
+
+```r
 ## library
 library(ggplot2)
 
@@ -60,9 +70,13 @@ ggsave("fig1.jpg",
        height = 7,
        units = "cm",
        dpi = 600)
+```
 
+![](fig1.jpg)
 
-# fig2
+# 二、多折线图
+
+```r
 ## library
 library(ggplot2)
 library(ggpubr)
@@ -125,3 +139,6 @@ ggsave("fig2.jpg",
        height = 12,
        units = "cm",
        dpi = 600)
+```
+
+![loading-ag-147](fig2.jpg)
