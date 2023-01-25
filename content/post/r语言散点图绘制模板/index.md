@@ -86,8 +86,8 @@ plotfun <- function(data, ylab, label){
     labs(x = "Station",
          y = ylab) +
     annotate("text",
-             x = 0.65,
-             y = max(data$Values)*1.2,
+             x = 0.7,
+             y = max(data$Values)*0.99,
              label = label,
              family="serif",
              size = 2.5) +
