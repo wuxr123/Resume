@@ -1,5 +1,5 @@
 ---
-title: R语言散点图绘制模板
+title: R语言折线图绘制模板
 date: 2023-01-25T06:10:53.875Z
 summary: 本文展示了几种基于R语言ggplot2包的折线图绘制代码，可作为初始模板。
 draft: false
