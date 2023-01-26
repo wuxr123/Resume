@@ -113,6 +113,7 @@ library(ggpubr)
 ## read data
 data <- read.csv("fig1.csv")
 data$Var1 <- factor(data$Var1, levels = paste0("x",1:10))
+data$Var2 <- factor(data$Var2, levels = paste0("x",1:10))
 
 ## plotfun
 plotfun <- function(data, title){
