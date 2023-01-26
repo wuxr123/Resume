@@ -98,7 +98,7 @@ ggsave("fig2.jpg",
        width = 17,
        height = 5,
        units = "cm",
-       dpi = 600)
+       dpi = 800)
 ```
 
 ![loading-ag-147](fig2.jpg)
