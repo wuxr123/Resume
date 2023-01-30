@@ -476,7 +476,6 @@ train_model(nn_module,
 
 # 验证模型
 val_model(nn_module, val_dataloader)
-
 ```
 
 ## 2. GPU训练
