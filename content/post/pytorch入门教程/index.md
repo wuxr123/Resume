@@ -1,7 +1,7 @@
 ---
 title: PyTorch入门教程
 date: 2023-01-30T06:11:51.175Z
-summary: PyTorch在学术领域迅速反超TensorFlow并成为主流，笔记介绍了PyTorch的基本函数和搭建框架以及训练优化的常规思路。
+summary: PyTorch在学术领域迅速反超TensorFlow成为主流，笔记介绍了PyTorch的基本函数和搭建框架以及训练优化的常规思路。
 draft: false
 featured: false
 image:
