@@ -428,7 +428,7 @@ def val_model(modol,
             hits = (outputs.argmax(1) == targets).sum()
             total_hits = total_hits + hits
     total_accuracy = total_hits / len(val_dataset)
-    print("Accuracy: {:.2f}".format((total_accuracy.round(decimals=2))))
+    print("Accuracy in validation dataset: {:.2f}".format((total_accuracy.round(decimals=2))))
 
 
 # 定义transform
@@ -458,11 +458,11 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # 实例化模型
 nn_module = NN_Module()
-nn_module = nn_module.to(device)
+nn_module.to(device)
 
 # 实例化损失函数
 loss_fn = nn.CrossEntropyLoss()
-loss_fn = loss_fn.to(device)
+loss_fn.to(device)
 
 # 实例化优化器
 optimizer = torch.optim.Adam(params=nn_module.parameters())
