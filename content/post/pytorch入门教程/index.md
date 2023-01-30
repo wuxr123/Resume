@@ -9,8 +9,6 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-# PyTorch入门教程
-
 PyTorch和TensorFlow是当今最知名的两大深度学习框架，近两年PyTorch在学术领域迅速反超TensorFlow并成为主流，是目前最有前景的深度学习框架。
 
 笔记介绍了PyTorch的基本函数和搭建框架以及训练优化的常规思路，共包含六个部分，分别是数据准备、模型搭建、模型训练、模型验证、模型保存与读取、常规搭建与训练思路。
@@ -357,7 +355,6 @@ vgg16.classifier[6] = nn.Linear(4096, 10)
 ```python
 import torch
 from torch import nn
-from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
 from torchvision.datasets import MNIST
 from torch.utils.data import DataLoader
@@ -374,7 +371,7 @@ class NN_Module(nn.Module):
             nn.Conv2d(32, 64, 5, 1, 2),
             nn.MaxPool2d(2),
             nn.Flatten(),
-            nn.Linear(7*7*64, 1024),
+            nn.Linear(7 * 7 * 64, 1024),
             nn.ReLU(),
             nn.Linear(1024, 10),
             nn.Softmax(dim=1)
@@ -385,15 +382,63 @@ class NN_Module(nn.Module):
         return x
 
 
+# 定义训练程序
+def train_model(module,
+                epoch,
+                train_dataloader,
+                loss_fn,
+                optimizer):
+    module.train()
+
+    # 记录训练的次数
+    total_train_step = 0
+
+    for i in range(epoch):
+        for data in train_dataloader:
+            imgs, targets = data
+            imgs = imgs.to(device)
+            targets = targets.to(device)
+            outputs = module(imgs)
+
+            # 误差计算和权重优化
+            loss = loss_fn(outputs, targets)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            # 统计
+            total_train_step = total_train_step + 1
+            if total_train_step % 100 == 0:
+                print("epoch: {}, batch：{}, Loss: {:.3f}".format(i + 1,
+                                                             total_train_step,
+                                                             loss.item()))
+
+
+# 定义验证程序
+def val_model(modol,
+              val_dataloader):
+    modol.eval()
+    total_hits = 0
+    with torch.no_grad():
+        for data in val_dataloader:
+            imgs, targets = data
+            imgs = imgs.to(device)
+            targets = targets.to(device)
+            outputs = modol(imgs)
+            hits = (outputs.argmax(1) == targets).sum()
+            total_hits = total_hits + hits
+    total_accuracy = total_hits / len(val_dataset)
+    print("Accuracy: {:.2f}".format((total_accuracy.round(decimals=2))))
+
+
 # 定义transform
 transform = transforms.Compose([transforms.ToTensor()])
 
-# 读取训练集数据
+# 读取数据集
 train_dataset = MNIST(root="Data",
                       train=True,
                       download=True,
                       transform=transform)
-# 读取验证集数据
 val_dataset = MNIST(root="Data",
                     train=False,
                     download=True,
@@ -408,95 +453,40 @@ val_dataloader = DataLoader(val_dataset,
                             batch_size=64,
                             drop_last=True)
 
+# 定义训练设备
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
 # 实例化模型
 nn_module = NN_Module()
+nn_module = nn_module.to(device)
 
 # 实例化损失函数
 loss_fn = nn.CrossEntropyLoss()
-
-# 实例化优化器
-learning_rate = 0.0001
-optimizer = torch.optim.Adam(params=nn_module.parameters(),
-                             lr=learning_rate)
-
-# 定义训练设备
-device = torch.device("cuda")
-nn_module = nn_module.to(device)
 loss_fn = loss_fn.to(device)
 
-# 定义tensorboard
-writer = SummaryWriter("logs")
-input = torch.ones((64, 1, 28, 28))
-input = input.to(device)
-writer.add_graph(nn_module, input)
+# 实例化优化器
+optimizer = torch.optim.Adam(params=nn_module.parameters())
 
-# 记录训练的次数
-total_train_step = 0
-
-# 记录测试的次数
-total_val_step = 0
-
-# 训练的轮数
-epoch = 1
-
-# 循环epoch
-for i in range(epoch):
-    print("-------第 {} 轮训练开始-------".format(i + 1))
-
-    # 训练模型
-    nn_module.train()
-    for data in train_dataloader:
-        imgs, targets = data
-        imgs = imgs.to(device)
-        targets = targets.to(device)
-        outputs = nn_module(imgs)
-
-        # 误差计算和权重优化
-        loss = loss_fn(outputs, targets)
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        # 统计
-        total_train_step = total_train_step + 1
-        if total_train_step % 100 == 0:
-            print("训练次数：{}, Loss: {}".format(total_train_step,
-                                                 loss.item()))
-        writer.add_scalar("train_loss",
-                          loss.item(),
-                          total_train_step)
+# 训练模型
+train_model(nn_module,
+            epoch=2,
+            train_dataloader=train_dataloader,
+            loss_fn=loss_fn,
+            optimizer=optimizer)
 
 # 验证模型
-nn_module.eval()
-total_test_loss = 0
-total_hits = 0
-with torch.no_grad():
-    for data in val_dataloader:
-        imgs, targets = data
-        imgs = imgs.to(device)
-        targets = targets.to(device)
-        outputs = nn_module(imgs)
-        hits = (outputs.argmax(1) == targets).sum()
-        total_hits = total_hits + hits
-total_accuracy = total_hits/len(val_dataset)
-print("测试集上的正确率: {:.2f}".format((total_accuracy.round(decimals=2))))
+val_model(nn_module, val_dataloader)
 
-# 保存模型
-torch.save(nn_module, "nn_module.pth")
-print("模型已保存")
-
-# 关闭记录
-writer.close()
 ```
 
 ## 2. GPU训练
 
-先使用`torch.device()`定义训练设备，使用模型、数据和损失函数的`.to()`函数修改设备。“cpu”与“cuda”分别使用CPU与GPU，“cuda:0”表明使用第一个显卡。
+先使用`torch.device()`定义训练设备，使用模型、数据和损失函数的`.to()`函数修改设备。“cpu”与“cuda:0”分别使用CPU与GPU，“cuda:0”表明使用第一个显卡。
 
 ```python
 import torch
 
-device = torch.device("cuda")
+device = torch.device("cuda:0")
 
 nn_module.to(device)
 loss_f.to(device)
