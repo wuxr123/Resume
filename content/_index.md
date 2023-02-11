@@ -87,15 +87,15 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: markdown
-    id: gallery
-    content:
-      title: Gallery
-      subtitle: "I'm an photography enthusiast, and here are some photos I took on my trip. I hope you like them too!️️️️ ❤️❤️❤️"
-      text: |-
-        {{< gallery album="photos" >}}
-    design:
-      columns: '1'
+ # - block: markdown
+ #   id: gallery
+ #   content:
+ #     title: Gallery
+ #     subtitle: "I'm an photography enthusiast, and here are some photos I took on my trip. I hope you like them too!️️️️ ❤️❤️❤️"
+ #     text: |-
+ #       {{< gallery album="photos" >}}
+ #   design:
+ #     columns: '1'
   - block: contact
     id: contact
     content:
