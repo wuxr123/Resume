@@ -21,8 +21,8 @@ marketing:
     description: A website containing Xiaoran Wu's academic information and posts.
     twitter: 'XRGIS1999'
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
+    google_analytics: 'xrgis1999@gmail.com'
+    baidu_tongji: '15258545595'
   verification:
     google: ''
     baidu: ''
