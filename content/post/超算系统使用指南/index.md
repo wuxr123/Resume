@@ -167,17 +167,17 @@ image:
 ## 提交R作业
 
 ```
-source /public1/soft/modules/module.sh 加载module命令
-module load R 加载指定版本的R module
-Rscript program.R 运行作业
+source /public1/soft/modules/module.sh
+module load R
+Rscript program.R
 ```
 
 ## 提交Python作业
 
 ```
-source /public1/soft/modules/module.sh 加载module命
-module load anaconda 加载指定版本的python module
-python program.py 运行作业
+source /public1/soft/modules/module.sh
+module load anaconda
+python program.py
 ```
 
 ## 调用第三方R包/Python模块
