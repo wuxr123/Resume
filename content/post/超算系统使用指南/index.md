@@ -63,9 +63,9 @@ image:
 
 ## 其他命令
 
-1. 终端清屏：clear
+1. 终端清屏：`clear`
 
-2. 将dos文件转换为unix格式：dos2unix SHELL_NAME.sh
+2. 将dos文件转换为unix格式：`dos2unix SHELL_NAME.sh`
 
 &nbsp;
 
