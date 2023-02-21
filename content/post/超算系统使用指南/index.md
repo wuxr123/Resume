@@ -225,4 +225,4 @@ python program.py
 
 2. 在命令行使用`sbatch xxxx.sh xxxx.R`提交多次
 
-3. 若次数很多，可以重新将sbatch命令写入sh脚本进行一键提交
+3. 若次数很多，可以重新将sbatch命令写入sh脚本进行一键提交
