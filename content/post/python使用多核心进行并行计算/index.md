@@ -13,7 +13,7 @@ Python中的并行计算可用多线程和多核心两种技术实现。多线�
 
 ## 一、调用multiprocessing模块
 
-使用`import multiprocessing`调用multiprocessing模块。
+使用`import multiprocessing`调用multiprocessing模块。  
 
 ## 二、定义池Pool
 
@@ -21,7 +21,7 @@ Python中的并行计算可用多线程和多核心两种技术实现。多线�
 
 ## 三、运行池Pool
 
-使用pool对象对`map()`函数进行循环`res = pool.map(FUN, X)`。
+使用pool对象对`map()`函数进行循环`pool.map(FUN, X)`。
 
 ## 四、传输数据
 
@@ -62,7 +62,7 @@ if __name__=='__main__':
 
     pool = multiprocessing.Pool(processes=6)
     timetime_start = time.time()
-    res = pool.map(work, m)
+    pool.map(work, m)
     time_end = time.time()
     print(f'multiprocessing method: {time_end - timetime_start}')
 ```
