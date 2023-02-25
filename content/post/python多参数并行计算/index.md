@@ -9,7 +9,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-Python使用multiprocessing模块可以实现多核并行计算显著提高重复性for循环的运行效率（实现方法可见[Python使用多核心进行并行计算 | Xiaoran Wu](https://www.wuxiaoran.top/post/python%E4%BD%BF%E7%94%A8%E5%A4%9A%E6%A0%B8%E5%BF%83%E8%BF%9B%E8%A1%8C%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/)），但传统方法并行时只能接收一个参数。本文介绍了需要输入多个参数的几种情况及解决方案。
+Python使用multiprocessing模块可以实现多核并行计算显著提高重复性for循环的运行效率（实现方法可见[Python使用多核心进行并行计算 | Xiaoran Wu](https://www.wuxiaoran.top/post/python%E4%BD%BF%E7%94%A8%E5%A4%9A%E6%A0%B8%E5%BF%83%E8%BF%9B%E8%A1%8C%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/)），但传统方法并行时只能接收一个参数。本文展示了需要输入多个参数的几种情况及解决方案。
 
 ---
 
@@ -28,18 +28,18 @@ if __name__=='__main__':
     print(res)
 ```
 
-`workfun()`函数是需要并行的函数，此时只需要输入一个参数`m`。若定义一个新的`workfun()`为：
+其中`workfun()`函数是需要并行的函数，此时只有一个输入参数`m`。若定义一个新的`workfun()`为：
 
 ```python
 def workfun(x, y, z):
-    return  + y + z
+    return x + y + z
 ```
 
-则`pool.map()`函数无法同时输入这两个参数，对于输入值为固定或非固定的情况有不同的处理方案。
+由于`pool.map()`函数只能同时传入一个参数，因此无法对新的`workfun()`函数进行并行计算。对于输入的参数值为固定或非固定的几种情况有不同的处理方案。
 
 ### 一、只有一个参数为非固定值
 
-假设x是非固定的，y与z均传入一个定值，可以使用partial模块修饰原函数。
+假设x是非固定的，y与z均传入一个定值，可以使用partial模块修饰原函数，其作用是复刻一个原函数，同时指定其中部分输入参数的值。
 
 ```python
 import multiprocessing
