@@ -64,7 +64,7 @@ if __name__=='__main__':
 
 当输入参数不多时，可以使用`zip()`函数将输入打包成一个成参数，并在`workfun()`函数中解包后继续计算。
 
-```pyhton
+```pyth
 import multiprocessing
 
 def workfun(input):
