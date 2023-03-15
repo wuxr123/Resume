@@ -14,7 +14,7 @@ author_notes:
   - CA
   - ""
 doi: ""
-publication: "*Scientia Geographica Sinica* (地理科学, CSSCI & 北大核心 & CSCD)"
+publication: "*Scientia Geographica Sinica* (地理科学, CSSCI & CSCD)"
 publication_short: ""
 abstract: >-
   Exploring the pattern of population flow will help reveal the law of urban
