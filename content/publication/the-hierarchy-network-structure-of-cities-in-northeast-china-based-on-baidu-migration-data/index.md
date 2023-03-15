@@ -13,7 +13,7 @@ author_notes:
   - ""
   - CA
   - ""
-doi: https://kns.cnki.net/kcms/detail//22.1124.P.20230222.0957.006.html
+doi: ""
 publication: "*Scientia Geographica Sinica* (地理科学, CSSCI & CSCD)"
 publication_short: ""
 abstract: >-
