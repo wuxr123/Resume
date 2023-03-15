@@ -38,18 +38,14 @@ abstract: Satellite-based and reanalysis precipitation products have experienced
   products, improving product quality and guiding product selection.
 draft: false
 featured: false
-tags:
-  - ttt
-categories:
-  - ccc
-projects:
-  - ppp
-slides: mmm
+tags: []
+categories: []
+projects: []
+slides: ""
 image:
   filename: featured.jpg
   focal_point: Smart
   preview_only: false
-summary: sss
+summary: ""
 date: 2023-01-01T01:33:02.507Z
 ---
-d﻿dd
