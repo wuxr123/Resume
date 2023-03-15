@@ -12,6 +12,7 @@ author_notes:
   - ""
   - CA
   - ""
+doi: 10.3974/geodp.2022.03.19
 publication: "*Journal of Global Change Data & Discovery* (全球变化数据学报, CSCD)"
 abstract: "Understanding the spatial distribution and dynamics of current and
   future permafrost is critical for global carbon flow simulation, climate
