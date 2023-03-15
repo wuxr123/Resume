@@ -9,8 +9,8 @@ authors:
 author_notes:
   - ""
   - CA
-doi: ""
-publication: "*Remote Sensing*. https://doi.org/10.3390/rs15010223. (SCI, Q1, IF=5.349)"
+doi: 10.3390/rs15010223
+publication: "*Remote Sensing* (SCI, Q1, IF=5.349)"
 publication_short: ""
 abstract: Satellite-based and reanalysis precipitation products have experienced
   increasing popularity in agricultural, hydrological and meteorological
