@@ -2,7 +2,7 @@
 title: A novel method for merging multi-source daily satellite precipitation
   datasets and gauge observations over Poyang Lake basin, China
 publication_types:
-  - "0"
+  - "2"
 authors:
   - Na Zhao
   - admin
