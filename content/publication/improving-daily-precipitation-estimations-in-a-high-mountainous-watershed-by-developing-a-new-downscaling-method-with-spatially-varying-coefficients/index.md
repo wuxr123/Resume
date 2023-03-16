@@ -9,7 +9,7 @@ authors:
 author_notes:
   - CA
   - ""
-publication: "*Journal of Hydrology* (Under review)"
+publication: "*Journal of Hydrology* (SCI, Q1, IF=6.708, Under review)"
 abstract: "Accurate estimates of spatial patterns of daily precipitation are
   critically important for numerous hydrologic applications. However, the
   estimation of daily precipitation is still challenging, especially in regions
