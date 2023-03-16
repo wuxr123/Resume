@@ -8,7 +8,7 @@ authors:
   - Na Zhao
   - Chun Wang
   - Yan Xu
-  - Xiaoran Wu
+  - admin
 author_notes:
   - ""
   - ""
@@ -16,7 +16,7 @@ author_notes:
   - ""
   - ""
   - ""
-publication: "*Frontiers of Earth Science*(Major revision)"
+publication: "*Frontiers of Earth Science* (SCI, Q2, IF=2.273, Major revision)"
 abstract: A new digital elevation model (DEM) upscaling method based on
   high-accuracy surface modeling (HASM) is proposed by combining the elevation
   data of the DEM and the extracted valley lines for different flow accumulation
