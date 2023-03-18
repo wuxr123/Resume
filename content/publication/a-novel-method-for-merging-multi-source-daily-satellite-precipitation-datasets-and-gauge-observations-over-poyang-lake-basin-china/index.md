@@ -30,7 +30,7 @@ abstract: Obtaining precipitation estimates with high resolution and high
   all cases, with a 42% reduction in MAE and 46% reduction in RMSE. The proposed
   approach may serve as a promising way to generate accurate daily precipitation
   fields with high spatial resolution.
-draft: false
+draft: true
 featured: false
 image:
   filename: featured.jpg
