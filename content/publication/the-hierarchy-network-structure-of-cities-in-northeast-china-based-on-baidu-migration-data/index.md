@@ -13,7 +13,7 @@ author_notes:
   - ""
   - CA
   - ""
-doi: ""
+doi: 10.13249/j.cnki.sgs.2023.02.007
 publication: "*Scientia Geographica Sinica* (地理科学, CSSCI & CSCD)"
 publication_short: ""
 abstract: >-
