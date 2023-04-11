@@ -15,8 +15,7 @@ authors:
   - Du Zheng
 author_notes:
   - ""
-  - "*"
-  - ""
+  - CA
 publication: Nature Ecology & Evolution (Q1, IF=19.100, under review)
 publication_short: ""
 abstract: Grazing is one of the controls of aboveground net primary productivity
