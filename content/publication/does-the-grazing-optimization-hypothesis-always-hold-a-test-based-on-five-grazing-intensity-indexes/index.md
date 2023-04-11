@@ -11,7 +11,7 @@ authors:
   - Siqi Deng
   - Ke Wang
   - Xuan Gao
-  - Xiaoran Wu
+  - admin
   - Du Zheng
 author_notes:
   - ""
