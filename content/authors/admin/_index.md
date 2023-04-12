@@ -33,9 +33,9 @@ social:
     link: https://github.com/XRGIS1999/
     label: GitHub
 organizations:
-  - name: IGSNRR, Chinese Academy of Sciences
+  - name: ^1^ IGSNRR, Chinese Academy of Sciences
     url: http://www.igsnrr.cas.cn/
-  - name: CRE, University of Chinese Academy of Sciences
+  - name: ^2^ CRE, University of Chinese Academy of Sciences
     url: https://cre.ucas.ac.cn/
 education:
   courses: []
