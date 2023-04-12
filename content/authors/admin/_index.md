@@ -30,7 +30,7 @@ social:
     label: OCRID ID
   - icon: github
     icon_pack: fab
-    link: https://github.com/XRGIS1999/
+    link: https://github.com/SeanNg1999/
     label: GitHub
 organizations:
   - name: IGSNRR, Chinese Academy of Sciences
