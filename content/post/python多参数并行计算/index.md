@@ -9,7 +9,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-Python使用multiprocessing模块可以实现多核并行计算显著提高重复性for循环的运行效率（实现方法可见[Python使用多核心进行并行计算 | Xiaoran Wu](https://www.wuxiaoran.top/post/python%E4%BD%BF%E7%94%A8%E5%A4%9A%E6%A0%B8%E5%BF%83%E8%BF%9B%E8%A1%8C%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/)），但传统方法并行时只能接收一个参数。本文展示了需要输入多个参数的几种情况及解决方案。
+Python使用multiprocessing模块可以实现多核并行计算显著提高重复性for循环的运行效率（实现方法可见[Python使用多核心进行并行计算 | Xiaoran Wu](https://www.xiaoranwu.cn/post/python%E4%BD%BF%E7%94%A8%E5%A4%9A%E6%A0%B8%E5%BF%83%E8%BF%9B%E8%A1%8C%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/)），但传统方法并行时只能接收一个参数。本文展示了需要输入多个参数的几种情况及解决方案。
 
 ---
 
