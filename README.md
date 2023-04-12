@@ -2,4 +2,4 @@
 
 The target of these codes is to build a personal website by applying Hugo's Academic Resume theme.
 
-The original Hugo's Academic Resume theme template can be found at [https://academic-demo.netlify.app/](https://academic-demo.netlify.app/). And the built website can be found at [https://www.wuxiaoran.top/](https://www.wuxiaoran.top/).
+The original Hugo's Academic Resume theme template can be found at [https://academic-demo.netlify.app/](https://academic-demo.netlify.app/). And the built website can be found at [https://www.xiaoranwu.cn/](https:/www.xiaoranwu.cn/).
