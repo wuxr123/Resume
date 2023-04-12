@@ -15,7 +15,7 @@ image:
 
 在地理研究中，空间数据可视化是不可缺少的环节，也是论文中最常见的图形。本文使用ggplot2包分别展示了矢量和栅格数据的可视化方法。使用的原始数据包括最常见的shp矢量文件与tif栅格文件，也包括使用csv表格存储的点数据与栅格数据。
 
-本文注重空间数据可视化，关于ggplot2包的基本函数，如`theme()`、`labs()`等请参考[ggplot作图入门教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/ggplot2.html)；关于`scale_color_stepsn()`等颜色设置函数请参考之前的post——[R语言ggplot2包的颜色设置 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80ggplot2%E5%8C%85%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/)；关于综合制图所需要的比例尺、指北针等制图要素请参考另一篇post——[R语言空间数据综合制图 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E7%BB%BC%E5%90%88%E5%88%B6%E5%9B%BE/)。
+本文注重空间数据可视化，关于ggplot2包的基本函数，如`theme()`、`labs()`等请参考[ggplot作图入门教程](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/ggplot2.html)；关于`scale_color_stepsn()`等颜色设置函数请参考之前的post——[R语言ggplot2包的颜色设置 | Xiaoran Wu](https://www.wuxiaoran.top/post/r%E8%AF%AD%E8%A8%80ggplot2%E5%8C%85%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE/)；关于综合制图所需要的比例尺、指北针等制图要素请参考另一篇post——[R语言空间数据综合制图 | Xiaoran Wu](https://www.xiaoranwu.cn/post/r%E8%AF%AD%E8%A8%80%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E7%BB%BC%E5%90%88%E5%88%B6%E5%9B%BE/)。
 
 &nbsp;
 
