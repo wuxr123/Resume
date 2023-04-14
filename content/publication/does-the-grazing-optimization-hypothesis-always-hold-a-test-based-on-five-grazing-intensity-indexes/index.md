@@ -37,7 +37,7 @@ abstract: Grazing is one of the controls of aboveground net primary productivity
   Our findings highlight the need to consider grazing-induced changes in plant
   growth when quantifying the stress of livestock herbivory on grasslands, and
   we recommend FCR III as an excellent indicator of grazing intensity.
-draft: false
+draft: true
 featured: false
 image:
   filename: featured.jpg
