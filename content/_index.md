@@ -34,7 +34,7 @@ sections:
               Main awards:
 
               * Undergraduate Scholarship
-              * Excellent Student
+              * Outstanding Student
         - title: "Bachelor's degree"
           company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
