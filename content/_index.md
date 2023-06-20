@@ -33,8 +33,8 @@ sections:
           description: |2-
               Main awards:
 
-              * Undergraduate Scholarship
-              * Outstanding Student
+              * Undergraduate Scholarship (2022)
+              * Outstanding Student (2023)
         - title: "Bachelor's degree"
           company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
@@ -45,9 +45,9 @@ sections:
           description: |2-
               Main awards:
 
-              * China National Scholarship
-              * President Scholarship
-              * Outstanding Undergraduate
+              * China National Scholarship (2020)
+              * President Scholarship (2019, 2021, 2022)
+              * Outstanding Undergraduate (2022)
     design:
       columns: '2'
   - block: collection
