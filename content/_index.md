@@ -46,7 +46,7 @@ sections:
               Main awards:
 
               * China National Scholarship (2020)
-              * President Scholarship (2019, 2021, 2022)
+              * President Scholarship (2019, 2021 and 2022)
               * Outstanding Undergraduate (2022)
     design:
       columns: '2'
