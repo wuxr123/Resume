@@ -33,7 +33,7 @@ sections:
           description: |2-
               Main awards:
 
-              * Undergraduate Scholarship (2022)
+              * College Student Scholarship (2022)
               * Outstanding Student (2023)
         - title: "Bachelor's degree"
           company: Northeast Normal University
