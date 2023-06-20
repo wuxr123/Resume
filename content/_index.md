@@ -45,8 +45,9 @@ sections:
           description: |2-
               Main awards:
 
-              * China National Scholarship (2020)
               * President Scholarship (2019, 2021 and 2022)
+              * China National Scholarship (2020)
+              * Special Prize of the National College Students GIS Application Skills Competition (2020)
               * Outstanding Undergraduate (2022)
     design:
       columns: '2'
