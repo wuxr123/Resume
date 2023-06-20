@@ -44,7 +44,7 @@ abstract: "Accurate estimates of spatial patterns of daily precipitation are
   this study provides a promising way to generate accurate daily precipitation
   fields with high spatial resolution over data sparse and high mountain
   regions."
-draft: false
+draft: true
 featured: false
 image:
   filename: featured.jpg
