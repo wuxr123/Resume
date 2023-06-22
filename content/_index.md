@@ -45,7 +45,7 @@ sections:
           description: |2-
               Main awards:
 
-              * President Scholarship (2019, 2021 and 2022)
+              * President Scholarship <p align="right">(2019, 2021 and 2022)</p>
               * Outstanding Student/Student Cadre (2019, 2020, 2021, 2022)
               * National Scholarship (2020)
               * Special Prize of the National College Students GIS Application Skills Competition (2020)
