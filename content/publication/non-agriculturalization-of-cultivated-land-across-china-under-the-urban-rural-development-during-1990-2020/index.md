@@ -10,7 +10,7 @@ author_notes:
   - ""
   - CA
 publication: "*Land Use Policy* (Q1, IF=7.1, Submitied)"
-draft: true
+draft: false
 featured: false
 image:
   filename: featured
