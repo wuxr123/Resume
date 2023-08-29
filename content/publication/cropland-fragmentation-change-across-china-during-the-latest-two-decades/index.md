@@ -38,7 +38,7 @@ abstract: There is an urgent need for a thorough assessment of cropland
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: 图片-1.png
   focal_point: Smart
   preview_only: false
 date: 2023-08-29T13:34:24.749Z
