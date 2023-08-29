@@ -16,7 +16,7 @@ authors:
 author_notes:
   - ""
   - CA
-publication: "*Global Ecology and Biogeography* (Q1, IF=6.4, under review)"
+publication: "*Global Ecology and Biogeography* (Q1, IF=6.4, Under review)"
 publication_short: ""
 abstract: Grazing is one of the controls of aboveground net primary productivity
   (ANPP) in grassland ecosystems. The grazing optimization hypothesis (GOH)
