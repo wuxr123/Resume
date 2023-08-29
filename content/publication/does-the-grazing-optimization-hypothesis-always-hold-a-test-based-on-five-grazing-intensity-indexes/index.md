@@ -1,6 +1,5 @@
 ---
-title: "Does the grazing optimization hypothesis always hold: A test based on
-  five grazing intensity indexes"
+title: Globally-consistent response of grassland productivity to grazing intensity
 publication_types:
   - "2"
 authors:
@@ -12,11 +11,12 @@ authors:
   - Ke Wang
   - Xuan Gao
   - admin
+  - Dashan Tian
   - Du Zheng
 author_notes:
   - ""
   - CA
-publication: Nature Ecology & Evolution (Q1, IF=19.100, under review)
+publication: "*Global Ecology and Biogeography* (Q1, IF=6.4, under review)"
 publication_short: ""
 abstract: Grazing is one of the controls of aboveground net primary productivity
   (ANPP) in grassland ecosystems. The grazing optimization hypothesis (GOH)
@@ -37,7 +37,7 @@ abstract: Grazing is one of the controls of aboveground net primary productivity
   Our findings highlight the need to consider grazing-induced changes in plant
   growth when quantifying the stress of livestock herbivory on grasslands, and
   we recommend FCR III as an excellent indicator of grazing intensity.
-draft: true
+draft: false
 featured: false
 image:
   filename: featured.jpg
