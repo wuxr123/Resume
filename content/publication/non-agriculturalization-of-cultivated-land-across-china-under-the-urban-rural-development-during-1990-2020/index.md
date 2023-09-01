@@ -12,7 +12,7 @@ authors:
 author_notes:
   - ""
   - CA
-publication: "*Land Use Policy* (Q1, IF=7.1, Submitied)"
+publication: "*Land Use Policy* (Q1, IF=7.1, Submittied)"
 draft: false
 featured: false
 image:
