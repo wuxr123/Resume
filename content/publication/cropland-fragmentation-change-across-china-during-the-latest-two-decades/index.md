@@ -8,7 +8,7 @@ authors:
   - admin
 author_notes:
   - CA
-publication: "*Science of The Total Environment* (Q1, IF=9.8, submitted)"
+publication: "*Science of The Total Environment* (Q1, IF=9.8, Submitted)"
 abstract: There is an urgent need for a thorough assessment of cropland
   fragmentation to provide valuable insights for guiding policies related to
   cropland protection, restoration and other relevant measures. Despite the
