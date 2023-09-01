@@ -6,9 +6,9 @@ publication_types:
 authors:
   - admin
   - Na Zhao
-  - YansuiLiu
-  - LiqiangZhang
-  - YuweiWang
+  - Yansui Liu
+  - Liqiang Zhang
+  - Yuwei Wang
 author_notes:
   - ""
   - CA
