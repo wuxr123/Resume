@@ -3,14 +3,12 @@ title: Cropland fragmentation change across China during the latest two decades
 publication_types:
   - "2"
 authors:
-  - Kainan Chen
   - Na Zhao
+  - Kainan Chen
   - admin
 author_notes:
-  - ""
   - CA
-  - ""
-publication: "*Remote sensing* (Q1, IF=5.0, Major revision)"
+publication: "*Science of The Total Environment* (Q1, IF=9.8, submitted)"
 abstract: There is an urgent need for a thorough assessment of cropland
   fragmentation to provide valuable insights for guiding policies related to
   cropland protection, restoration and other relevant measures. Despite the
