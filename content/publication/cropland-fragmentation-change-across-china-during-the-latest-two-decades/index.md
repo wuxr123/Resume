@@ -33,7 +33,7 @@ abstract: There is an urgent need for a thorough assessment of cropland
   CFI and NTL had a quadratic parabolic relationship. The results of our study
   would help policymakers to formulate targeted and sustainable land-use
   policies for the sustainable socio-economic development of China.
-draft: false
+draft: true
 featured: false
 image:
   filename: 图片-1.png
