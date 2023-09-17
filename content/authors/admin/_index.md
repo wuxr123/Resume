@@ -45,5 +45,5 @@ highlight_name: true
 first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
-Mr. Xiaoran Wu (吴潇然) is currently pursuing a Master of Natural Science degree in Cartography and Geographical Information System at the State Key Laboratory of Resources and Environmental Information System (LREIS), Institute of Geographic Sciences and Natural Resources Research (IGSNRR), Chinese Academy of Sciences (CAS). His research interests include the application of deep learning and system modeling techniques in climate, ecology, and environment.
+Mr. Xiaoran Wu (吴潇然) is currently pursuing a Master of Natural Science degree in Cartography and Geographical Information System. His research interests include the application of deep learning and system modeling techniques in climate, ecology, and environment.
 {style="text-align: justify;"}
