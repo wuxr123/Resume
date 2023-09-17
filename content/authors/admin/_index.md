@@ -45,5 +45,4 @@ highlight_name: true
 first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
-Mr. Xiaoran Wu (吴潇然) is currently pursuing a Master of Natural Science degree in Cartography and Geographical Information System. His research interests include the application of deep learning and system modeling techniques in climate, ecology, and environment. Currently, he has published 4 academic papers, with 2 of them as the first author and 2 as the second author (with his advisor as the first author). These papers have been published in journals including $Remote Sensing$, $Frontiers of Earth Science$, and $Chinese Geographical Science$.
-{style="text-align: justify;"}
+Mr. Xiaoran Wu (吴潇然) is currently pursuing a Master of Natural Science degree in Cartography and Geographical Information System. His research interests include the application of deep learning and system modeling techniques in climate, ecology, and environment. Currently, he has published 4 academic papers, with 2 of them as the first author and 2 as the second author (with his advisor as the first author). These papers have been published in journals including *Remote Sensing*, *Frontiers of Earth Science*, and *Chinese Geographical Science*.
