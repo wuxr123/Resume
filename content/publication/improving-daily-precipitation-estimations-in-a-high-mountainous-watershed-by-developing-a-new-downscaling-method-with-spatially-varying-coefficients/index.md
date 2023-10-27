@@ -9,7 +9,7 @@ authors:
 author_notes:
   - CA
   - ""
-doi: https://doi.org/10.1016/j.jhydrol.2023.130367
+doi: 10.1016/j.jhydrol.2023.130367
 publication: "*Journal of Hydrology* (Q1, IF=6.4)"
 abstract: Accurate estimates of spatial patterns of daily precipitation are
   critically important for numerous hydrologic applications. However, the
