@@ -35,6 +35,7 @@ sections:
 
               * College Student Scholarship (2022)
               * Outstanding Student (2023)
+              * First Prize Scholarship (2023)
         - title: "Bachelor's degree"
           company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
