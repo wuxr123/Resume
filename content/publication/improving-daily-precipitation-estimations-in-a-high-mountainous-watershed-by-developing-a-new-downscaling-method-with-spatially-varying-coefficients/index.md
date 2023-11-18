@@ -24,7 +24,7 @@ abstract: Accurate estimates of spatial patterns of daily precipitation are
   (RESF) model was introduced and improved by considering the nonlinear term;
   second, the residuals were corrected by applying the simple inverse distance
   weighted (IDW) method. Using the proposed method, named RESF-IDW, the Global
-  Satellite Mapping of Precipitation (GSMaP) was downscaled from 0.1o to 0.01o
+  Satellite Mapping of Precipitation (GSMaP) was downscaled from 0.1° to 0.01°
   by integrating reanalyzed atmospheric data and environmental variables as
   auxiliary information. The performance of RESF-IDW was evaluated and compared
   with the geographically weighted regression (GWR) method and the original
