@@ -33,9 +33,10 @@ sections:
           description: |2-
               Main awards:
 
-              * College Student Scholarship (2022)
-              * Outstanding Student (2023)
-              * First Prize Scholarship (2023)
+              * College Student Scholarship (2022, UCAS)
+              * Outstanding Student (2023, UCAS)
+              * First Prize Scholarship (2023, UCAS)
+              * President Scholarship (2023, IGSNRR)
         - title: "Bachelor's degree"
           company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
@@ -46,11 +47,11 @@ sections:
           description: |2-
               Main awards:
 
-              * President Scholarship (2019, 2021 and 2022)
-              * Outstanding Student/Student Cadre (2019, 2020, 2021, 2022)
-              * National Scholarship (2020)
-              * Special Prize of the National College Students GIS Application Skills Competition (2020)
-              * Outstanding Graduate (2022)
+              * President Scholarship (2019, 2021 and 2022, NENU)
+              * Outstanding Student/Student Cadre (2019, 2020, 2021, 2022, NENU)
+              * National Scholarship (2020, Ministry of Education)
+              * Special Prize of the National College Students GIS Application Skills Competition (2020, CAGIS)
+              * Outstanding Graduate (2022, NENU)
     design:
       columns: '2'
   - block: collection
