@@ -49,7 +49,7 @@ sections:
 
               * President Scholarship (2019, 2021 and 2022, NENU)
               * Outstanding Student/Student Cadre (2019, 2020, 2021, 2022, NENU)
-              * National Scholarship (2020, Ministry of Education)
+              * National Scholarship (2020, Ministry of Education of the People's Republic of China)
               * Special Prize of the National College Students GIS Application Skills Competition (2020, CAGIS)
               * Outstanding Graduate (2022, NENU)
     design:
