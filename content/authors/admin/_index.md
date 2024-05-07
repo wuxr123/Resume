@@ -4,9 +4,8 @@ role: M.S. candidate (2nd year)
 bio: My research interests include the climate change studies, environmental
   modeling and deep learning.
 interests:
-  - Climate change studies
-  - Spatial statistics
-  - Ecological and environmental information studies
+  - Climate change
+  - Ecological environment and urban studies
 social:
   - icon: envelope
     icon_pack: fas
@@ -33,6 +32,8 @@ social:
     link: https://github.com/SeanNg1999/
     label: GitHub
 organizations:
+  - name: Institute of Geographic Sciences and Natural Resources Research, CAS
+    url: http://www.igsnrr.ac.cn/
   - name: University of Chinese Academy of Sciences
     url: https://www.ucas.ac.cn/
 education:
