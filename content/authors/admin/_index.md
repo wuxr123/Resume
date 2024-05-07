@@ -33,10 +33,8 @@ social:
     link: https://github.com/SeanNg1999/
     label: GitHub
 organizations:
-  - name: IGSNRR, Chinese Academy of Sciences
-    url: http://www.igsnrr.cas.cn/
-  - name: CRE, University of Chinese Academy of Sciences
-    url: https://cre.ucas.ac.cn/
+  - name: University of Chinese Academy of Sciences
+    url: https://www.ucas.ac.cn/
 education:
   courses: []
 superuser: true
