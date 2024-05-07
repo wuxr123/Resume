@@ -1,6 +1,6 @@
 ---
 title: Xiaoran Wu
-role: M.S. candidate
+role: M.S. candidate (2nd year)
 bio: My research interests include the climate change studies, environmental
   modeling and deep learning.
 interests:
