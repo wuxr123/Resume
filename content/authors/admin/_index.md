@@ -1,6 +1,6 @@
 ---
 title: Xiaoran Wu
-role: "Master's student (Major: GIS)"
+role: M.S. candidate
 bio: My research interests include the climate change studies, environmental
   modeling and deep learning.
 interests:
