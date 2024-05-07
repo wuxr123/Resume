@@ -24,7 +24,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: "Master's student"
-          company: University of Chinese Academy of Sciences
+          company: University of Chinese Academy of Sciences (UCAS)
           company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
           location: Beijing, China
@@ -38,7 +38,7 @@ sections:
               * First Prize Scholarship (2023, UCAS)
               * First Prize of the President's Scholarship (2023, IGSNRR)
         - title: "Bachelor's degree"
-          company: Northeast Normal University
+          company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
           location: Changchun, China
