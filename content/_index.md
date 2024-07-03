@@ -37,7 +37,7 @@ sections:
               * Outstanding Student (2023, UCAS)
               * First Prize Scholarship (2023, UCAS)
               * First Prize of the President's Scholarship (2023, IGSNRR)
-        - title: "Bachelor of Science"
+        - title: "Bachelor's degree"
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
