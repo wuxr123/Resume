@@ -23,7 +23,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: "M.S. candidate"
+        - title: "Master's student"
           company: University of Chinese Academy of Sciences (UCAS)
           company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
@@ -37,7 +37,7 @@ sections:
               * Outstanding Student (2023, UCAS)
               * First Prize Scholarship (2023, UCAS)
               * First Prize of the President's Scholarship (2023, IGSNRR)
-        - title: "B.S. degree"
+        - title: "Bachelor of Science"
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
