@@ -32,8 +32,6 @@ organizations:
   - name: Institute of Geographic Sciences and Natural Resources Research, Chinese
       Academy of Sciences
     url: http://www.igsnrr.ac.cn/
-  - name: University of Chinese Academy of Sciences
-    url: https://www.ucas.ac.cn/
 education:
   courses: []
 superuser: true
