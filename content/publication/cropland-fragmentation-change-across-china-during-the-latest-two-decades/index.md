@@ -14,6 +14,7 @@ author_notes:
   - ""
   - ""
   - CA
+doi: 10.1016/j.agsy.2024.104010
 publication: "*Agricultural Systems*"
 abstract: >-
   **CONTEXT**
