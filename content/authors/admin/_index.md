@@ -1,6 +1,6 @@
 ---
 title: Xiaoran Wu
-role: Master's student
+role: My research interests include terrestrial ecosystems and climate change.
 bio: ""
 interests:
   - Terrestrial ecosystem
