@@ -1,5 +1,5 @@
 ---
-title: Xiaoran Wu
+title: Xiaoran WU
 role: Master's student
 bio: ""
 interests:
@@ -29,7 +29,8 @@ social:
     link: https://orcid.org/0000-0001-5438-0510/
     label: OCRID ID
 organizations:
-  - name: Institute of Geographic Sciences and Natural Resources Research, CAS
+  - name: Institute of Geographic Sciences and Natural Resources Research, Chinese
+      Academy of Sciences
     url: http://www.igsnrr.ac.cn/
   - name: University of Chinese Academy of Sciences
     url: https://www.ucas.ac.cn/
