@@ -1,6 +1,6 @@
 ---
 title: Xiaoran Wu
-role: Master's student
+role: Master's Student
 bio: ""
 interests:
   - Climate change
