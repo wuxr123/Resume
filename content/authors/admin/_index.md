@@ -1,6 +1,6 @@
 ---
 title: Xiaoran Wu
-role: M.S. candidate
+role: Master's student
 bio: ""
 interests:
   - Climate change
