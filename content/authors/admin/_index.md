@@ -1,5 +1,5 @@
 ---
-title: Xiaoran WU
+title: Xiaoran Wu
 role: Master's student
 bio: ""
 interests:
