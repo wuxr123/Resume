@@ -103,11 +103,11 @@ sections:
     content:
       title: Contact
       text: |-
-        You can send me a message here. Please leave your name and email so that I can reply.
+        You're welcome to leave me a message, and don't forget to include your email address!
       email: wu_xiaoran@outlook.com
  #    phone: +86 15258545595
       address:
-        street: Office C404-2, 11A, Datun Road, Chaoyang District
+        street: Room C404-2, 11A, Datun Road, Chaoyang District
         city: Beijing
         postcode: CN 100101
         country: China
