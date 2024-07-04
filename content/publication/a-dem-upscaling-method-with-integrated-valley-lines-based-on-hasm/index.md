@@ -8,8 +8,7 @@ authors:
   - Na Zhao
   - Chun Wang
   - Yan Xu
-  - __Wu
-  - x.__
+  - admin
 author_notes:
   - ""
   - ""
