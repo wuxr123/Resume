@@ -23,7 +23,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: "Master's Student"
+        - title: "Master's student"
           company: University of Chinese Academy of Sciences (UCAS)
           company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
@@ -31,12 +31,10 @@ sections:
           date_start: '2022-09-01'
           date_end: ''
           description: |2-
-              Main awards:
-
-              * College Student Scholarship (2022, UCAS)
-              * Outstanding Student (2023, UCAS)
+              * Graduate Freshmen Scholarship (2022, UCAS)
+              * Merit Student (2023, UCAS)
               * First Prize Scholarship (2023, UCAS)
-              * First Prize of the President's Scholarship (2023, IGSNRR)
+              * First Prize of the Institute Director's Scholarship (2023, CAS)
         - title: "Bachelor's degree"
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
@@ -45,13 +43,12 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-07-01'
           description: |2-
-              Main awards:
-
+              * Outstanding Graduates (2022, NENU)
               * President Scholarship (2019, 2021 and 2022, NENU)
-              * Outstanding Student/Student Cadre (2019, 2020, 2021, 2022, NENU)
+              * Outstanding Student (2019, 2020, 2021, 2022, NENU)
               * National Scholarship (2020, Ministry of Education of the People's Republic of China)
               * Special Prize of the National College Students GIS Application Skills Competition (2020, CAGIS)
-              * Outstanding Graduate (2022, NENU)
+
     design:
       columns: '2'
   - block: collection
