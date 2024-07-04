@@ -1,10 +1,12 @@
 ---
 title: Xiaoran Wu
-role: Master's Student
+role: Master's student
 bio: ""
 interests:
+  - Terrestrial ecosystem
   - Climate change
-  - Ecological environment and urban studies
+  - Remote sensing
+  - Deep learning
 social:
   - icon: envelope
     icon_pack: fas
@@ -26,10 +28,6 @@ social:
     icon_pack: ai
     link: https://orcid.org/0000-0001-5438-0510/
     label: OCRID ID
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/SeanNg1999/
-    label: GitHub
 organizations:
   - name: Institute of Geographic Sciences and Natural Resources Research, CAS
     url: http://www.igsnrr.ac.cn/
@@ -43,5 +41,5 @@ highlight_name: true
 first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
-Mr. Xiaoran Wu (吴潇然) is currently pursuing a M.S. degree in Cartography and Geographical Information System. His research interests include climate change, ecological environment, and urban studies, with a particular focus on the application of remote sensing technology and deep learning methods.
+I'm pursuing my master's degree in Cartography and Geographic Information Systems. My research interests include terrestrial ecosystems and climate change, with a particular focus on the application of remote sensing technology and deep learning methods.
 {style="text-align: justify;"}
