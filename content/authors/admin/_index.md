@@ -7,7 +7,7 @@ interests:
   - Climate change
   - Remote sensing
   - Deep learning
-social: []
+# social: []
 organizations:
   - name: Institute of Geographic Sciences and Natural Resources Research, Chinese
       Academy of Sciences
