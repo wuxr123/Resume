@@ -7,27 +7,7 @@ interests:
   - Climate change
   - Remote sensing
   - Deep learning
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto: wu_xiaoran@outlook.com"
-    label: E-mail
-  - display:
-      header: false
-    icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=rcmTdYEAAAAJ&hl
-    label: Google Scholar
-  - icon: orcid
-    icon_pack: ai
-    link: https://orcid.org/0000-0001-5438-0510/
-    label: OCRID ID
-  - display:
-      header: false
-    icon: researchgate
-    icon_pack: ai
-    link: https://www.researchgate.net/profile/Xiaoran-Wu-10
-    label: ResearchGate
+social: []
 organizations:
   - name: Institute of Geographic Sciences and Natural Resources Research, Chinese
       Academy of Sciences
@@ -41,4 +21,6 @@ first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
 I am pursuing a master's degree in Cartography and Geographic Information Systems. My research interests include terrestrial ecosystems and climate change, with a focus on the application of remote sensing technology and deep learning methods in these areas.
+
+Google Scholar: https://scholar.google.com/citations?user=rcmTdYEAAAAJ&hl
 {style="text-align: justify;"}
