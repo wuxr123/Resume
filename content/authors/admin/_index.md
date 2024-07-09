@@ -1,7 +1,7 @@
 ---
 title: Xiaoran Wu
 role: Master's student
-bio: ""
+bio: "aaa"
 interests:
   - Terrestrial ecosystem
   - Climate change
