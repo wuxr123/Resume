@@ -103,7 +103,7 @@ sections:
     content:
       title: Contact
       text: |-
-        You're welcome to leave me a message, and don't forget to include your email address!
+        You're welcome to leave me a message!
       email: wu_xiaoran@outlook.com
  #    phone: +86 15258545595
       address:
