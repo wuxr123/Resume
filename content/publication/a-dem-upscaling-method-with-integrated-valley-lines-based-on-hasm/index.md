@@ -16,7 +16,7 @@ author_notes:
   - ""
   - ""
   - ""
-publication: "*Frontiers of Earth Science*. (Accepted)"
+publication: "*Frontiers of Earth Science*. (Online)"
 abstract: A new digital elevation model (DEM) upscaling method based on
   high-accuracy surface modeling (HASM) is proposed by combining the elevation
   data of the DEM and the extracted valley lines for different flow accumulation
