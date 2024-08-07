@@ -4,7 +4,7 @@ title: Cropland non-agriculturalization caused by the expansion of built-up
 publication_types:
   - "2"
 authors:
-  - Xiaoran Wu
+  - admin
   - Na Zhao
   - Yuwei Wang
   - Liqiang Zhang
