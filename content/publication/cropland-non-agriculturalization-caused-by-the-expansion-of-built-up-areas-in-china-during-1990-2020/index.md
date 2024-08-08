@@ -17,6 +17,7 @@ author_notes:
   - ""
   - CA
   - ""
+doi: 10.1016/j.landusepol.2024.107312
 publication: "*Land Use Policy*"
 abstract: The unprecedented built-up area expansion in China has resulted in a
   significant occupation of cropland. Yet, to date, we have not achieved
