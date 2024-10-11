@@ -41,11 +41,11 @@ sections:
           company_logo: cas
           location: Beijing, China
           date_start: '2022-09-01'
-          date_end: '2025-06-01'
+          date_end: 'Expected 2025-06-01'
           description: |2-
               * National Scholarship, China (2024)
-              * Director Scholarship, IGSNRR (2023)
-              * First Prize Scholarship, IGSNRR (2023)
+              * Director Scholarship, IGSNRR (2023 and 2024)
+              * First Prize Scholarship, IGSNRR (2023 and 2024)
         - title: B.S. in Geographic information science
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
