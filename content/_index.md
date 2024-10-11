@@ -25,7 +25,7 @@ sections:
       items:
         - title: Ph.D. in Ecology
           company: Tsinghua University (THU)
-          company_url: 'https://vi.tsinghua.edu.cn/'
+          company_url: 'https://tsinghua.edu.cn/'
           company_logo: THU
           location: Beijing, China
           date_start: '2025-09-01'
@@ -43,9 +43,9 @@ sections:
           date_start: '2022-09-01'
           date_end: '2025-06-01'
           description: |2-
-              * National Scholarship (2024, Ministry of Education of the People's Republic of China)
-              * First Prize Scholarship (2023, UCAS)
-              * First Prize of the Institute Director's Scholarship (2023, CAS)
+              * National Scholarship, China (2024)
+              * Director Scholarship, IGSNRR (2023)
+              * First Prize Scholarship, IGSNRR (2023)
         - title: B.S. in Geographic information science
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
@@ -54,9 +54,9 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-07-01'
           description: |2-
-              * National Scholarship (2020, Ministry of Education of the People's Republic of China)
-              * President Scholarship (2019, 2021 and 2022, NENU)
-              * Outstanding Graduates (2022, NENU)
+              * National Scholarship, China (2020)
+              * President Scholarship, NENU (2019, 2021 and 2022)
+              * Outstanding Graduates, NENU (2022)
 
     design:
       columns: '2'
