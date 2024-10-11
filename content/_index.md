@@ -23,7 +23,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Ph.D. in Ecology
+        - title: Ph.D. in Ecology (expected)
           company: Tsinghua University (THU)
           company_url: 'https://tsinghua.edu.cn/'
           company_logo: THU
@@ -35,7 +35,7 @@ sections:
 #              * Merit Student (2023, UCAS)
 #              * First Prize Scholarship (2023, UCAS)
 #              * First Prize of the Institute Director's Scholarship (2023, CAS)
-        - title: M.S. in Cartography and geographic information system
+        - title: M.S. in Geography (expected)
           company: University of Chinese Academy of Sciences (UCAS)
           company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
@@ -46,7 +46,7 @@ sections:
 #              * National Scholarship, China (2024)
 #              * Director Scholarship, IGSNRR (2023 and 2024)
 #              * First Prize Scholarship, IGSNRR (2023 and 2024)
-        - title: B.S. in Geographic information science
+        - title: B.S. in Geography
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
