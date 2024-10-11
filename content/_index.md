@@ -111,8 +111,8 @@ sections:
     id: contact
     content:
       title: Contact
-      text: |-
-        You're welcome to leave me a message!
+#      text: |-
+#        You're welcome to leave me a message!
       email: wu_xiaoran@outlook.com
  #    phone: +86 15258545595
       address:
@@ -122,14 +122,14 @@ sections:
         country: China
         country_code: CN
       # Automatically link email and phone or display as text?
-      autolink: true
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+#      autolink: true
+#      form:
+#        provider: netlify
+#        formspree:
+#          id:
+#        netlify:
+#          # Enable CAPTCHA challenge to reduce spam?
+#          captcha: false
     design:
       columns: '2'
 ---
