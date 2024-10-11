@@ -17,7 +17,7 @@ highlight_name: true
 first_name: Xiaoran
 email: wu_xiaoran@outlook.com
 ---
-I am pursuing a master's degree in Cartography and Geographic Information System. My research interests include terrestrial ecosystems and climate change, with a focus on the application of remote sensing technology and deep learning methods in these areas. 
+I'm pursuing a master's degree in Cartography and Geographic Information System. And my research interests include terrestrial ecosystems and climate change, with a focus on the application of remote sensing technology and deep learning methods in these areas. 
 {style="text-align: justify;"}
 Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcmTdYEAAAAJ&hl)
 {style="text-align: justify;"}
