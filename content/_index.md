@@ -25,7 +25,7 @@ sections:
       items:
         - title: Ph.D. in Ecology (expected)
           company: Tsinghua University
-          company_url: 'https://tsinghua.edu.cn/'
+          company_url: 'https://www.tsinghua.edu.cn/'
           company_logo: THU
           location: Beijing, China
           date_start: '2025-09-01'
