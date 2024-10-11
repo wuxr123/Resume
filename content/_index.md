@@ -23,19 +23,30 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Master's student
+        - title: Ph.D. in Ecology
+          company: Tsinghua University (THU)
+          company_url: 'https://vi.tsinghua.edu.cn/'
+          company_logo: THU
+          location: Beijing, China
+          date_start: '2025-09-01'
+          date_end: ''
+#          description: |2-
+#              * Graduate Freshmen Scholarship (2022, UCAS)
+#              * Merit Student (2023, UCAS)
+#              * First Prize Scholarship (2023, UCAS)
+#              * First Prize of the Institute Director's Scholarship (2023, CAS)
+        - title: M.S. in Cartography and geographic information system
           company: University of Chinese Academy of Sciences (UCAS)
           company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
           location: Beijing, China
           date_start: '2022-09-01'
-          date_end: ''
+          date_end: '2025-06-01'
           description: |2-
-              * Graduate Freshmen Scholarship (2022, UCAS)
-              * Merit Student (2023, UCAS)
+              * National Scholarship (2024, Ministry of Education of the People's Republic of China)
               * First Prize Scholarship (2023, UCAS)
               * First Prize of the Institute Director's Scholarship (2023, CAS)
-        - title: "Bachelor's degree"
+        - title: B.S. in Geographic information science
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
@@ -43,11 +54,9 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-07-01'
           description: |2-
-              * Outstanding Graduates (2022, NENU)
-              * President Scholarship (2019, 2021 and 2022, NENU)
-              * Outstanding Student (2019, 2020, 2021, 2022, NENU)
               * National Scholarship (2020, Ministry of Education of the People's Republic of China)
-              * Special Prize of the National College Students GIS Application Skills Competition (2020, CAGIS)
+              * President Scholarship (2019, 2021 and 2022, NENU)
+              * Outstanding Graduates (2022, NENU)
 
     design:
       columns: '2'
