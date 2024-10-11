@@ -41,7 +41,7 @@ sections:
           company_logo: cas
           location: Beijing, China
           date_start: '2022-09-01'
-          date_end: 'Expected 2025-06-01'
+          date_end: '2025-06-01'
           description: |2-
               * National Scholarship, China (2024)
               * Director Scholarship, IGSNRR (2023 and 2024)
