@@ -29,7 +29,7 @@ sections:
           company_logo: THU
           location: Beijing, China
           date_start: '2025-09-01'
-          date_end: ''
+          date_end: '2029-06-01'
 #          description: |2-
 #              * Graduate Freshmen Scholarship (2022, UCAS)
 #              * Merit Student (2023, UCAS)
