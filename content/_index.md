@@ -42,10 +42,10 @@ sections:
           location: Beijing, China
           date_start: '2022-09-01'
           date_end: '2025-06-01'
-          description: |2-
-              * National Scholarship, China (2024)
-              * Director Scholarship, IGSNRR (2023 and 2024)
-              * First Prize Scholarship, IGSNRR (2023 and 2024)
+#          description: |2-
+#              * National Scholarship, China (2024)
+#              * Director Scholarship, IGSNRR (2023 and 2024)
+#              * First Prize Scholarship, IGSNRR (2023 and 2024)
         - title: B.S. in Geographic information science
           company: Northeast Normal University (NENU)
           company_url: 'https://www.nenu.edu.cn/'
@@ -53,11 +53,10 @@ sections:
           location: Changchun, China
           date_start: '2018-09-01'
           date_end: '2022-07-01'
-          description: |2-
-              * National Scholarship, China (2020)
-              * President Scholarship, NENU (2019, 2021 and 2022)
-              * Outstanding Graduates, NENU (2022)
-
+#          description: |2-
+#              * National Scholarship, China (2020)
+#              * President Scholarship, NENU (2019, 2021 and 2022)
+#              * Outstanding Graduates, NENU (2022)
     design:
       columns: '2'
   - block: collection
