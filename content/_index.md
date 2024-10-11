@@ -24,7 +24,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Ph.D. in Ecology (expected)
-          company: Tsinghua University (THU)
+          company: Tsinghua University
           company_url: 'https://tsinghua.edu.cn/'
           company_logo: THU
           location: Beijing, China
@@ -36,7 +36,7 @@ sections:
 #              * First Prize Scholarship (2023, UCAS)
 #              * First Prize of the Institute Director's Scholarship (2023, CAS)
         - title: M.S. in Geography (expected)
-          company: University of Chinese Academy of Sciences (UCAS)
+          company: University of Chinese Academy of Sciences
           company_url: 'https://www.ucas.ac.cn/'
           company_logo: cas
           location: Beijing, China
@@ -47,7 +47,7 @@ sections:
 #              * Director Scholarship, IGSNRR (2023 and 2024)
 #              * First Prize Scholarship, IGSNRR (2023 and 2024)
         - title: B.S. in Geography
-          company: Northeast Normal University (NENU)
+          company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
           company_logo: NENU
           location: Changchun, China
