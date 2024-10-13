@@ -5,14 +5,11 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: resume-biography-3
+  - block: about.avatar
+    id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-    design:
-      css_class: dark
   - block: experience
     id: education
     content:
