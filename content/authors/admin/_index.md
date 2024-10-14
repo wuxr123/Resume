@@ -27,14 +27,31 @@ Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcm
         <th style="text-align: left; font-size: 20px;">Interests</th>
     </tr>
     <tr>
-        <td style="font-size: 18px;">
+        <td style="font-size: 18px; vertical-align: top;">
             <ul style="text-align: left; list-style-type: none; padding-left: 0;">
-                <li><span>🎓</span> Ph.D. in Ecology (expected)<br>Tsinghua University</li>
-                <li style="margin-top: 10px;"><span>🎓</span>M.S. in Geography (expected)<br>University of Chinese Academy of Sciences</li>
-                <li style="margin-top: 10px;"><span>🎓</span>B.S. in Geography<br>Northeast Normal University</li>
+                <table style="width: 100%;"> 
+                    <tr style="height: 40px;">
+                        <td style="vertical-align: middle; width: 40px;">
+                            <img src="THU.svg" alt="THU" style="height: 30px;" />
+                        </td>
+                        <td style="vertical-align: middle;">Tsinghua University<br>Ph.D. in Ecology (expected)</td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="vertical-align: middle; width: 40px;">
+                            <img src="cas.svg" alt="CAS" style="height: 30px;" />
+                        </td>
+                        <td style="vertical-align: middle;">University of Chinese Academy of Sciences<br>M.S. in Geography (expected)</td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="vertical-align: middle; width: 40px;">
+                            <img src="NENU.svg" alt="NENU" style="height: 30px;" />
+                        </td>
+                        <td style="vertical-align: middle;">Northeast Normal University<br>B.S. in Geography</td>
+                    </tr>
+                </table>
             </ul>
         </td>
-        <td style="text-align: left; font-size: 18px;vertical-align: top;">
+        <td style="text-align: left; font-size: 18px; vertical-align: top;">
             <ul style="list-style-type: disc; padding-left: 20px;">
                 <li>Terrestrial ecosystems</li>
                 <li>Climate change</li>
