@@ -33,7 +33,7 @@ sections:
         - title: M.S. in Geography (expected)
           company: University of Chinese Academy of Sciences
           company_url: 'https://www.ucas.ac.cn/'
-          company_logo: cas
+          company_logo: UCAS
           location: Beijing, China
           date_start: '2022-09-01'
           date_end: '2025-06-01'
