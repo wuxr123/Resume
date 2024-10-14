@@ -24,7 +24,6 @@ Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcm
 <table style="width: 100%; border-collapse: collapse;">
     <tr>
         <th style="text-align: left; font-size: 20px;">Education</th>
-        <th style="text-align: left; font-size: 20px;">Interests</th>
     </tr>
     <tr>
         <td style="font-size: 18px; vertical-align: top;">
@@ -49,13 +48,6 @@ Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcm
                         <td style="vertical-align: middle;">Northeast Normal University<br>B.S. in Geography</td>
                     </tr>
                 </table>
-            </ul>
-        </td>
-        <td style="text-align: left; font-size: 18px; vertical-align: top;">
-            <ul style="list-style-type: disc; padding-left: 20px;">
-                <li>Terrestrial ecosystems</li>
-                <li>Climate change</li>
-                <li>Land use and land cover</li>
             </ul>
         </td>
     </tr>
