@@ -37,11 +37,8 @@ sections:
           location: Beijing, China
           date_start: '2022-09-01'
           date_end: '2025-06-01'
-          description: |3-
+          description: |2-
               * Graduate Freshmen Scholarship (2022, UCAS)
-              * Merit Student (2023, UCAS)
-              * First Prize Scholarship (2023, UCAS)
-              * First Prize of the Institute Director's Scholarship (2023, CAS)
               * Merit Student (2023, UCAS)
               * First Prize Scholarship (2023, UCAS)
               * First Prize of the Institute Director's Scholarship (2023, CAS)
@@ -52,7 +49,9 @@ sections:
           location: Changchun, China
           date_start: '2018-09-01'
           date_end: '2022-07-01'
-          description: |4-
+          description: |2-
+          Main awards:
+              ddddd
               * National Scholarship, China (2020)
               * President Scholarship, NENU (2019, 2021 and 2022)
               * Outstanding Graduates, NENU (2022)
