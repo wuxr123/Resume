@@ -21,25 +21,24 @@ I'm pursuing a master's degree in Cartography and Geographic Information System.
 {style="text-align: justify;"}
 Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcmTdYEAAAAJ&hl)
 {style="text-align: justify;"}
-
 <table style="width: 100%; border-collapse: collapse;">
     <tr>
-        <th style="text-align: left; padding: 15px; font-size: 20px;">Education</th>
-        <th style="text-align: left; padding: 15px; font-size: 20px;">Interests</th>
+        <th style="text-align: left; font-size: 20px;">Education</th>
+        <th style="text-align: left; font-size: 20px;">Interests</th>
     </tr>
     <tr>
-        <td style="padding: 15px; font-size: 18px;">
+        <td style="font-size: 18px;">
             <ul style="list-style-type: none; padding-left: 0;">
-                <li><span>🎓</span> PhD Artificial Intelligence<br>Stanford University</li>
-                <li style="margin-top: 10px;"><span>🎓</span> MEng Artificial Intelligence<br>Massachusetts Institute of Technology</li>
-                <li style="margin-top: 10px;"><span>🎓</span> BSc Artificial Intelligence<br>Massachusetts Institute of Technology</li>
+                <li><span>🎓</span> Ph.D. in Ecology (expected)<br>Tsinghua University</li>
+                <li style="margin-top: 10px;"><span>🎓</span>M.S. in Geography (expected)<br>University of Chinese Academy of Sciences</li>
+                <li style="margin-top: 10px;"><span>🎓</span>B.S. in Geography<br>Northeast Normal University</li>
             </ul>
         </td>
-                <td style="padding: 15px; font-size: 18px;vertical-align: top;">
+        <td style="font-size: 18px;vertical-align: top;">
             <ul style="list-style-type: disc; padding-left: 20px;">
-                <li>Artificial Intelligence</li>
-                <li>Computational Linguistics</li>
-                <li>Information Retrieval</li>
+                <li>Terrestrial ecosystems</li>
+                <li>Climate change</li>
+                <li>Land use and land cover</li>
             </ul>
         </td>
     </tr>
