@@ -38,14 +38,13 @@ sections:
           date_start: '2022-09-01'
           date_end: '2025-06-01'
           description: |2-
-              <p style="font-size: 20;"><b>Major GPA: </b>3.98/4</p>
-              <p style="font-size: 20;"><b>Main academic awards:</b><br>
-                  <ul>
-                      <li>First Prize Scholarship, UCAS (2023)</li>
-                      <li>President Scholarship, IGSNRR (2023)</li>
-                      <li>National Scholarship, China (2024)</li>
-                  </ul>
-              </p>
+              <b>Major GPA: </b>3.98/4<br>
+              <b style="font-size: 20;">Main academic awards:</b><br>
+              <ul>
+                  <li>First Prize Scholarship, UCAS (2023)</li>
+                  <li>President Scholarship, IGSNRR (2023)</li>
+                  <li>National Scholarship, China (2024)</li>
+              </ul>
 #              Major GPA: 3.98/4
 #              Main academic awards:
 #              * National Scholarship, China (2024)
