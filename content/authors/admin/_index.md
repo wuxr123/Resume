@@ -22,24 +22,24 @@ I'm pursuing a master's degree in Cartography and Geographic Information System.
 Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcmTdYEAAAAJ&hl)
 {style="text-align: justify;"}
 
-<table style="width: 100%;">
+<table style="width: 100%; border-collapse: collapse;">
     <tr>
-        <th style="padding: 10px;">Education</th>
-        <th style="padding: 10px;">Interests</th>
+        <th style="text-align: left; padding: 15px; font-size: 20px;">Education</th>
+        <th style="text-align: left; padding: 15px; font-size: 20px;">Interests</th>
     </tr>
     <tr>
-        <td style="padding: 10px;">
-            <ul>
-                <li>清华大学</li>
-                <li>中科院大学</li>
-                <li>东北师范大学</li>
+        <td style="padding: 15px; font-size: 18px;">
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li><span>🎓</span> PhD Artificial Intelligence<br>Stanford University</li>
+                <li style="margin-top: 10px;"><span>🎓</span> MEng Artificial Intelligence<br>Massachusetts Institute of Technology</li>
+                <li style="margin-top: 10px;"><span>🎓</span> BSc Artificial Intelligence<br>Massachusetts Institute of Technology</li>
             </ul>
         </td>
-        <td style="padding: 10px;">
-            <ul>
-                <li>陆地</li>
-                <li>生态</li>
-                <li>碳</li>
+                <td style="padding: 15px; font-size: 18px;vertical-align: top;">
+            <ul style="list-style-type: disc; padding-left: 20px;">
+                <li>Artificial Intelligence</li>
+                <li>Computational Linguistics</li>
+                <li>Information Retrieval</li>
             </ul>
         </td>
     </tr>
