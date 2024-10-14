@@ -39,12 +39,10 @@ sections:
           date_end: '2025-06-01'
           description: |2-
               Major GPA: 3.98/4
-    
               Main academic awards:
-    
-              · National Scholarship, China (2024)
-              · President Scholarship, IGSNRR (2023)
-              · First Prize Scholarship, UCAS (2023)
+              * National Scholarship, China (2024)
+              * President Scholarship, IGSNRR (2023)
+              * First Prize Scholarship, UCAS (2023)
         - title: B.S. in Geography
           company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
@@ -54,7 +52,6 @@ sections:
           date_end: '2022-07-01'
           description: |2-
               Major GPA: 3.92/4
-    
               Main academic awards:
     
               * National Scholarship, China (2020)
