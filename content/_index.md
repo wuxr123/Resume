@@ -38,15 +38,15 @@ sections:
           date_start: '2022-09-01'
           date_end: '2025-06-01'
           description: |2-
-              <span style="font-size:30px;">
-              <p><b style="color: rgb(39, 39, 39);">Major GPA: </b>3.98/4<br></p>
-              <p></b>Main academic awards:</b><br>
-              <ul>
-                  <li>National Scholarship, China (2024)</li>
-                  <li>President Scholarship, IGSNRR (2023)</li>
-                  <li>First Prize Scholarship, UCAS (2023)</li>
-              </ul></p>
-              </span>
+              <p style="font-size:20px;">
+                <b>Major GPA: </b>3.98/4<br>
+                <b>Main academic awards:</b><br>
+                <ul>
+                    <li>National Scholarship, China (2024)</li>
+                    <li>President Scholarship, IGSNRR (2023)</li>
+                    <li>First Prize Scholarship, UCAS (2023)</li>
+                </ul>
+              </p>
         - title: B.S. in Geography
           company: Northeast Normal University
           company_url: 'https://www.nenu.edu.cn/'
@@ -55,13 +55,15 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-07-01'
           description: |2-
-              <b>Major GPA: </b>3.92/4<br>
-              <b style="color: rgb(39, 39, 39);">Main academic awards:</b><br>
-              <ul>
-                  <li>National Scholarship, China (2020)</li>
-                  <li>President Scholarship, NENU (2019, 2021 and 2022)</li>
-                  <li>Outstanding Graduates, NENU (2022)</li>
-              </ul>
+              <p style="font-size:20px;">
+                <b>Major GPA: </b>3.92/4<br>
+                <b>Main academic awards:</b><br>
+                  <ul>
+                      <li>National Scholarship, China (2020)</li>
+                      <li>President Scholarship, NENU (2019, 2021 and 2022)</li>
+                      <li>Outstanding Graduates, NENU (2022)</li>
+                  </ul>
+              </p>
     design:
       columns: '2'
   - block: collection
