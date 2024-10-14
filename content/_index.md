@@ -5,12 +5,6 @@ date: 2022-10-24
 type: landing
 
 sections:
-# -------------------test---------------------
-  - block: 'github.SeanNg997.pokemon'
-    content:
-      title: My title
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
-# -------------------test---------------------
   - block: about.avatar
     id: about
     content:
