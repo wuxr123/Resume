@@ -32,19 +32,19 @@ Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcm
                 <table style="width: 100%;"> 
                     <tr style="height: 40px;">
                         <td style="vertical-align: middle; width: 40px;">
-                            <img src="~/assets/media/icons/brands/THU.svg" alt="THU" style="height: 30px;" />
+                            <img src="https://github.com/SeanNg997/assets/media/icons/brands/THU.svg" alt="THU" style="height: 30px;" />
                         </td>
                         <td style="vertical-align: middle;">Tsinghua University<br>Ph.D. in Ecology (expected)</td>
                     </tr>
                     <tr style="height: 40px;">
                         <td style="vertical-align: middle; width: 40px;">
-                            <img src="assets/media/icons/brands/cas.svg" alt="CAS" style="height: 30px;" />
+                            <img src="https://github.com/SeanNg997/assets/media/icons/brands/cas.svg" alt="CAS" style="height: 30px;" />
                         </td>
                         <td style="vertical-align: middle;">University of Chinese Academy of Sciences<br>M.S. in Geography (expected)</td>
                     </tr>
                     <tr style="height: 40px;">
                         <td style="vertical-align: middle; width: 40px;">
-                            <img src="assets/media/icons/brands/NENU.svg" alt="NENU" style="height: 30px;" />
+                            <img src="https://github.com/SeanNg997/assets/media/icons/brands/NENU.svg" alt="NENU" style="height: 30px;" />
                         </td>
                         <td style="vertical-align: middle;">Northeast Normal University<br>B.S. in Geography</td>
                     </tr>
