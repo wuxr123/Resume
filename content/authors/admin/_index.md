@@ -28,13 +28,13 @@ Academic profile: [Google Scholar](https://scholar.google.com/citations?user=rcm
     </tr>
     <tr>
         <td style="font-size: 18px;">
-            <ul style="list-style-type: none; padding-left: 0;">
+            <ul style="text-align: left; list-style-type: none; padding-left: 0;">
                 <li><span>🎓</span> Ph.D. in Ecology (expected)<br>Tsinghua University</li>
                 <li style="margin-top: 10px;"><span>🎓</span>M.S. in Geography (expected)<br>University of Chinese Academy of Sciences</li>
                 <li style="margin-top: 10px;"><span>🎓</span>B.S. in Geography<br>Northeast Normal University</li>
             </ul>
         </td>
-        <td style="font-size: 18px;vertical-align: top;">
+        <td style="text-align: left; font-size: 18px;vertical-align: top;">
             <ul style="list-style-type: disc; padding-left: 20px;">
                 <li>Terrestrial ecosystems</li>
                 <li>Climate change</li>
