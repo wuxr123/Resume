@@ -38,7 +38,7 @@ sections:
           date_start: '2022-09-01'
           date_end: '2025-06-01'
           description: |2-
-              <p style="font-size: 30;">
+              <p>
                 <b>Major GPA: </b>3.98/4<br>
                 <b>Academic awards:</b><br>
                 <ul>
@@ -55,7 +55,7 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-07-01'
           description: |2-
-              <p style="font-size: 30px;">
+              <p>
                 <b>Major GPA: </b>3.92/4<br>
                 <b>Academic awards:</b><br>
                   <ul>
@@ -138,4 +138,5 @@ sections:
 #          captcha: false
     design:
       columns: '2'
+  - block: markdown
 ---
