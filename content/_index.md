@@ -21,7 +21,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: hero-academic.png
           filters:
             brightness: 1.0
           size: cover
