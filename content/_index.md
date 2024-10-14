@@ -138,5 +138,4 @@ sections:
 #          captcha: false
     design:
       columns: '2'
-  - block: markdown
 ---
