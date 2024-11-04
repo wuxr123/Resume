@@ -43,8 +43,8 @@ sections:
                 <b>Academic awards:</b><br>
                 <ul>
                     <li>National Scholarship, China (2024)</li>
-                    <li>Director's Scholarship, IGSNRR (2023)</li>
-                    <li>First Prize Scholarship, UCAS (2023)</li>
+                    <li>Director's Scholarship, IGSNRR (2023, 2024)</li>
+                    <li>First Prize Scholarship, UCAS (2023, 2024)</li>
                 </ul>
               </p>
         - title: B.S. in Geography
@@ -60,8 +60,8 @@ sections:
                 <b>Academic awards:</b><br>
                   <ul>
                       <li>National Scholarship, China (2020)</li>
-                      <li>President's Scholarship, NENU (2019, 2021 and 2022)</li>
                       <li>Outstanding Graduates, NENU (2022)</li>
+                      <li>President's Scholarship, NENU (2019, 2021 and 2022)</li>
                   </ul>
               </p>
     design:
