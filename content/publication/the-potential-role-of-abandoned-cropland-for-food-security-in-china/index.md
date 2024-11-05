@@ -20,6 +20,7 @@ author_notes:
   - ""
   - ""
   - ""
+doi: 10.1016/j.resconrec.2024.108004
 publication: "*Resources, Conservation & Recycling*"
 abstract: The widespread abandonment of croplands poses a severe threat to
   China's food security. However, the existing knowledge regarding the potential
