@@ -36,7 +36,7 @@ sections:
           company_logo: UCAS
           location: Beijing, China
           date_start: '2022-09-01'
-          date_end: '2025-06-01'
+          date_end: '2025-07-20'
           description: |2-
               <p>
                 <b>Major GPA: </b>3.98/4<br>
@@ -53,7 +53,7 @@ sections:
           company_logo: NENU
           location: Changchun, China
           date_start: '2018-09-01'
-          date_end: '2022-07-01'
+          date_end: '2022-06-17'
           description: |2-
               <p>
                 <b>Major GPA: </b>3.92/4<br>
